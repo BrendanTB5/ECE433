@@ -1,0 +1,7 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "All" LOC = A8;
+NET "Blink" LOC = C4;
+NET "Left" LOC = N11;
+NET "Right" LOC = V15;

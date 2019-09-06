@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="All" Dir="IN"/>
+		<Port Id="Blink" Dir="IN"/>
+		<Port Id="Right" Dir="OUT"/>
+		<Port Id="Left" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

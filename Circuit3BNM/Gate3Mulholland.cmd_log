@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/ECE433/Circuit3BNM/Gate3Mulholland.xst" -ofn "E:/ECE433/Circuit3BNM/Gate3Mulholland.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Gate3Mulholland.ucf -p xc6slx16-csg324-3 Gate3Mulholland.ngc Gate3Mulholland.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Gate3Mulholland_map.ncd Gate3Mulholland.ngd Gate3Mulholland.pcf 
+par -w -intstyle ise -ol high -mt off Gate3Mulholland_map.ncd Gate3Mulholland.ncd Gate3Mulholland.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Gate3Mulholland.twx Gate3Mulholland.ncd -o Gate3Mulholland.twr Gate3Mulholland.pcf -ucf Gate3Mulholland.ucf 
+bitgen -intstyle ise -f Gate3Mulholland.ut Gate3Mulholland.ncd 
