@@ -107,6 +107,7 @@
     <transform xil_pn:end_ts="1567736951" xil_pn:in_ck="400354947669741992" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="1024553276701985591" xil_pn:start_ts="1567736939">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Gate3Mulholland.lso"/>
@@ -128,6 +129,7 @@
     <transform xil_pn:end_ts="1567736960" xil_pn:in_ck="-684696311637757030" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6315672611594849047" xil_pn:start_ts="1567736951">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Gate3Mulholland.bld"/>
       <outfile xil_pn:name="Gate3Mulholland.ngd"/>
       <outfile xil_pn:name="Gate3Mulholland_ngdbuild.xrpt"/>
@@ -138,6 +140,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Gate3Mulholland.pcf"/>
@@ -153,6 +156,7 @@
     <transform xil_pn:end_ts="1567736995" xil_pn:in_ck="5423408366994032244" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1567736978">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Gate3Mulholland.ncd"/>
       <outfile xil_pn:name="Gate3Mulholland.pad"/>
       <outfile xil_pn:name="Gate3Mulholland.par"/>
@@ -168,6 +172,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Gate3Mulholland.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="gate3mulholland.bgn"/>
@@ -180,6 +185,7 @@
     <transform xil_pn:end_ts="1567736995" xil_pn:in_ck="-8354884850582095881" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1567736990">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Gate3Mulholland.twr"/>
       <outfile xil_pn:name="Gate3Mulholland.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

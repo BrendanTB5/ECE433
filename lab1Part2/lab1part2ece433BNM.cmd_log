@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "E:/ECE433/ECE433/lab1Part2/lab1part2ece433BNM.xst" -ofn "E:/ECE433/ECE433/lab1Part2/lab1part2ece433BNM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 lab1part2ece433BNM.ngc lab1part2ece433BNM.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab1part2ece433BNM.ucf -p xc6slx16-csg324-3 lab1part2ece433BNM.ngc lab1part2ece433BNM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ngd lab1part2ece433BNM.pcf 
+par -w -intstyle ise -ol high -mt off lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ncd lab1part2ece433BNM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1part2ece433BNM.twx lab1part2ece433BNM.ncd -o lab1part2ece433BNM.twr lab1part2ece433BNM.pcf -ucf lab1part2ece433BNM.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab1part2ece433BNM.ucf -p xc6slx16-csg324-3 lab1part2ece433BNM.ngc lab1part2ece433BNM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ngd lab1part2ece433BNM.pcf 
+par -w -intstyle ise -ol high -mt off lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ncd lab1part2ece433BNM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1part2ece433BNM.twx lab1part2ece433BNM.ncd -o lab1part2ece433BNM.twr lab1part2ece433BNM.pcf -ucf lab1part2ece433BNM.ucf 
+bitgen -intstyle ise -f lab1part2ece433BNM.ut lab1part2ece433BNM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab1part2ece433BNM.ucf -p xc6slx16-csg324-3 lab1part2ece433BNM.ngc lab1part2ece433BNM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ngd lab1part2ece433BNM.pcf 
+par -w -intstyle ise -ol high -mt off lab1part2ece433BNM_map.ncd lab1part2ece433BNM.ncd lab1part2ece433BNM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1part2ece433BNM.twx lab1part2ece433BNM.ncd -o lab1part2ece433BNM.twr lab1part2ece433BNM.pcf -ucf lab1part2ece433BNM.ucf 
+bitgen -intstyle ise -f lab1part2ece433BNM.ut lab1part2ece433BNM.ncd 
