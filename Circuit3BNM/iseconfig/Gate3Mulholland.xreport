@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< Updated upstream
   <DateModified>2019-09-08T17:39:07</DateModified>
+=======
+  <DateModified>2019-09-06T10:03:01</DateModified>
+>>>>>>> Stashed changes
   <ModuleName>Gate3Mulholland</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/ECE433/ECE433/Circuit3BNM/iseconfig/Gate3Mulholland.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/ECE433/ECE433/Circuit3BNM\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/mulholbn/Downloads/ECE433/ECE433/Circuit3BNM/iseconfig/Gate3Mulholland.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/mulholbn/Downloads/ECE433/ECE433/Circuit3BNM\</ImplementationReportsDirectory>
   <DateInitialized>2019-09-05T22:23:16</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
