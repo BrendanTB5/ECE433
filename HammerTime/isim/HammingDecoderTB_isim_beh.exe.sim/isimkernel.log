@@ -1,0 +1,28 @@
+Command line:
+   HammingDecoderTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50826
+
+Sun Sep 15 13:20:28 2019
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 5966.75 Meg
+
+ Total Signals          : 16
+ Total Nets             : 27
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 124
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 4865.71 Meg
+
+Sun Sep 15 13:45:27 2019
+

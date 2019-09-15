@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 HammingDecoderBNM.ngc HammingDecoderBNM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o HammingDecoderBNM_map.ncd HammingDecoderBNM.ngd HammingDecoderBNM.pcf 
+par -w -intstyle ise -ol high -t 1 HammingDecoderBNM_map.ncd HammingDecoderBNM.ncd HammingDecoderBNM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml HammingDecoderBNM.twx HammingDecoderBNM.ncd -o HammingDecoderBNM.twr HammingDecoderBNM.pcf 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderBNM.syr" 

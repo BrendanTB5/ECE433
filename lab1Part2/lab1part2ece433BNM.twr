@@ -2,8 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-E:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
--fastpaths -xml lab1part2ece433BNM.twx lab1part2ece433BNM.ncd -o
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml lab1part2ece433BNM.twx lab1part2ece433BNM.ncd -o
 lab1part2ece433BNM.twr lab1part2ece433BNM.pcf -ucf lab1part2ece433BNM.ucf
 
 Design file:              lab1part2ece433BNM.ncd
@@ -49,14 +49,14 @@ B1             |Y2             |    7.496|
 ---------------+---------------+---------+
 
 
-Analysis completed Sun Sep 08 18:04:34 2019 
+Analysis completed Mon Sep 09 10:07:45 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4576 MB
+Peak Memory Usage: 4575 MB
 
 
 

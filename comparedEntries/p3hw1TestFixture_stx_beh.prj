@@ -1,0 +1,5 @@
+verilog isim_temp "comparatorTruthTable.v"
+verilog isim_temp "comparatorGates.v"
+verilog isim_temp "comparatorExpressions.v"
+verilog isim_temp "p3hw1TestFixture.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

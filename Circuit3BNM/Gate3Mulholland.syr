@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Reading design: Gate3Mulholland.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\ECE433\Circuit3BNM\Gate3Mulholland.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Circuit3BNM\Gate3Mulholland.v" into library work
 Parsing module <Gate3Mulholland>.
 
 =========================================================================
@@ -119,7 +119,7 @@ Elaborating module <Gate3Mulholland>.
 =========================================================================
 
 Synthesizing Unit <Gate3Mulholland>.
-    Related source file is "E:\ECE433\Circuit3BNM\Gate3Mulholland.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Circuit3BNM\Gate3Mulholland.v".
     Summary:
 	no macro.
 Unit <Gate3Mulholland> synthesized.
@@ -271,12 +271,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.32 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.08 secs
  
 --> 
 
-Total memory usage is 4487196 kilobytes
+Total memory usage is 4487300 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

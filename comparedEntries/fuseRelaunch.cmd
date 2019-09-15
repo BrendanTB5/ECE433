@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/p3hw1TestFixture_isim_beh.exe" -prj "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/p3hw1TestFixture_beh.prj" "work.p3hw1TestFixture" "work.glbl" 

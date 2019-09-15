@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml HammingDecoderBNM.twx HammingDecoderBNM.ncd -o
+HammingDecoderBNM.twr HammingDecoderBNM.pcf
+
+Design file:              HammingDecoderBNM.ncd
+Physical constraint file: HammingDecoderBNM.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+-----------------+---------+
+Source Pad     |Destination Pad  |  Delay  |
+---------------+-----------------+---------+
+H_word<0>      |D_word<0>        |    7.717|
+H_word<0>      |D_word<1>        |    8.107|
+H_word<0>      |D_word<2>        |    8.095|
+H_word<0>      |D_word<3>        |    7.576|
+H_word<0>      |Error_Position<0>|    7.381|
+H_word<0>      |Error_Position<1>|    7.830|
+H_word<0>      |Error_Position<2>|    7.145|
+H_word<1>      |D_word<0>        |    7.663|
+H_word<1>      |D_word<1>        |    8.024|
+H_word<1>      |D_word<2>        |    7.954|
+H_word<1>      |D_word<3>        |    7.457|
+H_word<1>      |Error_Position<0>|    7.382|
+H_word<1>      |Error_Position<1>|    7.776|
+H_word<1>      |Error_Position<2>|    7.146|
+H_word<2>      |D_word<0>        |    7.378|
+H_word<2>      |D_word<1>        |    7.957|
+H_word<2>      |D_word<2>        |    7.880|
+H_word<2>      |D_word<3>        |    7.199|
+H_word<2>      |Error_Position<0>|    7.271|
+H_word<2>      |Error_Position<1>|    7.491|
+H_word<2>      |Error_Position<2>|    7.035|
+H_word<3>      |D_word<0>        |    7.715|
+H_word<3>      |D_word<1>        |    8.105|
+H_word<3>      |D_word<2>        |    8.093|
+H_word<3>      |D_word<3>        |    7.574|
+H_word<3>      |Error_Position<0>|    7.383|
+H_word<3>      |Error_Position<1>|    7.828|
+H_word<3>      |Error_Position<2>|    7.147|
+H_word<4>      |D_word<0>        |    7.867|
+H_word<4>      |D_word<1>        |    8.257|
+H_word<4>      |D_word<2>        |    8.245|
+H_word<4>      |D_word<3>        |    7.726|
+H_word<4>      |Error_Position<0>|    7.531|
+H_word<4>      |Error_Position<1>|    7.980|
+H_word<4>      |Error_Position<2>|    7.295|
+H_word<5>      |D_word<0>        |    7.945|
+H_word<5>      |D_word<1>        |    8.306|
+H_word<5>      |D_word<2>        |    8.236|
+H_word<5>      |D_word<3>        |    7.739|
+H_word<5>      |Error_Position<0>|    7.664|
+H_word<5>      |Error_Position<1>|    8.058|
+H_word<5>      |Error_Position<2>|    7.428|
+H_word<6>      |D_word<0>        |    7.993|
+H_word<6>      |D_word<1>        |    8.442|
+H_word<6>      |D_word<2>        |    8.371|
+H_word<6>      |D_word<3>        |    7.852|
+H_word<6>      |Error_Position<0>|    7.756|
+H_word<6>      |Error_Position<1>|    8.106|
+H_word<6>      |Error_Position<2>|    7.520|
+---------------+-----------------+---------+
+
+
+Analysis completed Sun Sep 15 13:14:01 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4510 MB
+
+
+

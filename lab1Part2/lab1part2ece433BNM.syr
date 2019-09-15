@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Reading design: lab1part2ece433BNM.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\ECE433\ECE433\lab1Part2\lab1part2ece433BNM.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\lab1Part2\lab1part2ece433BNM.v" into library work
 Parsing module <lab1part2ece433BNM>.
 
 =========================================================================
@@ -119,15 +119,17 @@ Elaborating module <lab1part2ece433BNM>.
 =========================================================================
 
 Synthesizing Unit <lab1part2ece433BNM>.
-    Related source file is "E:\ECE433\ECE433\lab1Part2\lab1part2ece433BNM.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\lab1Part2\lab1part2ece433BNM.v".
     Summary:
-	no macro.
 Unit <lab1part2ece433BNM> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
 =========================================================================
 
 =========================================================================
@@ -138,7 +140,10 @@ Found no macro
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
 =========================================================================
 
 =========================================================================
@@ -272,12 +277,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.71 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.55 secs
  
 --> 
 
-Total memory usage is 4488476 kilobytes
+Total memory usage is 4487876 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

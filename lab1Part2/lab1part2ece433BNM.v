@@ -14,7 +14,7 @@ wire A0not,A1not,B0not,B1not,OR1out,OR2out,OR3out,OR4out,OR5out,OR6out,AND1out,A
 	not NB0(B0not,B0);
 	not NB1(B1not,B1);
 
-	nor U1(Y0, B0, A0);
+	xor U1(Y0, B0, A0);
 	or U2(OR1out, A0,A1,B1);
 	or U3(OR2out, A1,B0,B1);
 	or	U4(OR3out, A0not, A1, B0not,B1not);
@@ -33,3 +33,16 @@ wire A0not,A1not,B0not,B1not,OR1out,OR2out,OR3out,OR4out,OR5out,OR6out,AND1out,A
 	and U13(Y1, AND4out, AND5out);
 	or U14(Y2, AND1out, AND2out, AND3out);
 endmodule
+
+/* UCF FILE COMPONENTS
+
+# PlanAhead Generated physical constraints 
+
+NET "A0" LOC = V8;
+NET "A1" LOC = T5;
+NET "B0" LOC = N8;
+NET "B1" LOC = U8;
+NET "Y2" LOC = M11;
+NET "Y1" LOC = U15;
+NET "Y0" LOC = U16;
+*/

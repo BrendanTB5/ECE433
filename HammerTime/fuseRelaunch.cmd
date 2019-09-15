@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderTB_isim_beh.exe" -prj "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingDecoderTB_beh.prj" "work.HammingDecoderTB" "work.glbl" 

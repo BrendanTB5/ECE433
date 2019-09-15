@@ -1,0 +1,4 @@
+MO comparatorTruthTable NULL comparatorTruthTable.v vlg13/comparator_truth_table.bin 1568492737
+MO comparatorGates NULL comparatorGates.v vlg50/comparator_gates.bin 1568490883
+MO comparatorExpressions NULL comparatorExpressions.v vlg7F/comparator_expressions.bin 1568490853
+MO comparator4bit NULL comparator4bit.v vlg23/comparator4bit.bin 1568490487

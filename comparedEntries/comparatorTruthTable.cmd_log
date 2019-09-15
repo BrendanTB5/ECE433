@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/comparatorTruthTable.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/comparatorTruthTable.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/comparatorTruthTable.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/comparedEntries/comparatorTruthTable.syr" 

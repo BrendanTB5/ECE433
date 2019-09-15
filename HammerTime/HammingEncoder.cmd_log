@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingEncoder.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingEncoder.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingEncoder.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/HammerTime/HammingEncoder.syr" 
