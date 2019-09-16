@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/mux4bits.xst" -ofn "E:/ECE433/ECE433/addsub/mux4bits.syr" 
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/mux4bits.xst" -ofn "E:/ECE433/ECE433/addsub/mux4bits.syr" 
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/mux4bits.xst" -ofn "E:/ECE433/ECE433/addsub/mux4bits.syr" 
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/mux4bits.xst" -ofn "E:/ECE433/ECE433/addsub/mux4bits.syr" 

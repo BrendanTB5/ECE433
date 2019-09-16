@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Minuend[3]" LOC = T5;
+NET "Minuend[2]" LOC = V8;
+NET "Minuend[1]" LOC = U8;
+NET "Minuend[0]" LOC = N8;
+NET "Subtrahend[3]" LOC = M8;
+NET "Subtrahend[2]" LOC = V9;
+NET "Subtrahend[1]" LOC = T9;
+NET "Subtrahend[0]" LOC = T10;
+NET "SumDiff[3]" LOC = T11;
+NET "SumDiff[2]" LOC = R11;
+NET "SumDiff[1]" LOC = N11;
+NET "SumDiff[0]" LOC = M11;
+NET "CarryOut" LOC = U16;
+NET "Mode" LOC = C9;

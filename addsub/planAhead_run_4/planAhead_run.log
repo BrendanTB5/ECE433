@@ -1,0 +1,91 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1719 day(s)
+INFO: [Device 21-36] Loading parts and site information from E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/ECE433/ECE433/addsub/pa.fromHdl.tcl
+# create_project -name addsub -dir "E:/ECE433/ECE433/addsub/planAhead_run_4" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "adderBNMversion1.ucf" [current_fileset -constrset]
+Adding file 'E:/ECE433/ECE433/addsub/adderBNMversion1.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {adderBNMversion2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top adderBNMversion2 $srcset
+# add_files [list {adderBNMversion1.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/ECE433/ECE433/addsub/adderBNMversion2.v" into library work
+Loading clock regions from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from E:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/ECE433/ECE433/addsub/adderBNMversion1.ucf]
+Finished Parsing UCF File [E:/ECE433/ECE433/addsub/adderBNMversion1.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 2abb7a84
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 553.770 ; gain = 125.555
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T5 [get_ports {Minuend[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {Minuend[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {Minuend[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {Minuend[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Subtrahend[2]}]]
+set_property package_pin "" [get_ports [list  {Subtrahend[0]}]]
+startgroup
+set_property package_pin M8 [get_ports {Subtrahend[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {Subtrahend[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {Subtrahend[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {Subtrahend[0]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {SumDiff[3]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {SumDiff[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {SumDiff[1]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {SumDiff[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports CarryOut]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports Mode]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Sep 15 22:19:57 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

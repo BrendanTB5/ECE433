@@ -1,0 +1,5 @@
+verilog work "adder1bitV1.v"
+verilog work "mux3bits.v"
+verilog work "inverter3bits.v"
+verilog work "added4bitV1.v"
+verilog work "adderBNMversion1.v"
