@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< HEAD
   <DateModified>2019-09-15T13:43:31</DateModified>
   <ModuleName>lab1part2ece433BNM</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/mulholbn/Downloads/ECE433/ECE433/lab1Part2/iseconfig/lab1part2ece433BNM.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/mulholbn/Downloads/ECE433/ECE433/lab1Part2\</ImplementationReportsDirectory>
+=======
+  <DateModified>2019-09-08T22:03:23</DateModified>
+  <ModuleName>lab1part2ece433BNM</ModuleName>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>E:/ECE433/ECE433/lab1Part2/iseconfig/lab1part2ece433BNM.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/ECE433/ECE433/lab1Part2\</ImplementationReportsDirectory>
+>>>>>>> master
   <DateInitialized>2019-09-08T17:38:39</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

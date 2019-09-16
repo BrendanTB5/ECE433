@@ -1,0 +1,8 @@
+verilog isim_temp "adder1bitV1.v"
+verilog isim_temp "mux3bits.v"
+verilog isim_temp "inverter3bits.v"
+verilog isim_temp "added4bitV1.v"
+verilog isim_temp "adderBNMversion2.v"
+verilog isim_temp "adderBNMversion1.v"
+verilog isim_temp "adderSubtractorTB.v"
+verilog isim_temp "E:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

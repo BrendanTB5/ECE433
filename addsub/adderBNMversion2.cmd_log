@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/adderBNMversion2.xst" -ofn "E:/ECE433/ECE433/addsub/adderBNMversion2.syr" 
+xst -intstyle ise -ifn "E:/ECE433/ECE433/addsub/adderBNMversion2.xst" -ofn "E:/ECE433/ECE433/addsub/adderBNMversion2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adderBNMversion1.ucf -p xc6slx16-csg324-3 adderBNMversion2.ngc adderBNMversion2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adderBNMversion2_map.ncd adderBNMversion2.ngd adderBNMversion2.pcf 
+par -w -intstyle ise -ol high -mt off adderBNMversion2_map.ncd adderBNMversion2.ncd adderBNMversion2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adderBNMversion2.twx adderBNMversion2.ncd -o adderBNMversion2.twr adderBNMversion2.pcf -ucf adderBNMversion1.ucf 
+bitgen -intstyle ise -f adderBNMversion2.ut adderBNMversion2.ncd 

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Sep 15 22:20:57 2019
+
+drc -z adderBNMversion2.ncd adderBNMversion2.pcf
+
+DRC detected 0 errors and 0 warnings.
