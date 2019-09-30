@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\ECE433\ECE433\HW3_Problem6\TxDataUnit2019FallTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_isim_beh.wdb 
+Running: C:\Users\mulholbn\Downloads\ECE433\ECE433\HW3_Problem6\TxModule_Toplevel__2019FallTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@ise.csse.rose-hulman.edu'.
@@ -20,4 +20,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 300 ns :  in File "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB.v" Line 21 
+Stopped at time : 650 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v" Line 23 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab5ece433Stopwatch and clock\stopwatch2019fallNexys3\Stopwatch2019fall.ncd
+OUTFILE=C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab5ece433Stopwatch and clock\stopwatch2019fallNexys3\Stopwatch2019fall.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab5ece433Stopwatch and clock\stopwatch2019fallNexys3
+LICENSE=WebPack
+USER_INFO=205718365_1777515533_0_576

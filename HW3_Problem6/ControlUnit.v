@@ -29,6 +29,10 @@ parameter ShiftTarget = 12;
 
 
 
+initial SentCount = 0;
+
+
+
 always @(posedge Clock or posedge Reset) begin
 	if(Reset == 1)
 		State <= Init;
@@ -36,13 +40,34 @@ always @(posedge Clock or posedge Reset) begin
 		State <= NextState;
 end
 
+always @(posedge Clock or posedge Reset) begin
+	if(Reset == 1)
+		SentCount <= 0;
+	else begin
+		if(State == Shift) begin
+			SentCount <= SentCount + 1;
+			case(Speed)
+				1: DelayCount <= 0;
+				default:DelayCount <= Speed - 1;
+			endcase
+		end
+		else if(State == Delay) begin
+			SentCount <= SentCount;
+			DelayCount <= DelayCount -1;
+		end else begin
+			SentCount <= SentCount;
+			DelayCount <= 0;
+		end
+	end
+
+
+end
+
 always @(*) begin
 	case(State)
 		Init: begin
 				Load <= 0;
 				ShiftOut <=0;
-				SentCount <= 0;
-				DelayCount <= 0;
 				if(Start == 1)
 					NextState <= LoadState;
 				else
@@ -53,8 +78,6 @@ always @(*) begin
 				Load <= 1;
 				ShiftOut <=0;
 				NextState <= Shift;
-				SentCount <= 0;
-				DelayCount <= 0;
 			end
 		
 		Delay: begin
@@ -62,39 +85,32 @@ always @(*) begin
 				ShiftOut <=0;
 				if(DelayCount == 0) begin
 					NextState <= Shift;
-					DelayCount <= 0;
 					end
 				else begin
 					NextState <= Delay;
-					DelayCount <= DelayCount -1;
 				end
 			end
 		
 		Shift: begin
 				Load <= 0;
 				ShiftOut <=1;
-				SentCount <= SentCount + 1;
-				if(SentCount == 12) begin
+				if(SentCount == 11) begin
 					NextState <= Init;
-					DelayCount <= 0;
-				end else
+				end else begin
 					case(Speed)
 						1: begin 
 							NextState <= Shift;
-							DelayCount <= 0;
 							end
 						default: begin
 							NextState <=Delay;
-							DelayCount <= Speed - 1;
 							end
 					endcase
+				end
 					
 			end
 			default: begin
 				Load <= 0;
 				ShiftOut <= 0;
-				SentCount <= 0;
-				DelayCount <= 0;
 			end
 	endcase
 end

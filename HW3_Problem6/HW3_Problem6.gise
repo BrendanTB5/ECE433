@@ -41,9 +41,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TxDataUnit2019Fall.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TxDataUnit2019Fall.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TxDataUnit2019Fall.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxDataUnit2019FallTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TxDataUnit2019FallTB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TxDataUnit2019FallTB_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TxDataUnit2019Fall_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TxDataUnit2019Fall_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TxModule_Toplevel__2019Fall.cmd_log"/>
@@ -51,6 +49,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxModule_Toplevel__2019Fall.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TxModule_Toplevel__2019Fall.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TxModule_Toplevel__2019Fall.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxModule_Toplevel__2019FallTB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxModule_Toplevel__2019FallTB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TxModule_Toplevel__2019Fall_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TxModule_Toplevel__2019Fall_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TxModule_Toplevel__2019Fall_xst.xrpt"/>
@@ -58,6 +60,7 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -66,75 +69,64 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1569803822" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1569803821">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569803822" xil_pn:in_ck="-3536608776366688241" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569856593" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1569856593">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="DelayTime.v"/>
       <outfile xil_pn:name="TxDataUnit2019Fall.v"/>
       <outfile xil_pn:name="TxDataUnit2019FallTB.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569803822" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1583914474693544066" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569855587" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2831613568477499790" xil_pn:start_ts="1569855587">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569803822" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5775306068669232324" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569855587" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2677115687592634928" xil_pn:start_ts="1569855587">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569803822" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-929604970434668971" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569855587" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1427666535411428219" xil_pn:start_ts="1569855587">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1569803822" xil_pn:in_ck="-3536608776366688241" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569856593" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1569856593">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="DelayTime.v"/>
       <outfile xil_pn:name="TxDataUnit2019Fall.v"/>
       <outfile xil_pn:name="TxDataUnit2019FallTB.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569803826" xil_pn:in_ck="-3536608776366688241" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8761716371982940197" xil_pn:start_ts="1569803822">
+    <transform xil_pn:end_ts="1569856596" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4680143158044773213" xil_pn:start_ts="1569856593">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TxDataUnit2019FallTB_beh.prj"/>
-      <outfile xil_pn:name="TxDataUnit2019FallTB_isim_beh.exe"/>
+      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_beh.prj"/>
+      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1569803826" xil_pn:in_ck="4355579941274939926" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6627941007350745922" xil_pn:start_ts="1569803826">
+    <transform xil_pn:end_ts="1569856596" xil_pn:in_ck="8392990894920671968" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8900702038227199258" xil_pn:start_ts="1569856596">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TxDataUnit2019FallTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1569803789" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1569803789">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1569808339" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4153041308072418518" xil_pn:start_ts="1569808339">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -160,12 +152,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569809259" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2679570560638481740" xil_pn:start_ts="1569809252">
+    <transform xil_pn:end_ts="1569856585" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2679570560638481740" xil_pn:start_ts="1569856578">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ControlUnit.lso"/>
       <outfile xil_pn:name="ControlUnit.ngc"/>
       <outfile xil_pn:name="ControlUnit.ngr"/>

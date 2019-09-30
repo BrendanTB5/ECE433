@@ -1,19 +1,22 @@
-Running: E:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_isim_beh.exe -prj E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_beh.prj work.TxDataUnit2019FallTB work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_beh.prj work.TxModule_Toplevel__2019FallTB work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 16
-Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.v" into library work
-Analyzing Verilog file "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB.v" into library work
-WARNING:HDLCompiler:568 - "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB.v" Line 16: Constant value is truncated to fit in <8> bits.
-Analyzing Verilog file "E:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019Fall.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
+Compiling module ControlUnit
 Compiling module TxDataUnit2019Fall
-Compiling module TxDataUnit2019FallTB
+Compiling module TxModule_Toplevel__2019Fall
+Compiling module TxModule_Toplevel__2019FallTB
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 3 Verilog Units
-Built simulation executable E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_isim_beh.exe
-Fuse Memory Usage: 29636 KB
-Fuse CPU Usage: 405 ms
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.exe
+Fuse Memory Usage: 28000 KB
+Fuse CPU Usage: 421 ms

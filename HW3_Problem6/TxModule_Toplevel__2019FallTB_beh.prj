@@ -1,0 +1,5 @@
+verilog work "TxDataUnit2019Fall.v"
+verilog work "ControlUnit.v"
+verilog work "TxModule_Toplevel2019Fall.v"
+verilog work "TxModule_Toplevel2019TB.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

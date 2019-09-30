@@ -1,0 +1,37 @@
+//Nexys 3 board
+//Stopwatch2019fallfallNexys3
+//ECE433 Fall 2019
+//100MHz clock
+NET "Clock" LOC = V10;
+NET "Reset" LOC = C9;	//BTND
+NET "ControlButton" LOC = A8; //BTNU
+
+NET "Display[0]" LOC = T17;
+NET "Display[1]" LOC = T18;
+NET "Display[2]" LOC = U17;
+NET "Display[3]" LOC = U18;
+NET "Display[4]" LOC = M14;
+NET "Display[5]" LOC = N14;
+NET "Display[6]" LOC = L14;
+NET "Display[7]" LOC = M13;
+
+NET "Transistors[0]" LOC = N16;
+NET "Transistors[1]" LOC = N15;
+NET "Transistors[2]" LOC = P18;
+NET "Transistors[3]" LOC = P17;
+
+NET "Display[0]" IOSTANDARD = LVCMOS33;
+NET "Display[1]" IOSTANDARD = LVCMOS33;
+NET "Display[2]" IOSTANDARD = LVCMOS33;
+NET "Display[3]" IOSTANDARD = LVCMOS33;
+NET "Display[4]" IOSTANDARD = LVCMOS33;
+NET "Display[5]" IOSTANDARD = LVCMOS33;
+NET "Display[6]" IOSTANDARD = LVCMOS33;
+NET "Display[7]" IOSTANDARD = LVCMOS33;
+NET "Transistors[0]" IOSTANDARD = LVCMOS33;
+NET "Transistors[1]" IOSTANDARD = LVCMOS33;
+NET "Transistors[2]" IOSTANDARD = LVCMOS33;
+NET "Transistors[3]" IOSTANDARD = LVCMOS33;
+NET "ControlButton" IOSTANDARD = LVCMOS33;
+NET "Reset" IOSTANDARD = LVCMOS33;
+NET "Clock" IOSTANDARD = LVCMOS33;
