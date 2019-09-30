@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.xst" -ofn "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.syr" 

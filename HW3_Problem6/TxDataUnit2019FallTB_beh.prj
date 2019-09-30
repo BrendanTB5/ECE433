@@ -1,0 +1,3 @@
+verilog work "TxDataUnit2019Fall.v"
+verilog work "TxDataUnit2019FallTB.v"
+verilog work "E:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_isim_beh.exe" -prj "E:/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB_beh.prj" "work.TxDataUnit2019FallTB" "work.glbl" 
