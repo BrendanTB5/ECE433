@@ -880,7 +880,7 @@ LAB4:    t2 = (t0 + 7104);
     xsi_vlog_process_setdisablestate(t2, &&LAB5);
     xsi_set_current_line(23, ng0);
     t3 = (t0 + 7104);
-    xsi_process_wait(t3, 650000LL);
+    xsi_process_wait(t3, 700000LL);
     *((char **)t1) = &&LAB6;
     goto LAB1;
 

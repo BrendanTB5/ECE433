@@ -16,8 +16,7 @@ Compiling module TxModule_Toplevel__2019Fall
 Compiling module TxModule_Toplevel__2019FallTB
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 Verilog Units
 Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.exe
-Fuse Memory Usage: 27948 KB
-Fuse CPU Usage: 593 ms
+Fuse Memory Usage: 27972 KB
+Fuse CPU Usage: 452 ms

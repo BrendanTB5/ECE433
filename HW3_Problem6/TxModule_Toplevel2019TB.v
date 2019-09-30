@@ -20,7 +20,7 @@ module TxModule_Toplevel__2019FallTB;
 	#0 Data = 9'b100101110;    #298 Data = 9'b101010110; 
 	#0 Speed = 2;  #349 Speed = 3;  
 	#0 Parity = 1;  #200 Parity = 0; 
-   #650 $stop;
+   #700 $stop;
 	join
 	
 endmodule

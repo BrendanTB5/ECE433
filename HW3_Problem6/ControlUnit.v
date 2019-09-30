@@ -1,28 +1,14 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    20:55:46 09/29/2019 
-// Design Name: 
-// Module Name:    ControlUnit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+//Brendan Mulholand CM 1832
+//ECE 433 Lab 5
+//9/30/19
+//My Implimentation of the Display Mux
 module ControlUnit(input Clock, input Reset, input [3:0] Speed, input Start, output reg Load, output reg ShiftOut);
-reg [3:0] DelayCount;
-reg [3:0] SentCount;
+reg [4:0] DelayCount;
+reg [4:0] SentCount;
 reg [1:0] State;
 reg [1:0] NextState;
+reg [4:0] LoadCount; // This is needed because Load will only be 1 clock long 
 
 parameter Init = 2'd0, LoadState = 2'd1, Delay = 2'd2, Shift = 2'd3;
 parameter ShiftTarget = 12;
@@ -30,6 +16,7 @@ parameter ShiftTarget = 12;
 
 
 initial SentCount = 0;
+initial LoadCount = 0;
 
 
 
@@ -46,6 +33,7 @@ always @(posedge Clock or posedge Reset) begin
 	else begin
 		if(State == Shift) begin
 			SentCount <= SentCount + 1;
+			LoadCount <= 0;
 			case(Speed)
 				1: DelayCount <= 0;
 				default:DelayCount <= Speed - 1;
@@ -53,10 +41,17 @@ always @(posedge Clock or posedge Reset) begin
 		end
 		else if(State == Delay) begin
 			SentCount <= SentCount;
+			LoadCount <= 0;
 			DelayCount <= DelayCount -1;
-		end else begin
+		end else if(State == LoadState) begin
 			SentCount <= SentCount;
 			DelayCount <= 0;
+			LoadCount <= LoadCount + 1;
+		end
+		else begin
+			SentCount <= SentCount;
+			DelayCount <= 0;
+			LoadCount <= 0;
 		end
 	end
 
@@ -77,13 +72,16 @@ always @(*) begin
 		LoadState: begin
 				Load <= 1;
 				ShiftOut <=0;
-				NextState <= Shift;
+				if(LoadCount == Speed-1)
+					NextState <= Shift;
+				else
+					NextState <= LoadState;
 			end
 		
 		Delay: begin
 				Load <= 0;
 				ShiftOut <=0;
-				if(DelayCount == 0) begin
+				if(DelayCount <= 1) begin
 					NextState <= Shift;
 					end
 				else begin
@@ -94,7 +92,7 @@ always @(*) begin
 		Shift: begin
 				Load <= 0;
 				ShiftOut <=1;
-				if(SentCount == 11) begin
+				if(SentCount == 10) begin
 					NextState <= Init;
 				end else begin
 					case(Speed)

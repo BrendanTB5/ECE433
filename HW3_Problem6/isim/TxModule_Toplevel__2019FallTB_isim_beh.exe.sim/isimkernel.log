@@ -2,27 +2,27 @@ Command line:
    TxModule_Toplevel__2019FallTB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50543
+     -socket  49815
 
-Mon Sep 30 13:55:27 2019
+Mon Sep 30 17:11:55 2019
 
 
- Elaboration Time: 0.34375 sec
+ Elaboration Time: 0.296875 sec
 
- Current Memory Usage: 5966.95 Meg
+ Current Memory Usage: 5966.91 Meg
 
  Total Signals          : 35
  Total Nets             : 34
  Total Signal Drivers   : 15
  Total Blocks           : 5
  Total Primitive Blocks : 3
- Total Processes        : 38
- Total Traceable Variables  : 37
- Total Scalar Nets and Variables : 229
+ Total Processes        : 39
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 236
 
- Total Simulation Time: 0.421875 sec
+ Total Simulation Time: 1.125 sec
 
- Current Memory Usage: 5966.92 Meg
+ Current Memory Usage: 4708.58 Meg
 
-Mon Sep 30 13:56:08 2019
+Mon Sep 30 18:14:34 2019
 

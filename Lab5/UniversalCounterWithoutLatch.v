@@ -4,9 +4,10 @@
 // 4-bit universal bidirectional counter
 `timescale 1ns / 1ps
 
-module UniversalCounterWithoutLatch # (parameter LENGTH, parameter EndCount, parameter BeginCount, parameter InitialCount)
+module UniversalCounterWithoutLatch # (parameter LENGTH=4, parameter EndCount=9, parameter BeginCount=0, parameter InitialCount=0)
 (input [LENGTH-1:0] P, output reg [LENGTH-1:0] Q, input S1, input S0, input Reset, output TerminalCount,input CLOCK) ;
 
+reg[LENGTH-1:0] NextQ;
 
 always @ (posedge CLOCK or posedge Reset)
 	if(Reset==1)	Q <= InitialCount;

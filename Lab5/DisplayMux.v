@@ -1,23 +1,8 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    11:42:43 09/30/2019 
-// Design Name: 
-// Module Name:    DisplayMux 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+//Brendan Mulholand CM 1832
+//ECE 433 Lab 5
+//9/30/19
+//My Implimentation of the Display Mux
 module DisplayMux(
     input [3:0] A0,
     input [3:0] A1,
@@ -35,7 +20,7 @@ module DisplayMux(
     );
 	 
 	
-always @(Select) begin
+always @(*) begin
 		if(Select == 0) begin
 			Y0 <= A0;
 			Y1 <= A1;
