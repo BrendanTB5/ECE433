@@ -1,0 +1,3 @@
+verilog work "lab4BNMDetect.v"
+verilog work "BCDto7Segment.v"
+verilog work "labece433detect01101withSegDisplay.v"

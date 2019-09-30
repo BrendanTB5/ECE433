@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\lab3part1\kcpsm3_int_test.v" Line 99: Assignment to <arg fmt="%s" index="1">read_strobe</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\mulholbn\Downloads\ECE433\ECE433\lab3part1\kcpsm3_int_test.v</arg>&quot; line <arg fmt="%s" index="2">93</arg>: Output port &lt;<arg fmt="%s" index="3">read_strobe</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">processor</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">program/ram_1024_x_18</arg> in unit <arg fmt="%s" index="2">kcpsm3_int_test</arg> of type <arg fmt="%s" index="3">RAMB16_S18</arg> has been replaced by <arg fmt="%s" index="4">RAMB16BWER</arg>
+</msg>
+
+</messages>
+

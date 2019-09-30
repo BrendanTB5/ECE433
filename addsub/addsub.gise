@@ -133,6 +133,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1568599018" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1568599018">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1568599018" xil_pn:in_ck="3976782213509099866" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1568599018">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -200,6 +201,7 @@
     </transform>
     <transform xil_pn:end_ts="1568596326" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1568596326">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1568600203" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6376484135354408554" xil_pn:start_ts="1568600203">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -293,6 +295,7 @@
     <transform xil_pn:end_ts="1568600470" xil_pn:in_ck="6830157798309399192" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1568600453">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="adderBNMversion2.ut"/>

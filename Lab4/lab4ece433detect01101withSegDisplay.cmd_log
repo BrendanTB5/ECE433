@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 lab4ece433detect01101withSegDisplay.ngc lab4ece433detect01101withSegDisplay.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ngd lab4ece433detect01101withSegDisplay.pcf 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 lab4ece433detect01101withSegDisplay.ngc lab4ece433detect01101withSegDisplay.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ngd lab4ece433detect01101withSegDisplay.pcf 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc6slx16-csg324-3 lab4ece433detect01101withSegDisplay.ngc lab4ece433detect01101withSegDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ngd lab4ece433detect01101withSegDisplay.pcf 
+par -w -intstyle ise -ol high -mt off lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ncd lab4ece433detect01101withSegDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab4ece433detect01101withSegDisplay.twx lab4ece433detect01101withSegDisplay.ncd -o lab4ece433detect01101withSegDisplay.twr lab4ece433detect01101withSegDisplay.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f lab4ece433detect01101withSegDisplay.ut lab4ece433detect01101withSegDisplay.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab4/lab4ece433detect01101withSegDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc6slx16-csg324-3 lab4ece433detect01101withSegDisplay.ngc lab4ece433detect01101withSegDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ngd lab4ece433detect01101withSegDisplay.pcf 
+par -w -intstyle ise -ol high -mt off lab4ece433detect01101withSegDisplay_map.ncd lab4ece433detect01101withSegDisplay.ncd lab4ece433detect01101withSegDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab4ece433detect01101withSegDisplay.twx lab4ece433detect01101withSegDisplay.ncd -o lab4ece433detect01101withSegDisplay.twr lab4ece433detect01101withSegDisplay.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f lab4ece433detect01101withSegDisplay.ut lab4ece433detect01101withSegDisplay.ncd 

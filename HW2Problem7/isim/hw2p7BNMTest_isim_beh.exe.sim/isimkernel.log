@@ -1,0 +1,28 @@
+Command line:
+   hw2p7BNMTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64665
+
+Sun Sep 22 13:58:58 2019
+
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 5966.88 Meg
+
+ Total Signals          : 17
+ Total Nets             : 23
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 33
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 134
+
+ Total Simulation Time: 0.4375 sec
+
+ Current Memory Usage: 5966.88 Meg
+
+Sun Sep 22 13:59:11 2019
+

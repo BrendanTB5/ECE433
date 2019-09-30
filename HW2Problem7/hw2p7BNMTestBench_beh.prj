@@ -1,0 +1,3 @@
+verilog work "hw2p7BNMdetect1001.v"
+verilog work "hw2p7BNMTestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

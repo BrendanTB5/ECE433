@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/mulholbn/Downloads/ECE433/ECE433/HW2Problem7/hw2p7BNMTestBench_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/HW2Problem7/hw2p7BNMTestBench_beh.prj work.hw2p7BNMTestBench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW2Problem7/hw2p7BNMdetect1001.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW2Problem7/hw2p7BNMTestBench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module hw2p7BNMdetect1001
+Compiling module hw2p7BNMTestBench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/HW2Problem7/hw2p7BNMTestBench_isim_beh.exe
+Fuse Memory Usage: 29192 KB
+Fuse CPU Usage: 468 ms

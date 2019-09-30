@@ -1,0 +1,3 @@
+verilog work "kcpsm3.v"
+verilog work "INT_TEST.V"
+verilog work "kcpsm3_int_test.v"

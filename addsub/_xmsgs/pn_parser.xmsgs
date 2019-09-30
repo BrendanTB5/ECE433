@@ -8,7 +8,22 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/addsub/added4bitV1.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/added4bitV1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/adder1bitV1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/adderBNMversion1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/adderBNMversion2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/inverter3bits.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/addsub/mux3bits.v&quot; into library work</arg>
 </msg>
 
 </messages>

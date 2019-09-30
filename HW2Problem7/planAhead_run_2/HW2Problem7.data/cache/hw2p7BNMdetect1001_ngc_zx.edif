@@ -1,0 +1,544 @@
+(edif hw2p7BNMdetect1001
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2019 9 22 14 7 16)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure hw2p7BNMdetect1001.ngc hw2p7BNMdetect1001.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell FDC
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port CLR
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LD
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port D
+              (direction INPUT)
+            )
+            (port G
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT3
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT4
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port I3
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell BUFGP
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell INV
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library hw2p7BNMdetect1001_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell hw2p7BNMdetect1001
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port CLK
+              (direction INPUT)
+            )
+            (port Reset
+              (direction INPUT)
+            )
+            (port InputBit
+              (direction INPUT)
+            )
+            (port Detected1001
+              (direction OUTPUT)
+            )
+            (port (array (rename currState "currState<2:0>") 3)
+              (direction OUTPUT))
+            (port (array (rename nextState "nextState<2:0>") 3)
+              (direction OUTPUT))
+            (designator "xc3s500e-4-fg320")
+            (property TYPE (string "hw2p7BNMdetect1001") (owner "Xilinx"))
+            (property BUS_INFO (string "3:OUTPUT:currState<2:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "3:OUTPUT:nextState<2:0>") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "hw2p7BNMdetect1001_hw2p7BNMdetect1001") (owner "Xilinx"))
+          )
+          (contents
+            (instance (rename currState_0_renamed_0 "currState_0")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename currState_1_renamed_1 "currState_1")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename currState_2_renamed_2 "currState_2")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename nextState_0_renamed_3 "nextState_0")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename nextState_1_renamed_4 "nextState_1")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename nextState_2_renamed_5 "nextState_2")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance nextState_or00001
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "57") (owner "Xilinx"))
+            )
+            (instance Mmux_nextState_mux000151
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0080") (owner "Xilinx"))
+            )
+            (instance Mmux_nextState_mux000141
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "5514") (owner "Xilinx"))
+            )
+            (instance Mmux_nextState_mux000121
+              (viewRef view_1 (cellRef LUT4 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "8CDC") (owner "Xilinx"))
+            )
+            (instance Detected1001_cmp_eq00001
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "10") (owner "Xilinx"))
+            )
+            (instance (rename Reset_IBUF_renamed_6 "Reset_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename InputBit_IBUF_renamed_7 "InputBit_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Detected1001_OBUF_renamed_8 "Detected1001_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance currState_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance currState_1_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance currState_0_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance nextState_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance nextState_1_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance nextState_0_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename CLK_BUFGP_renamed_9 "CLK_BUFGP")
+              (viewRef view_1 (cellRef BUFGP (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Reset_inv1_INV_0
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename currState_2_1_renamed_10 "currState_2_1")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename currState_1_1_renamed_11 "currState_1_1")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename currState_0_1_renamed_12 "currState_0_1")
+              (viewRef view_1 (cellRef FDC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename nextState_2_1_renamed_13 "nextState_2_1")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename nextState_1_1_renamed_14 "nextState_1_1")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (instance (rename nextState_0_1_renamed_15 "nextState_0_1")
+              (viewRef view_1 (cellRef LD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property IOB (string "true") (owner "Xilinx"))
+            )
+            (net CLK
+              (joined
+                (portRef CLK)
+                (portRef I (instanceRef CLK_BUFGP_renamed_9))
+              )
+            )
+            (net CLK_BUFGP
+              (joined
+                (portRef C (instanceRef currState_0_renamed_0))
+                (portRef C (instanceRef currState_1_renamed_1))
+                (portRef C (instanceRef currState_2_renamed_2))
+                (portRef O (instanceRef CLK_BUFGP_renamed_9))
+                (portRef C (instanceRef currState_2_1_renamed_10))
+                (portRef C (instanceRef currState_1_1_renamed_11))
+                (portRef C (instanceRef currState_0_1_renamed_12))
+              )
+            )
+            (net Detected1001
+              (joined
+                (portRef Detected1001)
+                (portRef O (instanceRef Detected1001_OBUF_renamed_8))
+              )
+            )
+            (net Detected1001_OBUF
+              (joined
+                (portRef O (instanceRef Detected1001_cmp_eq00001))
+                (portRef I (instanceRef Detected1001_OBUF_renamed_8))
+              )
+            )
+            (net InputBit
+              (joined
+                (portRef InputBit)
+                (portRef I (instanceRef InputBit_IBUF_renamed_7))
+              )
+            )
+            (net InputBit_IBUF
+              (joined
+                (portRef I0 (instanceRef Mmux_nextState_mux000151))
+                (portRef I0 (instanceRef Mmux_nextState_mux000141))
+                (portRef I1 (instanceRef Mmux_nextState_mux000121))
+                (portRef O (instanceRef InputBit_IBUF_renamed_7))
+              )
+            )
+            (net Reset
+              (joined
+                (portRef Reset)
+                (portRef I (instanceRef Reset_IBUF_renamed_6))
+              )
+            )
+            (net Reset_IBUF
+              (joined
+                (portRef O (instanceRef Reset_IBUF_renamed_6))
+                (portRef I (instanceRef Reset_inv1_INV_0))
+              )
+            )
+            (net Reset_inv
+              (joined
+                (portRef CLR (instanceRef currState_0_renamed_0))
+                (portRef CLR (instanceRef currState_1_renamed_1))
+                (portRef CLR (instanceRef currState_2_renamed_2))
+                (portRef O (instanceRef Reset_inv1_INV_0))
+                (portRef CLR (instanceRef currState_2_1_renamed_10))
+                (portRef CLR (instanceRef currState_1_1_renamed_11))
+                (portRef CLR (instanceRef currState_0_1_renamed_12))
+              )
+            )
+            (net (rename currState_0_ "currState<0>")
+              (joined
+                (portRef (member currState 2))
+                (portRef O (instanceRef currState_0_OBUF))
+              )
+            )
+            (net (rename currState_1_ "currState<1>")
+              (joined
+                (portRef (member currState 1))
+                (portRef O (instanceRef currState_1_OBUF))
+              )
+            )
+            (net (rename currState_2_ "currState<2>")
+              (joined
+                (portRef (member currState 0))
+                (portRef O (instanceRef currState_2_OBUF))
+              )
+            )
+            (net currState_0
+              (joined
+                (portRef Q (instanceRef currState_0_renamed_0))
+                (portRef I2 (instanceRef nextState_or00001))
+                (portRef I1 (instanceRef Mmux_nextState_mux000151))
+                (portRef I1 (instanceRef Mmux_nextState_mux000141))
+                (portRef I3 (instanceRef Mmux_nextState_mux000121))
+                (portRef I0 (instanceRef Detected1001_cmp_eq00001))
+              )
+            )
+            (net currState_0_1
+              (joined
+                (portRef Q (instanceRef currState_0_1_renamed_12))
+                (portRef I (instanceRef currState_0_OBUF))
+              )
+            )
+            (net currState_1
+              (joined
+                (portRef Q (instanceRef currState_1_renamed_1))
+                (portRef I1 (instanceRef nextState_or00001))
+                (portRef I2 (instanceRef Mmux_nextState_mux000151))
+                (portRef I2 (instanceRef Mmux_nextState_mux000141))
+                (portRef I2 (instanceRef Mmux_nextState_mux000121))
+                (portRef I1 (instanceRef Detected1001_cmp_eq00001))
+              )
+            )
+            (net currState_1_1
+              (joined
+                (portRef Q (instanceRef currState_1_1_renamed_11))
+                (portRef I (instanceRef currState_1_OBUF))
+              )
+            )
+            (net currState_2
+              (joined
+                (portRef Q (instanceRef currState_2_renamed_2))
+                (portRef I0 (instanceRef nextState_or00001))
+                (portRef I3 (instanceRef Mmux_nextState_mux000151))
+                (portRef I3 (instanceRef Mmux_nextState_mux000141))
+                (portRef I0 (instanceRef Mmux_nextState_mux000121))
+                (portRef I2 (instanceRef Detected1001_cmp_eq00001))
+              )
+            )
+            (net currState_2_1
+              (joined
+                (portRef Q (instanceRef currState_2_1_renamed_10))
+                (portRef I (instanceRef currState_2_OBUF))
+              )
+            )
+            (net (rename nextState_0_ "nextState<0>")
+              (joined
+                (portRef (member nextState 2))
+                (portRef O (instanceRef nextState_0_OBUF))
+              )
+            )
+            (net (rename nextState_1_ "nextState<1>")
+              (joined
+                (portRef (member nextState 1))
+                (portRef O (instanceRef nextState_1_OBUF))
+              )
+            )
+            (net (rename nextState_2_ "nextState<2>")
+              (joined
+                (portRef (member nextState 0))
+                (portRef O (instanceRef nextState_2_OBUF))
+              )
+            )
+            (net nextState_0
+              (joined
+                (portRef D (instanceRef currState_0_renamed_0))
+                (portRef Q (instanceRef nextState_0_renamed_3))
+                (portRef D (instanceRef currState_0_1_renamed_12))
+              )
+            )
+            (net nextState_0_1
+              (joined
+                (portRef Q (instanceRef nextState_0_1_renamed_15))
+                (portRef I (instanceRef nextState_0_OBUF))
+              )
+            )
+            (net nextState_1
+              (joined
+                (portRef D (instanceRef currState_1_renamed_1))
+                (portRef Q (instanceRef nextState_1_renamed_4))
+                (portRef D (instanceRef currState_1_1_renamed_11))
+              )
+            )
+            (net nextState_1_1
+              (joined
+                (portRef Q (instanceRef nextState_1_1_renamed_14))
+                (portRef I (instanceRef nextState_1_OBUF))
+              )
+            )
+            (net nextState_2
+              (joined
+                (portRef D (instanceRef currState_2_renamed_2))
+                (portRef Q (instanceRef nextState_2_renamed_5))
+                (portRef D (instanceRef currState_2_1_renamed_10))
+              )
+            )
+            (net nextState_2_1
+              (joined
+                (portRef Q (instanceRef nextState_2_1_renamed_13))
+                (portRef I (instanceRef nextState_2_OBUF))
+              )
+            )
+            (net (rename nextState_mux0001_0_ "nextState_mux0001<0>")
+              (joined
+                (portRef D (instanceRef nextState_0_renamed_3))
+                (portRef O (instanceRef Mmux_nextState_mux000121))
+                (portRef D (instanceRef nextState_0_1_renamed_15))
+              )
+            )
+            (net (rename nextState_mux0001_1_ "nextState_mux0001<1>")
+              (joined
+                (portRef D (instanceRef nextState_1_renamed_4))
+                (portRef O (instanceRef Mmux_nextState_mux000141))
+                (portRef D (instanceRef nextState_1_1_renamed_14))
+              )
+            )
+            (net (rename nextState_mux0001_2_ "nextState_mux0001<2>")
+              (joined
+                (portRef D (instanceRef nextState_2_renamed_5))
+                (portRef O (instanceRef Mmux_nextState_mux000151))
+                (portRef D (instanceRef nextState_2_1_renamed_13))
+              )
+            )
+            (net nextState_or0000
+              (joined
+                (portRef G (instanceRef nextState_2_renamed_5))
+                (portRef G (instanceRef nextState_1_renamed_4))
+                (portRef G (instanceRef nextState_0_renamed_3))
+                (portRef O (instanceRef nextState_or00001))
+                (portRef G (instanceRef nextState_2_1_renamed_13))
+                (portRef G (instanceRef nextState_1_1_renamed_14))
+                (portRef G (instanceRef nextState_0_1_renamed_15))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design hw2p7BNMdetect1001
+    (cellRef hw2p7BNMdetect1001
+      (libraryRef hw2p7BNMdetect1001_lib)
+    )
+    (property PART (string "xc3s500e-4-fg320") (owner "Xilinx"))
+  )
+)
+

@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/testbench_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/kcpsm3.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/INT_TEST.V" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/kcpsm3_int_test.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module LUT2(INIT=4'b01)
+Compiling module FD
+Compiling module FDS
+Compiling module FDR
+Compiling module LUT4(INIT=16'b010000000)
+Compiling module FDE
+Compiling module LUT3(INIT=8'b0100)
+Compiling module FDRE
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module INV
+Compiling module FDRSE
+Compiling module RAM16X1D
+Compiling module RAM64X1S
+Compiling module MUXF5
+Compiling module RAM32X1S
+Compiling module kcpsm3
+Compiling module RAMB16_S18(INIT_00=256'b01000000...
+Compiling module int_test
+Compiling module kcpsm3_int_test
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 56 Verilog Units
+Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/lab3part1/testbench_isim_beh.exe
+Fuse Memory Usage: 33728 KB
+Fuse CPU Usage: 828 ms

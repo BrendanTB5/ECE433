@@ -1,0 +1,44 @@
+//Lab #4 to detect 01101 and display on 7-segment display
+//ECE433 Fall 2019
+//2019-9-16
+
+NET "Segments[0]" LOC = T17; //CA
+NET "Segments[1]" LOC = T18; //CB
+NET "Segments[2]" LOC = U17; //CC
+NET "Segments[3]" LOC = U18; //CD
+NET "Segments[4]" LOC = M14; //CE
+NET "Segments[5]" LOC = N14; //CF
+NET "Segments[6]" LOC = L14; //CG
+NET "Segments[7]" LOC = M13; //DP
+
+#NET "Clock" LOC = V10;	//100MHz oscillator
+NET "Clock" LOC = T5;	//SW7
+NET "Reset" LOC = C9;	//BTND
+NET "X" LOC = T10;	//SW0
+
+NET "Detected" LOC = T11;	//LD7
+
+NET "FiveBitInput[4]" LOC = M11;	//LD4
+NET "FiveBitInput[3]" LOC = V15;	//LD3
+NET "FiveBitInput[2]" LOC = U15;	//LD2
+NET "FiveBitInput[1]" LOC = V16;	//LD1
+NET "FiveBitInput[0]" LOC = U16;	//LD0
+
+NET "Clock" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#NET "FiveBitInput[0]" IOSTANDARD = LVCMOS33;
+#NET "FiveBitInput[1]" IOSTANDARD = LVCMOS33;
+#NET "FiveBitInput[2]" IOSTANDARD = LVCMOS33;
+#NET "FiveBitInput[3]" IOSTANDARD = LVCMOS33;
+#NET "FiveBitInput[4]" IOSTANDARD = LVCMOS33;
+#NET "Segments[0]" IOSTANDARD = LVCMOS33;
+#NET "Segments[1]" IOSTANDARD = LVCMOS33;
+#NET "Segments[2]" IOSTANDARD = LVCMOS33;
+#NET "Segments[3]" IOSTANDARD = LVCMOS33;
+#NET "Segments[4]" IOSTANDARD = LVCMOS33;
+#NET "Segments[5]" IOSTANDARD = LVCMOS33;
+#NET "Segments[6]" IOSTANDARD = LVCMOS33;
+#NET "Segments[7]" IOSTANDARD = LVCMOS33;
+#NET "CLOCK" IOSTANDARD = LVCMOS33;
+#NET "RESET" IOSTANDARD = LVCMOS33;
+#NET "X" IOSTANDARD = LVCMOS33;

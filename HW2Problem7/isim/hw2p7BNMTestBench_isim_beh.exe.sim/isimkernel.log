@@ -1,0 +1,10 @@
+Command line:
+   hw2p7BNMTestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64707
+
+Sun Sep 22 14:01:36 2019
+
+
+ Elaboration Time: 0.359375 sec

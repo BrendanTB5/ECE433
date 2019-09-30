@@ -1,0 +1,28 @@
+Command line:
+   lab4BNMTestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50407
+
+Mon Sep 23 11:54:37 2019
+
+
+ Elaboration Time: 0.328125 sec
+
+ Current Memory Usage: 5967.5 Meg
+
+ Total Signals          : 19
+ Total Nets             : 25
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 36
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 138
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5338.32 Meg
+
+Mon Sep 23 12:03:21 2019
+

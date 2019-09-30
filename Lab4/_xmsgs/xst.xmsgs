@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="295" delta="old" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab4\BCDto7Segment.v" Line 23: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="old" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab4\BCDto7Segment.v" Line 24: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab4\labece433detect01101withSegDisplay.v" Line 16: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">BCDnumber</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nextState&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nextState&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">nextState&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_SEGMENTS</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_CurrentState[2]_GND_3_o_Mux_20_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
