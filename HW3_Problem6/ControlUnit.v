@@ -12,21 +12,14 @@ reg [4:0] LoadCount; // This is needed because Load will only be 1 clock long
 
 parameter Init = 2'd0, LoadState = 2'd1, Delay = 2'd2, Shift = 2'd3;
 parameter ShiftTarget = 12;
-
-
-
 initial SentCount = 0;
 initial LoadCount = 0;
-
-
-
 always @(posedge Clock or posedge Reset) begin
 	if(Reset == 1)
 		State <= Init;
 	else
 		State <= NextState;
 end
-
 always @(posedge Clock or posedge Reset) begin
 	if(Reset == 1)
 		SentCount <= 0;
@@ -54,10 +47,7 @@ always @(posedge Clock or posedge Reset) begin
 			LoadCount <= 0;
 		end
 	end
-
-
 end
-
 always @(*) begin
 	case(State)
 		Init: begin
@@ -112,9 +102,4 @@ always @(*) begin
 			end
 	endcase
 end
-
-
-
-
-
 endmodule

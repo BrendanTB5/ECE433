@@ -1,5 +1,6 @@
 ISim log file
-Running: C:\Users\mulholbn\Downloads\ECE433\ECE433\HW3_Problem6\TxModule_Toplevel__2019FallTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.wdb 
+Running: C:\Users\mulholbn\Downloads\ECE433\ECE433\HW3_Problem6\ControlTestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@ise.csse.rose-hulman.edu'.
@@ -20,9 +21,9 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 700 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v" Line 23 
+Stopped at time : 400 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench.v" Line 59 
 # restart
 # run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 700 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v" Line 23 
+Stopped at time : 400 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench.v" Line 59 

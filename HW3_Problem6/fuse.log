@@ -1,22 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_beh.prj work.TxModule_Toplevel__2019FallTB work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench_beh.prj work.ControlTestBench work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.v" into library work
 Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlUnit.v" into library work
-Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019Fall.v" into library work
-Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling module ControlUnit
-Compiling module TxDataUnit2019Fall
-Compiling module TxModule_Toplevel__2019Fall
-Compiling module TxModule_Toplevel__2019FallTB
+Compiling module ControlTestBench
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 5 Verilog Units
-Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel__2019FallTB_isim_beh.exe
-Fuse Memory Usage: 27972 KB
-Fuse CPU Usage: 452 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlTestBench_isim_beh.exe
+Fuse Memory Usage: 27876 KB
+Fuse CPU Usage: 421 ms

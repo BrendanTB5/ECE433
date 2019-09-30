@@ -22,6 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="HW3_Problem6.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControlTestBench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ControlTestBench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ControlTestBench_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ControlUnit.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ControlUnit.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ControlUnit.ngc"/>
@@ -55,9 +58,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TxModule_Toplevel__2019Fall.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TxModule_Toplevel__2019Fall.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TxModule_Toplevel__2019Fall.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxModule_Toplevel__2019FallTB_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TxModule_Toplevel__2019FallTB_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TxModule_Toplevel__2019Fall_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TxModule_Toplevel__2019Fall_summary.html"/>
@@ -77,9 +78,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569877901" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1569877901">
+    <transform xil_pn:end_ts="1569883276" xil_pn:in_ck="563020356698289305" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1569883276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ControlTestBench.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="DelayTime.v"/>
       <outfile xil_pn:name="TxDataUnit2019Fall.v"/>
@@ -87,11 +89,11 @@
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569877901" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2831613568477499790" xil_pn:start_ts="1569877901">
+    <transform xil_pn:end_ts="1569883169" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3270130405845569352" xil_pn:start_ts="1569883169">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569877901" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2677115687592634928" xil_pn:start_ts="1569877901">
+    <transform xil_pn:end_ts="1569883169" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5668480410069010314" xil_pn:start_ts="1569883169">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -99,9 +101,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569877901" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1569877901">
+    <transform xil_pn:end_ts="1569883276" xil_pn:in_ck="563020356698289305" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1569883276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ControlTestBench.v"/>
       <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="DelayTime.v"/>
       <outfile xil_pn:name="TxDataUnit2019Fall.v"/>
@@ -109,20 +112,20 @@
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569877904" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4680143158044773213" xil_pn:start_ts="1569877901">
+    <transform xil_pn:end_ts="1569883279" xil_pn:in_ck="563020356698289305" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6663240283886235663" xil_pn:start_ts="1569883276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_beh.prj"/>
-      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.exe"/>
+      <outfile xil_pn:name="ControlTestBench_beh.prj"/>
+      <outfile xil_pn:name="ControlTestBench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1569877904" xil_pn:in_ck="-8777561217519844656" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8900702038227199258" xil_pn:start_ts="1569877904">
+    <transform xil_pn:end_ts="1569883279" xil_pn:in_ck="6237410864127071840" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="444699661161705906" xil_pn:start_ts="1569883279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="ControlTestBench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
