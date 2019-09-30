@@ -81,11 +81,11 @@
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569855587" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2831613568477499790" xil_pn:start_ts="1569855587">
+    <transform xil_pn:end_ts="1569866113" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2831613568477499790" xil_pn:start_ts="1569866113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569855587" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2677115687592634928" xil_pn:start_ts="1569855587">
+    <transform xil_pn:end_ts="1569866113" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2677115687592634928" xil_pn:start_ts="1569866113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -103,9 +103,10 @@
       <outfile xil_pn:name="TxModule_Toplevel2019Fall.v"/>
       <outfile xil_pn:name="TxModule_Toplevel2019TB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1569856596" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4680143158044773213" xil_pn:start_ts="1569856593">
+    <transform xil_pn:end_ts="1569866116" xil_pn:in_ck="5995276232014391892" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4680143158044773213" xil_pn:start_ts="1569866113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_beh.prj"/>
@@ -115,9 +116,11 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1569856596" xil_pn:in_ck="8392990894920671968" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8900702038227199258" xil_pn:start_ts="1569856596">
+    <transform xil_pn:end_ts="1569866116" xil_pn:in_ck="8392990894920671968" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8900702038227199258" xil_pn:start_ts="1569866116">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TxModule_Toplevel__2019FallTB_isim_beh.wdb"/>

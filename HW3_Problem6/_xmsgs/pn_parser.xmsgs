@@ -11,5 +11,20 @@
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/ControlUnit.v&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/DelayTime.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxDataUnit2019Fall.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxDataUnit2019FallTB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019Fall.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/HW3_Problem6/TxModule_Toplevel2019TB.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

@@ -2,14 +2,14 @@ Command line:
    TxDataUnit2019FallTB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52763
+     -socket  50531
 
-Sun Sep 29 20:37:13 2019
+Mon Sep 30 13:55:07 2019
 
 
- Elaboration Time: 0.046875 sec
+ Elaboration Time: 0.703125 sec
 
- Current Memory Usage: 5627.57 Meg
+ Current Memory Usage: 5967.56 Meg
 
  Total Signals          : 23
  Total Nets             : 41
@@ -20,9 +20,9 @@ Sun Sep 29 20:37:13 2019
  Total Traceable Variables  : 26
  Total Scalar Nets and Variables : 179
 
- Total Simulation Time: 0.046875 sec
+ Total Simulation Time: 0.765625 sec
 
- Current Memory Usage: 5155.71 Meg
+ Current Memory Usage: 5967.56 Meg
 
-Sun Sep 29 20:38:46 2019
+Mon Sep 30 13:55:10 2019
 
