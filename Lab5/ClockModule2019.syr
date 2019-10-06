@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: ClockModule2019.prj
@@ -137,27 +137,25 @@ Elaborating module <PositiveClockedOneShot>.
 Elaborating module <SmartCounter(INIT=0,LOW=0,HIGH=9,LENGTH=4)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=4,EndCount=9,BeginCount=0,InitialCount=0)>.
-WARNING:HDLCompiler:189 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 68: Size mismatch in connection of port <Load>. Formal port size is 4-bit while actual signal size is 1-bit.
 
 Elaborating module <SmartCounter(INIT=0,LOW=0,HIGH=5,LENGTH=4)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=4,EndCount=5,BeginCount=0,InitialCount=0)>.
-WARNING:HDLCompiler:189 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 69: Size mismatch in connection of port <Load>. Formal port size is 4-bit while actual signal size is 1-bit.
 
 Elaborating module <SmartCounter(INIT=1,LOW=0,HIGH=9,LENGTH=4)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=4,EndCount=9,BeginCount=0,InitialCount=1)>.
-WARNING:HDLCompiler:189 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 70: Size mismatch in connection of port <Load>. Formal port size is 4-bit while actual signal size is 1-bit.
 
 Elaborating module <SmartCounter(INIT=0,LOW=0,HIGH=1,LENGTH=4)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=4,EndCount=1,BeginCount=0,InitialCount=0)>.
-WARNING:HDLCompiler:189 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 71: Size mismatch in connection of port <Load>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 67: Assignment to RollOver ignored, since the identifier is never used
 
 Elaborating module <SmartCounter(INIT=0,LOW=0,HIGH=1,LENGTH=1)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=1,EndCount=1,BeginCount=0,InitialCount=0)>.
-WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 76: Assignment to RollOverReg ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 70: Assignment to AMPMCarry ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 64: Net <VCC> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -165,12 +163,9 @@ WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" Line 76: As
 
 Synthesizing Unit <ClockModule2019>.
     Related source file is "E:\ECE433\ECE433\Lab5\ClockModule2019.v".
-        DefMin = 0
-        Def10 = 0
-        DefHour = 1
-        DefHour10 = 0
-INFO:Xst:3210 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" line 71: Output port <Carry> of the instance <Hour10Counter> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" line 74: Output port <Carry> of the instance <AMPMCounter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" line 67: Output port <Carry> of the instance <Hour10Counter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\ECE433\ECE433\Lab5\ClockModule2019.v" line 70: Output port <Carry> of the instance <AMPMCounter> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <VCC> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <ClockModule2019> synthesized.
@@ -207,7 +202,7 @@ Unit <Debouncer2019fall> synthesized.
 
 Synthesizing Unit <DelayLoop>.
     Related source file is "E:\ECE433\ECE433\Lab5\DelayLoop.v".
-        DelayTime = 20000
+        DelayTime = 3
         NumberOfBits = 27
     Found 27-bit register for signal <count>.
     Found 27-bit adder for signal <count[26]_GND_4_o_add_4_OUT> created at line 24.
@@ -450,48 +445,102 @@ Optimizing unit <UniversalCounterWithoutLatch_2> ...
 Optimizing unit <UniversalCounterWithoutLatch_3> ...
 
 Optimizing unit <UniversalCounterWithoutLatch_4> ...
-WARNING:Xst:1710 - FF/Latch <Hour10Counter/counter/Q_1> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <AMPMCounter/counter/Q_0> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_26> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <OS10Min/State_FSM_FFd2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <OS10Min/State_FSM_FFd1> is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/State_FSM_FFd1> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/State_FSM_FFd2> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_0> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_1> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_2> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_3> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_4> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_5> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_6> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_7> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_8> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_9> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_10> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_11> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_12> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_13> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_14> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_15> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_16> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_17> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_18> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_19> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_20> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_21> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_22> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_23> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_24> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_25> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Debouncer/Timer/count_26> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Shot/State_FSM_FFd2> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <MinDetect/Shot/State_FSM_FFd1> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:1710 - FF/Latch <HourDetect/Debouncer/Timer/count_24> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_25> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_24> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_23> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_22> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_21> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_20> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_19> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_18> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_17> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_16> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_26> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <OSHour10/State_FSM_FFd2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <OSHour1/State_FSM_FFd2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <AMPMCounter/counter/Q_0> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min1Counter/counter/Q_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min1Counter/counter/Q_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min1Counter/counter/Q_1> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min1Counter/counter/Q_0> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min10Counter/counter/Q_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min10Counter/counter/Q_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min10Counter/counter/Q_1> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Min10Counter/counter/Q_0> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour1Counter/counter/Q_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour1Counter/counter/Q_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour1Counter/counter/Q_1> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour1Counter/counter/Q_0> (without init value) has a constant value of 1 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_1> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Hour10Counter/counter/Q_0> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_2> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_3> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_4> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_5> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_6> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_7> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_8> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_9> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_10> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_11> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_12> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_13> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_14> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_15> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_26> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_25> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_24> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_23> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_22> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_21> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_20> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_19> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_18> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_17> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_16> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MinDetect/Debouncer/Timer/count_15> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_16> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_17> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_18> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_19> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_20> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_21> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_22> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <HourDetect/Debouncer/Timer/count_23> (without init value) has a constant value of 0 in block <ClockModule2019>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <OSHour10/State_FSM_FFd1> is unconnected in block <ClockModule2019>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <OSHour1/State_FSM_FFd1> is unconnected in block <ClockModule2019>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <HourDetect/Shot/State_FSM_FFd1> is unconnected in block <ClockModule2019>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <HourDetect/Shot/State_FSM_FFd2> is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <HourDetect/Debouncer/State_FSM_FFd2> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <HourDetect/Debouncer/State_FSM_FFd1> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <HourDetect/Debouncer/Timer/count_0> of sequential type is unconnected in block <ClockModule2019>.
+WARNING:Xst:2677 - Node <HourDetect/Debouncer/Timer/count_1> of sequential type is unconnected in block <ClockModule2019>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block ClockModule2019, actual ratio is 1.
+Found area constraint ratio of 100 (+ 5) on block ClockModule2019, actual ratio is 0.
 
 Final Macro Processing ...
 
 =========================================================================
 Final Register Report
 
-Macro Statistics
-# Registers                                            : 57
- Flip-Flops                                            : 57
-
+Found no macro
 =========================================================================
 
 =========================================================================
@@ -513,28 +562,10 @@ Top Level Output File Name         : ClockModule2019.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 145
+# BELS                             : 2
 #      GND                         : 1
-#      INV                         : 2
-#      LUT1                        : 28
-#      LUT2                        : 10
-#      LUT3                        : 8
-#      LUT4                        : 2
-#      LUT5                        : 4
-#      LUT6                        : 31
-#      MUXCY                       : 28
 #      VCC                         : 1
-#      XORCY                       : 30
-# FlipFlops/Latches                : 57
-#      FD                          : 4
-#      FDC                         : 13
-#      FDCE                        : 9
-#      FDP                         : 1
-#      FDR                         : 30
-# Clock Buffers                    : 1
-#      BUFGP                       : 1
-# IO Buffers                       : 22
-#      IBUF                        : 5
+# IO Buffers                       : 17
 #      OBUF                        : 17
 
 Device utilization summary:
@@ -544,23 +575,19 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              57  out of  18224     0%  
- Number of Slice LUTs:                   85  out of   9112     0%  
-    Number used as Logic:                85  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     85
-   Number with an unused Flip Flop:      28  out of     85    32%  
-   Number with an unused LUT:             0  out of     85     0%  
-   Number of fully used LUT-FF pairs:    57  out of     85    67%  
-   Number of unique control sets:         8
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
 
 IO Utilization: 
  Number of IOs:                          23
- Number of bonded IOBs:                  23  out of    232     9%  
+ Number of bonded IOBs:                  17  out of    232     7%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -580,11 +607,7 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-Clock                              | BUFGP                  | 57    |
------------------------------------+------------------------+-------+
+No clock signals found in this design
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -594,9 +617,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 4.992ns (Maximum Frequency: 200.318MHz)
-   Minimum input arrival time before clock: 5.782ns
-   Maximum output required time after clock: 3.847ns
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -604,94 +627,21 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'Clock'
-  Clock period: 4.992ns (frequency: 200.318MHz)
-  Total number of paths / destination ports: 1603 / 94
--------------------------------------------------------------------------
-Delay:               4.992ns (Levels of Logic = 3)
-  Source:            Hour1Counter/counter/Q_2 (FF)
-  Destination:       Min10Counter/counter/Q_3 (FF)
-  Source Clock:      Clock rising
-  Destination Clock: Clock rising
-
-  Data Path: Hour1Counter/counter/Q_2 to Min10Counter/counter/Q_3
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             8   0.447   1.050  Hour1Counter/counter/Q_2 (Hour1Counter/counter/Q_2)
-     LUT5:I1->O            5   0.203   0.819  LoadClock1 (LoadClock1)
-     LUT6:I4->O           20   0.203   1.093  LoadClock3 (LoadClock)
-     LUT2:I1->O            3   0.205   0.650  Min10Counter/counter/_n0053_inv1 (Min10Counter/counter/_n0053_inv)
-     FDCE:CE                   0.322          Min10Counter/counter/Q_1
-    ----------------------------------------
-    Total                      4.992ns (1.380ns logic, 3.612ns route)
-                                       (27.6% logic, 72.4% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 120 / 57
--------------------------------------------------------------------------
-Offset:              5.782ns (Levels of Logic = 4)
-  Source:            TimeReference (PAD)
-  Destination:       Min10Counter/counter/Q_3 (FF)
-  Destination Clock: Clock rising
-
-  Data Path: TimeReference to Min10Counter/counter/Q_3
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             8   1.222   1.167  TimeReference_IBUF (TimeReference_IBUF)
-     LUT6:I0->O            5   0.203   0.715  LoadClock2 (LoadClock2)
-     LUT6:I5->O           20   0.205   1.093  LoadClock3 (LoadClock)
-     LUT2:I1->O            3   0.205   0.650  Min10Counter/counter/_n0053_inv1 (Min10Counter/counter/_n0053_inv)
-     FDCE:CE                   0.322          Min10Counter/counter/Q_1
-    ----------------------------------------
-    Total                      5.782ns (2.157ns logic, 3.625ns route)
-                                       (37.3% logic, 62.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
-  Total number of paths / destination ports: 13 / 13
--------------------------------------------------------------------------
-Offset:              3.847ns (Levels of Logic = 1)
-  Source:            Hour1Counter/counter/Q_0 (FF)
-  Destination:       Hour1<0> (PAD)
-  Source Clock:      Clock rising
-
-  Data Path: Hour1Counter/counter/Q_0 to Hour1<0>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDP:C->Q              9   0.447   0.829  Hour1Counter/counter/Q_0 (Hour1Counter/counter/Q_0)
-     OBUF:I->O                 2.571          Hour1_0_OBUF (Hour1<0>)
-    ----------------------------------------
-    Total                      3.847ns (3.018ns logic, 0.829ns route)
-                                       (78.5% logic, 21.5% route)
-
-=========================================================================
 
 Cross Clock Domains Report:
 --------------------------
-
-Clock to Setup on destination clock Clock
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-Clock          |    4.992|         |         |         |
----------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.04 secs
+Total CPU time to Xst completion: 4.92 secs
  
 --> 
 
 Total memory usage is 4487896 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   33 (   0 filtered)
+Number of warnings :   89 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 

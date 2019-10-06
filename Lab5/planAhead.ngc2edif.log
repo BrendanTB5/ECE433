@@ -1,0 +1,19 @@
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design StopwatchForLab5.ngc ...
+WARNING:NetListWriters:298 - No output is written to StopwatchForLab5.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count<10 : 0> on block
+   StopwatchForLab5 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   StopwatchUnit/Digit2Counter/counter/NextQ<3 : 1> on block StopwatchForLab5 is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file StopwatchForLab5.edif ...
+ngc2edif: Total memory usage is 80836 kilobytes
+

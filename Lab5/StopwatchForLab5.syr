@@ -105,35 +105,35 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DelayLoop.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\DelayLoop.v" into library work
 Parsing module <DelayLoop>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\PositiveClockedOneShot.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\PositiveClockedOneShot.v" into library work
 Parsing module <PositiveClockedOneShot>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Debouncer2019fall.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\Debouncer2019fall.v" into library work
 Parsing module <Debouncer2019fall>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\UniversalCounterWithoutLatch.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\UniversalCounterWithoutLatch.v" into library work
 Parsing module <UniversalCounterWithoutLatch>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DebouncedOneShot.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\DebouncedOneShot.v" into library work
 Parsing module <DebouncedOneShot>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\StopwatchController2019fall.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\StopwatchController2019fall.v" into library work
 Parsing module <StopwatchController2019fall>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\SmartCounter.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\SmartCounter.v" into library work
 Parsing module <SmartCounter>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Refreshing7Seg.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\Refreshing7Seg.v" into library work
 Parsing module <Refreshing7Seg>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DriverMux.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\DriverMux.v" into library work
 Parsing module <DriverMux>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\BCDto7Segment.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\BCDto7Segment.v" into library work
 Parsing module <BCDto7Segment>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" into library work
 Parsing module <Stopwatch2019fallUnit>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\SevenSegDriver.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\SevenSegDriver.v" into library work
 Parsing module <SevenSegDriver>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Pulse10millisecond.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\Pulse10millisecond.v" into library work
 Parsing module <Pulse10millisecond>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DisplayMux.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\DisplayMux.v" into library work
 Parsing module <DisplayMux>.
-Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\StopwatchForLab5.v" into library work
+Analyzing Verilog file "E:\ECE433\ECE433\Lab5\StopwatchForLab5.v" into library work
 Parsing module <StopwatchForLab5>.
 
 =========================================================================
@@ -159,7 +159,7 @@ Elaborating module <PositiveClockedOneShot>.
 Elaborating module <SmartCounter(INIT=0,LOW=0,HIGH=9,LENGTH=4)>.
 
 Elaborating module <UniversalCounterWithoutLatch(LENGTH=4,EndCount=9,BeginCount=0,InitialCount=0)>.
-WARNING:HDLCompiler:1127 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" Line 37: Assignment to GND ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" Line 37: Assignment to CarryOut3 ignored, since the identifier is never used
 
 Elaborating module <DisplayMux>.
 
@@ -176,14 +176,14 @@ Elaborating module <Refreshing7Seg>.
 =========================================================================
 
 Synthesizing Unit <StopwatchForLab5>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\StopwatchForLab5.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\StopwatchForLab5.v".
         Null = 4'b0000
     Summary:
 	no macro.
 Unit <StopwatchForLab5> synthesized.
 
 Synthesizing Unit <Pulse10millisecond>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Pulse10millisecond.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\Pulse10millisecond.v".
         PulsePeriod = 1000000
         NumberOfBits = 20
     Found 1-bit register for signal <Pulse20ns>.
@@ -196,15 +196,15 @@ Synthesizing Unit <Pulse10millisecond>.
 Unit <Pulse10millisecond> synthesized.
 
 Synthesizing Unit <Stopwatch2019fallUnit>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v".
         Load = 4'b0000
-INFO:Xst:3210 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" line 37: Output port <Carry> of the instance <Digit3Counter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\ECE433\ECE433\Lab5\Stopwatch2019fallUnit.v" line 37: Output port <Carry> of the instance <Digit3Counter> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Stopwatch2019fallUnit> synthesized.
 
 Synthesizing Unit <StopwatchController2019fall>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\StopwatchController2019fall.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\StopwatchController2019fall.v".
         ClearState = 0
         RunState = 1
         StopState = 2
@@ -228,13 +228,13 @@ Synthesizing Unit <StopwatchController2019fall>.
 Unit <StopwatchController2019fall> synthesized.
 
 Synthesizing Unit <DebouncedOneShot>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DebouncedOneShot.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\DebouncedOneShot.v".
     Summary:
 	no macro.
 Unit <DebouncedOneShot> synthesized.
 
 Synthesizing Unit <Debouncer2019fall>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Debouncer2019fall.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\Debouncer2019fall.v".
         InitialState = 0
         DelayState = 1
         TransitState = 2
@@ -258,8 +258,8 @@ Synthesizing Unit <Debouncer2019fall>.
 Unit <Debouncer2019fall> synthesized.
 
 Synthesizing Unit <DelayLoop>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DelayLoop.v".
-        DelayTime = 20000
+    Related source file is "E:\ECE433\ECE433\Lab5\DelayLoop.v".
+        DelayTime = 3
         NumberOfBits = 27
     Found 27-bit register for signal <count>.
     Found 27-bit adder for signal <count[26]_GND_7_o_add_4_OUT> created at line 24.
@@ -270,7 +270,7 @@ Synthesizing Unit <DelayLoop>.
 Unit <DelayLoop> synthesized.
 
 Synthesizing Unit <PositiveClockedOneShot>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\PositiveClockedOneShot.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\PositiveClockedOneShot.v".
         InitialState = 0
         OneShotState = 1
         UnusedState = 2
@@ -294,7 +294,7 @@ Synthesizing Unit <PositiveClockedOneShot>.
 Unit <PositiveClockedOneShot> synthesized.
 
 Synthesizing Unit <SmartCounter>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\SmartCounter.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\SmartCounter.v".
         INIT = 0
         LOW = 0
         HIGH = 9
@@ -304,7 +304,7 @@ Synthesizing Unit <SmartCounter>.
 Unit <SmartCounter> synthesized.
 
 Synthesizing Unit <UniversalCounterWithoutLatch>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\UniversalCounterWithoutLatch.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\UniversalCounterWithoutLatch.v".
         LENGTH = 4
         EndCount = 9
         BeginCount = 0
@@ -319,26 +319,26 @@ Synthesizing Unit <UniversalCounterWithoutLatch>.
 Unit <UniversalCounterWithoutLatch> synthesized.
 
 Synthesizing Unit <DisplayMux>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DisplayMux.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\DisplayMux.v".
     Summary:
 	inferred   4 Multiplexer(s).
 Unit <DisplayMux> synthesized.
 
 Synthesizing Unit <SevenSegDriver>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\SevenSegDriver.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\SevenSegDriver.v".
     Summary:
 	no macro.
 Unit <SevenSegDriver> synthesized.
 
 Synthesizing Unit <BCDto7Segment>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\BCDto7Segment.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\BCDto7Segment.v".
     Found 16x8-bit Read Only RAM for signal <SEGMENTS>
     Summary:
 	inferred   1 RAM(s).
 Unit <BCDto7Segment> synthesized.
 
 Synthesizing Unit <DriverMux>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\DriverMux.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\DriverMux.v".
     Found 8-bit register for signal <Digit2>.
     Found 8-bit register for signal <Digit1>.
     Found 8-bit register for signal <Digit0>.
@@ -348,7 +348,7 @@ Synthesizing Unit <DriverMux>.
 Unit <DriverMux> synthesized.
 
 Synthesizing Unit <Refreshing7Seg>.
-    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab5\Refreshing7Seg.v".
+    Related source file is "E:\ECE433\ECE433\Lab5\Refreshing7Seg.v".
         Bits = 4
         TotalCount = 10000
         NumberOfBits = 14
@@ -497,6 +497,31 @@ Optimizing unit <StopwatchForLab5> ...
 Optimizing unit <UniversalCounterWithoutLatch> ...
 
 Optimizing unit <DriverMux> ...
+WARNING:Xst:1710 - FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_26> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_25> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_24> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_23> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_22> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_21> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_20> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_19> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_18> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_17> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_16> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_15> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_14> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_13> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_12> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_11> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_10> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_9> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_8> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_7> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_6> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_5> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_4> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_3> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_2> (without init value) has a constant value of 0 in block <StopwatchForLab5>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -508,8 +533,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 118
- Flip-Flops                                            : 118
+# Registers                                            : 93
+ Flip-Flops                                            : 93
 
 =========================================================================
 
@@ -532,22 +557,23 @@ Top Level Output File Name         : StopwatchForLab5.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 357
+# BELS                             : 245
 #      GND                         : 1
-#      INV                         : 4
-#      LUT1                        : 58
-#      LUT2                        : 57
-#      LUT3                        : 13
-#      LUT4                        : 10
-#      LUT5                        : 36
-#      LUT6                        : 58
-#      MUXCY                       : 58
+#      INV                         : 3
+#      LUT1                        : 33
+#      LUT2                        : 29
+#      LUT3                        : 11
+#      LUT4                        : 11
+#      LUT5                        : 34
+#      LUT6                        : 53
+#      MUXCY                       : 33
 #      VCC                         : 1
-#      XORCY                       : 61
-# FlipFlops/Latches                : 118
-#      FD                          : 43
+#      XORCY                       : 36
+# FlipFlops/Latches                : 93
+#      FD                          : 16
 #      FDC                         : 66
 #      FDCE                        : 7
+#      FDR                         : 2
 #      FDRE                        : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
@@ -562,16 +588,16 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             118  out of  18224     0%  
- Number of Slice LUTs:                  236  out of   9112     2%  
-    Number used as Logic:               236  out of   9112     2%  
+ Number of Slice Registers:              93  out of  18224     0%  
+ Number of Slice LUTs:                  174  out of   9112     1%  
+    Number used as Logic:               174  out of   9112     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    236
-   Number with an unused Flip Flop:     118  out of    236    50%  
-   Number with an unused LUT:             0  out of    236     0%  
-   Number of fully used LUT-FF pairs:   118  out of    236    50%  
-   Number of unique control sets:         5
+ Number of LUT Flip Flop pairs used:    174
+   Number with an unused Flip Flop:      81  out of    174    46%  
+   Number with an unused LUT:             0  out of    174     0%  
+   Number of fully used LUT-FF pairs:    93  out of    174    53%  
+   Number of unique control sets:         6
 
 IO Utilization: 
  Number of IOs:                          16
@@ -601,7 +627,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clock                              | BUFGP                  | 118   |
+Clock                              | BUFGP                  | 93    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -612,9 +638,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 3.998ns (Maximum Frequency: 250.150MHz)
+   Minimum period: 3.970ns (Maximum Frequency: 251.864MHz)
    Minimum input arrival time before clock: 3.709ns
-   Maximum output required time after clock: 7.037ns
+   Maximum output required time after clock: 7.008ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -623,27 +649,27 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clock'
-  Clock period: 3.998ns (frequency: 250.150MHz)
-  Total number of paths / destination ports: 2558 / 127
+  Clock period: 3.970ns (frequency: 251.864MHz)
+  Total number of paths / destination ports: 1381 / 104
 -------------------------------------------------------------------------
-Delay:               3.998ns (Levels of Logic = 3)
-  Source:            StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_12 (FF)
-  Destination:       StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_0 (FF)
+Delay:               3.970ns (Levels of Logic = 3)
+  Source:            DisplayUnit/Update/count_11 (FF)
+  Destination:       DisplayUnit/Update/Q_1 (FF)
   Source Clock:      Clock rising
   Destination Clock: Clock rising
 
-  Data Path: StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_12 to StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_0
+  Data Path: DisplayUnit/Update/count_11 to DisplayUnit/Update/Q_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               2   0.447   0.981  StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_12 (StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_12)
-     LUT6:I0->O            3   0.203   0.898  StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1-In14 (StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1-In14)
-     LUT6:I2->O           14   0.203   0.958  StopwatchUnit/Controller/ControlDevice/Debouncer/Timeout_01 (StopwatchUnit/Controller/ControlDevice/Debouncer/Timeout_0)
-     LUT2:I1->O            1   0.205   0.000  StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_0_rstpot (StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_0_rstpot)
-     FD:D                      0.102          StopwatchUnit/Controller/ControlDevice/Debouncer/Timer/count_0
+     FD:C->Q               2   0.447   0.981  DisplayUnit/Update/count_11 (DisplayUnit/Update/count_11)
+     LUT6:I0->O           15   0.203   0.982  DisplayUnit/Update/GND_16_o_GND_16_o_equal_11_o_012 (DisplayUnit/Update/GND_16_o_GND_16_o_equal_11_o_012)
+     LUT3:I2->O            2   0.205   0.845  DisplayUnit/Update/GND_16_o_GND_16_o_equal_11_o_013_rstpot (DisplayUnit/Update/GND_16_o_GND_16_o_equal_11_o_013_rstpot)
+     LUT3:I0->O            1   0.205   0.000  DisplayUnit/Update/Q_1_dpot (DisplayUnit/Update/Q_1_dpot)
+     FDRE:D                    0.102          DisplayUnit/Update/Q_1
     ----------------------------------------
-    Total                      3.998ns (1.160ns logic, 2.838ns route)
-                                       (29.0% logic, 71.0% route)
+    Total                      3.970ns (1.162ns logic, 2.808ns route)
+                                       (29.3% logic, 70.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
@@ -651,16 +677,16 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
 -------------------------------------------------------------------------
 Offset:              3.709ns (Levels of Logic = 2)
   Source:            Reset (PAD)
-  Destination:       DisplayUnit/Update/count_0 (FF)
+  Destination:       StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1 (FF)
   Destination Clock: Clock rising
 
-  Data Path: Reset to DisplayUnit/Update/count_0
+  Data Path: Reset to StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            91   1.222   2.182  Reset_IBUF (Reset_IBUF)
-     LUT6:I0->O            1   0.203   0.000  DisplayUnit/Update/count_0_rstpot (DisplayUnit/Update/count_0_rstpot)
-     FD:D                      0.102          DisplayUnit/Update/count_0
+     LUT6:I0->O            1   0.203   0.000  StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1_rstpot (StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1_rstpot)
+     FD:D                      0.102          StopwatchUnit/Controller/ControlDevice/Debouncer/State_FSM_FFd1
     ----------------------------------------
     Total                      3.709ns (1.527ns logic, 2.182ns route)
                                        (41.2% logic, 58.8% route)
@@ -669,7 +695,7 @@ Offset:              3.709ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
   Total number of paths / destination ports: 152 / 12
 -------------------------------------------------------------------------
-Offset:              7.037ns (Levels of Logic = 4)
+Offset:              7.008ns (Levels of Logic = 4)
   Source:            DisplayUnit/Update/Q_0 (FF)
   Destination:       DisplayCode<7> (PAD)
   Source Clock:      Clock rising
@@ -678,14 +704,14 @@ Offset:              7.037ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             7   0.447   0.878  DisplayUnit/Update/Q_0 (DisplayUnit/Update/Q_0)
+     FDRE:C->Q             6   0.447   0.849  DisplayUnit/Update/Q_0 (DisplayUnit/Update/Q_0)
      LUT2:I0->O           17   0.203   1.372  DisplayUnit/Update/Mram_Transistors31 (DisplayUnit/Update/Mram_Transistors3)
      LUT6:I1->O            1   0.203   0.580  DisplayUnit/DisplayInput/Display<0>1 (DisplayUnit/DisplayInput/Display<0>)
      LUT6:I5->O            1   0.205   0.579  DisplayUnit/DisplayInput/Display<0>2 (DisplayCode_0_OBUF)
      OBUF:I->O                 2.571          DisplayCode_0_OBUF (DisplayCode<0>)
     ----------------------------------------
-    Total                      7.037ns (3.629ns logic, 3.408ns route)
-                                       (51.6% logic, 48.4% route)
+    Total                      7.008ns (3.629ns logic, 3.379ns route)
+                                       (51.8% logic, 48.2% route)
 
 =========================================================================
 
@@ -697,20 +723,20 @@ Clock to Setup on destination clock Clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clock          |    3.998|         |         |         |
+Clock          |    3.970|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.27 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.23 secs
  
 --> 
 
-Total memory usage is 4487300 kilobytes
+Total memory usage is 4487896 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
 Number of infos    :    4 (   0 filtered)
 

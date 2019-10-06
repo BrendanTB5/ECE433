@@ -8,6 +8,12 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/ClockModule2019 C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|ClockModule2019.v/HourDetect - DebouncedOneShot</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/AMPMCounter - SmartCounter</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/Hour1Counter - SmartCounter</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/HourDetect - DebouncedOneShot</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/Min10Counter - SmartCounter</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/Min1Counter - SmartCounter</ClosedNode>
+         <ClosedNode>/ClockModule2019 E:|ECE433|ECE433|Lab5|ClockModule2019.v/MinDetect - DebouncedOneShot</ClosedNode>
          <ClosedNode>/DebouncedOneShot C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|DebouncedOneShot.v</ClosedNode>
          <ClosedNode>/SevenSegDriver C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|SevenSegDriver.v</ClosedNode>
          <ClosedNode>/Stopwatch2019fallUnit C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|Stopwatch2019fallUnit.v/Controller - StopwatchController2019fall</ClosedNode>
@@ -23,15 +29,16 @@
          <ClosedNode>/StopwatchForLab5 C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|StopwatchForLab5.v/StopwatchUnit - Stopwatch2019fallUnit/Digit1Counter - SmartCounter</ClosedNode>
          <ClosedNode>/StopwatchForLab5 C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|StopwatchForLab5.v/StopwatchUnit - Stopwatch2019fallUnit/Digit2Counter - SmartCounter</ClosedNode>
          <ClosedNode>/StopwatchForLab5 C:|Users|mulholbn|Downloads|ECE433|ECE433|Lab5|StopwatchForLab5.v/StopwatchUnit - Stopwatch2019fallUnit/Digit3Counter - SmartCounter</ClosedNode>
+         <ClosedNode>/StopwatchForLab5 E:|ECE433|ECE433|Lab5|StopwatchForLab5.v/StopwatchUnit - Stopwatch2019fallUnit</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ClockModule2019 (C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab5/ClockModule2019.v)</SelectedItem>
+         <SelectedItem>ClockModule2019 (E:/ECE433/ECE433/Lab5/ClockModule2019.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001fa000000020000000000000000000000000200000064ffffffff000000810000000300000002000001fa0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ClockModule2019 (C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab5/ClockModule2019.v)</CurrentItem>
+      <CurrentItem>ClockModule2019 (E:/ECE433/ECE433/Lab5/ClockModule2019.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -43,7 +50,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000167000000010000000100000000000000000000000064ffffffff000000810000000000000001000001670000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000173000000010000000100000000000000000000000064ffffffff000000810000000000000001000001730000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -54,7 +61,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004e3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000004170000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>BCDto7Segment.v</CurrentItem>
    </ItemView>
@@ -79,15 +86,13 @@
          <ClosedNode>Implement Design/Map</ClosedNode>
          <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
          <ClosedNode>Implement Design/Translate</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001dc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001dc0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000173000000010000000100000000000000000000000064ffffffff000000810000000000000001000001730000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -113,12 +118,12 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000167000000010000000100000000000000000000000064ffffffff000000810000000000000001000001670000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

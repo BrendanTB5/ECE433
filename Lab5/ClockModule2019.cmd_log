@@ -26,3 +26,4 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off ClockModule2019_map.ncd ClockModule2019.ncd ClockModule2019.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ClockModule2019.twx ClockModule2019.ncd -o ClockModule2019.twr ClockModule2019.pcf 
 bitgen -intstyle ise -f ClockModule2019.ut ClockModule2019.ncd 
+xst -intstyle ise -ifn "E:/ECE433/ECE433/Lab5/ClockModule2019.xst" -ofn "E:/ECE433/ECE433/Lab5/ClockModule2019.syr" 

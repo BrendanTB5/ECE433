@@ -1,0 +1,48 @@
+//Nexys 3 board
+//Stopwatch2019fallfallNexys3
+//ECE433 Fall 2019
+//100MHz clock
+NET "Clock" LOC = V10;
+//BTND
+NET "Reset" LOC = C9;
+//BTNU
+NET "ControlButton" LOC = A8;
+
+
+NET "ControlButton" IOSTANDARD = LVCMOS33;
+NET "Reset" IOSTANDARD = LVCMOS33;
+NET "Clock" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "DisplayCode[0]" LOC = T17;
+NET "DisplayCode[1]" LOC = T18;
+NET "DisplayCode[2]" LOC = U17;
+NET "DisplayCode[3]" LOC = U18;
+NET "DisplayCode[4]" LOC = M14;
+NET "DisplayCode[5]" LOC = N14;
+NET "DisplayCode[6]" LOC = L14;
+NET "DisplayCode[7]" LOC = M13;
+
+# PlanAhead Generated IO constraints 
+
+NET "DisplayCode[7]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[6]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[4]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[5]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[3]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[2]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[1]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[0]" IOSTANDARD = LVCMOS33;
+NET "Transistor[3]" IOSTANDARD = LVCMOS33;
+NET "Transistor[2]" IOSTANDARD = LVCMOS33;
+NET "Transistor[1]" IOSTANDARD = LVCMOS33;
+NET "Transistor[0]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "Transistor[3]" LOC = P17;
+NET "Transistor[2]" LOC = P18;
+NET "Transistor[1]" LOC = N15;
+NET "Transistor[0]" LOC = N16;
+NET "Select" LOC = T5;
