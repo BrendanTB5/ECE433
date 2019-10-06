@@ -22,6 +22,41 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab5.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ClockModule2019.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ClockModule2019.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ClockModule2019.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ClockModule2019.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ClockModule2019.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ClockModule2019.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ClockModule2019.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ClockModule2019.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ClockModule2019.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockModule2019.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ClockModule2019.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ClockModule2019.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ClockModule2019.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ClockModule2019.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ClockModule2019.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ClockModule2019.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ClockModule2019.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ClockModule2019.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ClockModule2019.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ClockModule2019_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ClockModule2019_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ClockModule2019_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ClockModule2019_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ClockModule2019_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ClockModule2019_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ClockModule2019_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ClockModule2019_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ClockModule2019_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ClockModule2019_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ClockModule2019_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ClockModule2019_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ClockModule2019_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="StopwatchForLab5.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="StopwatchForLab5.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="StopwatchForLab5.ngc"/>
@@ -31,57 +66,146 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="StopwatchForLab5.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="StopwatchForLab5.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="StopwatchForLab5_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="clockmodule2019.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="clockmodule2019.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="clockmodule2019.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1569870889" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1569870889">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5249726740370535869" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7257117830635609683" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8879170091193194124" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4046199992382828514" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4215997229121108415" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1076878002694564373" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871571" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-316772135852614250" xil_pn:start_ts="1569871571">
+    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5176340838114099796" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569871765" xil_pn:in_ck="-8344301961167528114" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3618859608053185573" xil_pn:start_ts="1569871756">
+    <transform xil_pn:end_ts="1570391449" xil_pn:in_ck="-8344301961167528114" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5534781858918124943" xil_pn:start_ts="1570391441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ClockModule2019.lso"/>
+      <outfile xil_pn:name="ClockModule2019.ngc"/>
+      <outfile xil_pn:name="ClockModule2019.ngr"/>
+      <outfile xil_pn:name="ClockModule2019.prj"/>
+      <outfile xil_pn:name="ClockModule2019.stx"/>
+      <outfile xil_pn:name="ClockModule2019.syr"/>
+      <outfile xil_pn:name="ClockModule2019.xst"/>
+      <outfile xil_pn:name="ClockModule2019_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391449" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2415552552065205952" xil_pn:start_ts="1570391449">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391454" xil_pn:in_ck="1759595805522735986" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3742011167312056291" xil_pn:start_ts="1570391449">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="ClockModule2019.bld"/>
+      <outfile xil_pn:name="ClockModule2019.ngd"/>
+      <outfile xil_pn:name="ClockModule2019_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391465" xil_pn:in_ck="-9086254465566470139" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1570391454">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="StopwatchForLab5.lso"/>
-      <outfile xil_pn:name="StopwatchForLab5.ngc"/>
-      <outfile xil_pn:name="StopwatchForLab5.ngr"/>
-      <outfile xil_pn:name="StopwatchForLab5.prj"/>
-      <outfile xil_pn:name="StopwatchForLab5.stx"/>
-      <outfile xil_pn:name="StopwatchForLab5.syr"/>
-      <outfile xil_pn:name="StopwatchForLab5.xst"/>
-      <outfile xil_pn:name="StopwatchForLab5_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ClockModule2019.pcf"/>
+      <outfile xil_pn:name="ClockModule2019_map.map"/>
+      <outfile xil_pn:name="ClockModule2019_map.mrp"/>
+      <outfile xil_pn:name="ClockModule2019_map.ncd"/>
+      <outfile xil_pn:name="ClockModule2019_map.ngm"/>
+      <outfile xil_pn:name="ClockModule2019_map.xrpt"/>
+      <outfile xil_pn:name="ClockModule2019_summary.xml"/>
+      <outfile xil_pn:name="ClockModule2019_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391481" xil_pn:in_ck="-6665119901011551842" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1570391465">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="ClockModule2019.ncd"/>
+      <outfile xil_pn:name="ClockModule2019.pad"/>
+      <outfile xil_pn:name="ClockModule2019.par"/>
+      <outfile xil_pn:name="ClockModule2019.ptwx"/>
+      <outfile xil_pn:name="ClockModule2019.unroutes"/>
+      <outfile xil_pn:name="ClockModule2019.xpi"/>
+      <outfile xil_pn:name="ClockModule2019_pad.csv"/>
+      <outfile xil_pn:name="ClockModule2019_pad.txt"/>
+      <outfile xil_pn:name="ClockModule2019_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391497" xil_pn:in_ck="-9086254465566470271" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1570391481">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="ClockModule2019.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="clockmodule2019.bgn"/>
+      <outfile xil_pn:name="clockmodule2019.bit"/>
+      <outfile xil_pn:name="clockmodule2019.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1570391481" xil_pn:in_ck="-9086254465566470271" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1570391476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="ClockModule2019.twr"/>
+      <outfile xil_pn:name="ClockModule2019.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 

@@ -3,7 +3,7 @@
 //ECE 433 Lab 5
 //9/30/19
 //The Universal Counter with the logic added in
-module SmartCounter #(parameter INIT = 0, parameter LOW = 0, parameter HIGH = 9, parameter LENGTH = 4)(input CLOCK, input Reset, 
+ module SmartCounter #(parameter INIT = 0, parameter LOW = 0, parameter HIGH = 9, parameter LENGTH = 4)(input CLOCK, input Reset, 
 input Clear, input Pulse, input CarryRun, input [LENGTH-1:0] Load, output Carry, output [LENGTH-1:0] Digit);
 
 //module UniversalCounterWithoutLatch # (parameter LENGTH, parameter EndCount, parameter BeginCount, parameter InitialCount)
