@@ -74,10 +74,26 @@ module ClockTB;
 	
 	//Increment through 10 minutes
 	#2 TimeReference = ~TimeReference;
-	for(i=0; i < 64; i= i+1) begin
+	for(i=0; i < 58; i= i+1) begin
 		#5 TimeReference = ~TimeReference;
 		#5 TimeReference = ~TimeReference;
 	end
+	
+	#5 TimeReference = 0;
+	SetClock = 1;
+	
+	
+	for(i=0; i < 25; i= i+1) begin
+		#80 SetHour = 1;
+		#80 SetHour = 0;
+	end
+	
+	
+	for(i=0; i < 25; i= i+1) begin
+		#80 SetMinute = 1;
+		#80 SetMinute = 0;
+	end
+
 	
 	$stop;
 	

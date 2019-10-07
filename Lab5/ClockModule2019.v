@@ -54,15 +54,16 @@ reg AMPMCarryReg;
 	
 	
 	
-	wire LoadClock = (Hour10 == 1) && (Hour1 == 2) && (Minute10 == 5) && (Minute1 == 9) && TimeReference || HourSet && (Hour10 == 1) && (Hour1 == 2);
-	wire IncAMPM = (Hour10 == 1) && (Hour1 == 1) && (Minute10 == 5) && (Minute1 == 9) && TimeReference || HourSet && (Hour10 == 1) && (Hour1 == 1);
+	wire LoadClock = ((Hour10 == 1) && (Hour1 == 2) && (Minute10 == 5) && (Minute1 == 9) && TimeReference) || (HourSet && (Hour10 == 1) && (Hour1 == 2));
+	wire IncAMPM = ((Hour10 == 1) && (Hour1 == 1) && (Minute10 == 5) && (Minute1 == 9) && TimeReference) || (HourSet && (Hour10 == 1) && (Hour1 == 1));
 	
+	assign IncHour1 = IncHour1Out || HourSet;
 	
 //module SmartCounter #(parameter INIT = 0, parameter LOW = 0, parameter HIGH = 9, parameter LENGTH = 4)(input CLOCK, input Reset, 
 //input Clear, input Pulse, input CarryRun, input [Length-1:0] Load, output Carry, output [3:0] Digit);
 
 	SmartCounter #(0, 0, 9, 4) Min1Counter(Clock, Reset, LoadClock, IncMinReference, 1'b1, 4'b0000, IncMin10, Minute1);
-	SmartCounter #(0, 0, 5, 4) Min10Counter(Clock, Reset, LoadClock, IncMinReference, IncMin10, 4'b0000, IncHour1, Minute10);
+	SmartCounter #(0, 0, 5, 4) Min10Counter(Clock, Reset, LoadClock, IncMinReference, IncMin10, 4'b0000, IncHour1Out, Minute10);
 	SmartCounter #(1, 0, 9, 4) Hour1Counter(Clock, Reset, LoadClock, IncHourReference, IncHour1, 4'b0001, IncHour10, Hour1);
 	SmartCounter #(0, 0, 1, 4) Hour10Counter(Clock, Reset, LoadClock, IncHourReference, IncHour10, 4'b0000, RollOver, Hour10);
 

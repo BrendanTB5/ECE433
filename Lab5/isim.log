@@ -20,4 +20,5 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 662 ns :  in File "E:/ECE433/ECE433/Lab5/ClockTB.v" Line 82 
+# run all
+Stopped at time : 4607 ns :  in File "E:/ECE433/ECE433/Lab5/ClockTB.v" Line 91 

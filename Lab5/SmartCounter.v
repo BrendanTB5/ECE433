@@ -10,7 +10,7 @@ input Clear, input Pulse, input CarryRun, input [LENGTH-1:0] Load, output Carry,
 //(input [LENGTH-1:0] P, output reg [LENGTH-1:0] Q, input S1, input S0, input Reset, output TerminalCount,input CLOCK)
 
 
-	wire S0 = CarryRun & Pulse || Clear;
+	wire S0 = (CarryRun && Pulse) || Clear;
 
 	UniversalCounterWithoutLatch #(LENGTH, HIGH, LOW, INIT) counter(Load,Digit, Clear, S0, Reset, Carry, CLOCK);
 

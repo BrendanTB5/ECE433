@@ -34,5 +34,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 17 Verilog Units
 Built simulation executable E:/ECE433/ECE433/Lab5/ClockTB_isim_beh.exe
-Fuse Memory Usage: 30900 KB
-Fuse CPU Usage: 624 ms
+Fuse Memory Usage: 30980 KB
+Fuse CPU Usage: 609 ms

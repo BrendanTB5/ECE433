@@ -53,6 +53,8 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ClockTB_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ClockTB_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockTB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DelayLoop_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SmartCounter_isim_beh.exe"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="StopwatchForLab5.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="StopwatchForLab5.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="StopwatchForLab5.lso"/>
@@ -101,7 +103,6 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="stopwatchforlab5.bgn" xil_pn:subbranch="FPGAConfiguration"/>
@@ -116,44 +117,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1570404939" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1570404939">
+    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1570406842">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570404939" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570404939">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="BCDto7Segment.v"/>
-      <outfile xil_pn:name="ClockModule2019.v"/>
-      <outfile xil_pn:name="ClockTB.v"/>
-      <outfile xil_pn:name="DebouncedOneShot.v"/>
-      <outfile xil_pn:name="Debouncer2019fall.v"/>
-      <outfile xil_pn:name="DelayLoop.v"/>
-      <outfile xil_pn:name="DisplayMux.v"/>
-      <outfile xil_pn:name="DriverMux.v"/>
-      <outfile xil_pn:name="PositiveClockedOneShot.v"/>
-      <outfile xil_pn:name="Pulse10millisecond.v"/>
-      <outfile xil_pn:name="Refreshing7Seg.v"/>
-      <outfile xil_pn:name="SevenSegDriver.v"/>
-      <outfile xil_pn:name="SmartCounter.v"/>
-      <outfile xil_pn:name="Stopwatch2019fallUnit.v"/>
-      <outfile xil_pn:name="StopwatchController2019fall.v"/>
-      <outfile xil_pn:name="StopwatchForLab5.v"/>
-      <outfile xil_pn:name="UniversalCounterWithoutLatch.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404939" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="568145335019750969" xil_pn:start_ts="1570404939">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404939" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8549459464157081591" xil_pn:start_ts="1570404939">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404939" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4046199992382828514" xil_pn:start_ts="1570404939">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404939" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1570404939">
+    <transform xil_pn:end_ts="1570406842" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570406842">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCDto7Segment.v"/>
@@ -174,22 +142,53 @@
       <outfile xil_pn:name="StopwatchForLab5.v"/>
       <outfile xil_pn:name="UniversalCounterWithoutLatch.v"/>
     </transform>
-    <transform xil_pn:end_ts="1570404942" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4203310771235889679" xil_pn:start_ts="1570404939">
+    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="568145335019750969" xil_pn:start_ts="1570406842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8549459464157081591" xil_pn:start_ts="1570406842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4046199992382828514" xil_pn:start_ts="1570406842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1570406842" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1570406842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BCDto7Segment.v"/>
+      <outfile xil_pn:name="ClockModule2019.v"/>
+      <outfile xil_pn:name="ClockTB.v"/>
+      <outfile xil_pn:name="DebouncedOneShot.v"/>
+      <outfile xil_pn:name="Debouncer2019fall.v"/>
+      <outfile xil_pn:name="DelayLoop.v"/>
+      <outfile xil_pn:name="DisplayMux.v"/>
+      <outfile xil_pn:name="DriverMux.v"/>
+      <outfile xil_pn:name="PositiveClockedOneShot.v"/>
+      <outfile xil_pn:name="Pulse10millisecond.v"/>
+      <outfile xil_pn:name="Refreshing7Seg.v"/>
+      <outfile xil_pn:name="SevenSegDriver.v"/>
+      <outfile xil_pn:name="SmartCounter.v"/>
+      <outfile xil_pn:name="Stopwatch2019fallUnit.v"/>
+      <outfile xil_pn:name="StopwatchController2019fall.v"/>
+      <outfile xil_pn:name="StopwatchForLab5.v"/>
+      <outfile xil_pn:name="UniversalCounterWithoutLatch.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1570406846" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4203310771235889679" xil_pn:start_ts="1570406842">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ClockTB_beh.prj"/>
       <outfile xil_pn:name="ClockTB_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1570404942" xil_pn:in_ck="4376172654139884913" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8697115237033409364" xil_pn:start_ts="1570404942">
+    <transform xil_pn:end_ts="1570406846" xil_pn:in_ck="1892549367074921343" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8697115237033409364" xil_pn:start_ts="1570406846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ClockTB_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1570391441">
       <status xil_pn:value="SuccessfullyRun"/>
