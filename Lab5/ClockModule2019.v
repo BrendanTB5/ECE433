@@ -1,23 +1,9 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:11:08 09/30/2019 
-// Design Name: 
-// Module Name:    ClockModule2019 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+// File name	: ClockModule2019.v
+// Written by	: Brendan Mulholland
+// ECE433-01 Fall 2019
+// Date: October 6,2019
+// Purpose:	The main file for the clock module
 module ClockModule2019(input Clock, input Reset, input SetClock, input SetHour, input SetMinute, input TimeReference,
 output [3:0] Hour10, output [3:0] Hour1, output [3:0] Minute10, output [3:0] Minute1, output AMPM);
 

@@ -113,3 +113,13 @@ open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 578.988 ; ga
 update_compile_order -fileset sim_1
 set_property iostandard LVCMOS33 [get_ports [list {DisplayCode[7]} {DisplayCode[6]} {DisplayCode[5]} {DisplayCode[4]} {DisplayCode[3]} {DisplayCode[2]} {DisplayCode[1]} {DisplayCode[0]}]]
 save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See E:/ECE433/ECE433/Lab5\planAhead_pid26880.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Oct 06 22:00:37 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -106,7 +106,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Lab5TopLevel.lso"/>
       <outfile xil_pn:name="Lab5TopLevel.ngc"/>
@@ -127,6 +129,7 @@
     <transform xil_pn:end_ts="1570413474" xil_pn:in_ck="1576565022135119354" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7692250936983626668" xil_pn:start_ts="1570413470">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Lab5TopLevel.bld"/>
       <outfile xil_pn:name="Lab5TopLevel.ngd"/>
       <outfile xil_pn:name="Lab5TopLevel_ngdbuild.xrpt"/>
@@ -136,6 +139,9 @@
     <transform xil_pn:end_ts="1570413485" xil_pn:in_ck="-2248764073078075397" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1570413474">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Lab5TopLevel.pcf"/>
       <outfile xil_pn:name="Lab5TopLevel_map.map"/>
       <outfile xil_pn:name="Lab5TopLevel_map.mrp"/>
@@ -149,6 +155,7 @@
     <transform xil_pn:end_ts="1570413502" xil_pn:in_ck="-4990514031260299628" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1570413485">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Lab5TopLevel.ncd"/>
       <outfile xil_pn:name="Lab5TopLevel.pad"/>
       <outfile xil_pn:name="Lab5TopLevel.par"/>
@@ -163,6 +170,7 @@
     <transform xil_pn:end_ts="1570413517" xil_pn:in_ck="-839674144460072910" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1570413502">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Lab5TopLevel.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="lab5toplevel.bgn"/>
@@ -175,6 +183,7 @@
     <transform xil_pn:end_ts="1570413502" xil_pn:in_ck="4632586504905738103" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1570413497">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Lab5TopLevel.twr"/>
       <outfile xil_pn:name="Lab5TopLevel.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

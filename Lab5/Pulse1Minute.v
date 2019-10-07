@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-// File name	: Pulse10millisecond.v
+// File name	: Pulse1min.v
 // Written by	: Brendan Mulholland
 // ECE433-01 Fall 2019
 // Date: October 6,2019
