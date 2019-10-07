@@ -1,0 +1,55 @@
+
+
+NET "DisplayCode[7]" LOC = M13;
+NET "DisplayCode[6]" LOC = L14;
+NET "DisplayCode[5]" LOC = N14;
+NET "DisplayCode[4]" LOC = M14;
+NET "DisplayCode[3]" LOC = U18;
+NET "DisplayCode[2]" LOC = U17;
+NET "DisplayCode[1]" LOC = T18;
+NET "DisplayCode[0]" LOC = T17;
+NET "TimeSelect[1]" LOC = V9;
+NET "TimeSelect[0]" LOC = T9;
+NET "Transistors[3]" LOC = P17;
+NET "Transistors[2]" LOC = P18;
+NET "Transistors[1]" LOC = N15;
+NET "Transistors[0]" LOC = N16;
+NET "AMPM" LOC = T11;
+NET "Clock" LOC = V10;
+NET "ControlButton" LOC = A8;
+NET "Reset" LOC = C9;
+NET "SecondLED" LOC = U16;
+NET "Select" LOC = T10;
+NET "SetClock" LOC = T5;
+NET "SetHour" LOC = C4;
+
+
+NET "SetMinute" LOC = D9;
+
+
+NET "AMPM" IOSTANDARD = LVCMOS33;
+NET "SetClock" IOSTANDARD = LVCMOS33;
+NET "SetMinute" IOSTANDARD = LVCMOS33;
+NET "SetHour" IOSTANDARD = LVCMOS33;
+NET "Select" IOSTANDARD = LVCMOS33;
+NET "SecondLED" IOSTANDARD = LVCMOS33;
+NET "Reset" IOSTANDARD = LVCMOS33;
+NET "ControlButton" IOSTANDARD = LVCMOS33;
+NET "Clock" IOSTANDARD = LVCMOS33;
+NET "Transistors[3]" IOSTANDARD = LVCMOS33;
+NET "Transistors[2]" IOSTANDARD = LVCMOS33;
+NET "Transistors[1]" IOSTANDARD = LVCMOS33;
+NET "Transistors[0]" IOSTANDARD = LVCMOS33;
+NET "TimeSelect[1]" IOSTANDARD = LVCMOS33;
+NET "TimeSelect[0]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated IO constraints 
+
+NET "DisplayCode[7]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[6]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[5]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[4]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[3]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[2]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[1]" IOSTANDARD = LVCMOS33;
+NET "DisplayCode[0]" IOSTANDARD = LVCMOS33;

@@ -1,7 +1,0 @@
-verilog work "DelayLoop.v"
-verilog work "UniversalCounterWithoutLatch.v"
-verilog work "PositiveClockedOneShot.v"
-verilog work "Debouncer2019fall.v"
-verilog work "SmartCounter.v"
-verilog work "DebouncedOneShot.v"
-verilog work "ClockModule2019.v"

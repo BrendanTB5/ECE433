@@ -68,7 +68,7 @@ reg AMPMCarryReg;
 	SmartCounter #(0, 0, 1, 4) Hour10Counter(Clock, Reset, LoadClock, IncHourReference, IncHour10, 4'b0000, RollOver, Hour10);
 
 	//AM = 0 PM = 1
-	SmartCounter #(0,0,1,1) AMPMCounter(Clock, Reset, IncAMPM, IncAMPM, IncAMPM, 1'b0, AMPMCarry, AMPM);
+	SmartCounter #(0,0,1,1) AMPMCounter(Clock, Reset, Reset, IncAMPM, IncAMPM, 1'b0, AMPMCarry, AMPM);
 	
 
 endmodule

@@ -7,8 +7,8 @@
 
 module DelayLoop(MR,Timeout,Clock) ;
 //set DelayTime to be 3 for simulation and a large number for physical delay time
-//parameter	DelayTime = 20000;	//delay time in number of clock cycles, 20ns
-parameter	DelayTime = 3;	//for simulation
+parameter	DelayTime = 20000;	//delay time in number of clock cycles, 20ns
+//parameter	DelayTime = 3;	//for simulation
 parameter 	NumberOfBits = 27;
 input			MR, Clock;
 output reg	Timeout;

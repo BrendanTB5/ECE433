@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="TimeSelect">
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="DisplayCode">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="Transistors">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="Clock" Dir="IN"/>
+		<Port Id="ControlButton" Dir="IN"/>
+		<Port Id="Reset" Dir="IN"/>
+		<Port Id="Select" Dir="IN"/>
+		<Port Id="SetClock" Dir="IN"/>
+		<Port Id="SetHour" Dir="IN"/>
+		<Port Id="SetMinute" Dir="IN"/>
+		<Port Id="AMPM" Dir="OUT"/>
+		<Port Id="SecondLED" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

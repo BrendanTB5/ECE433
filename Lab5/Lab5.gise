@@ -22,74 +22,43 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab5.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ClockModule2019.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ClockModule2019.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ClockModule2019.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ClockModule2019.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ClockModule2019.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ClockModule2019.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ClockModule2019.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ClockModule2019.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockModule2019.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ClockModule2019.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ClockModule2019.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ClockModule2019.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ClockModule2019.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ClockModule2019.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ClockModule2019.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ClockModule2019.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ClockModule2019_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ClockModule2019_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ClockModule2019_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ClockModule2019_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ClockModule2019_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ClockModule2019_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ClockModule2019_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ClockModule2019_summary.html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ClockModule2019_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockTB_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ClockTB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ClockTB_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockTB_stx_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DelayLoop_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SmartCounter_isim_beh.exe"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="StopwatchForLab5.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="StopwatchForLab5.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="StopwatchForLab5.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="StopwatchForLab5.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="StopwatchForLab5.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="StopwatchForLab5.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="StopwatchForLab5.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="StopwatchForLab5.pad"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="StopwatchForLab5.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="StopwatchForLab5.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="StopwatchForLab5.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="StopwatchForLab5.ptwx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="StopwatchForLab5.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="StopwatchForLab5.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="StopwatchForLab5.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="StopwatchForLab5.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="StopwatchForLab5.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="StopwatchForLab5.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="StopwatchForLab5.xpi"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="StopwatchForLab5.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="StopwatchForLab5_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Lab5TopLevel.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Lab5TopLevel.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Lab5TopLevel.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Lab5TopLevel.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Lab5TopLevel.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Lab5TopLevel.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Lab5TopLevel.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Lab5TopLevel.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Lab5TopLevel.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Lab5TopLevel.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Lab5TopLevel.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Lab5TopLevel.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Lab5TopLevel.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Lab5TopLevel.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Lab5TopLevel.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Lab5TopLevel.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Lab5TopLevel.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Lab5TopLevel.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Lab5TopLevel.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Lab5TopLevel.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Lab5TopLevel_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Lab5TopLevel_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Lab5TopLevel_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Lab5TopLevel_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Lab5TopLevel_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Lab5TopLevel_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab5TopLevel_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab5TopLevel_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Lab5TopLevel_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Lab5TopLevel_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab5TopLevel_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Lab5TopLevel_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Lab5TopLevel_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Lab5TopLevel_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab5TopLevel_xst.xrpt"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="StopwatchForLab5_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="StopwatchForLab5_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="StopwatchForLab5_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="StopwatchForLab5_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="StopwatchForLab5_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="StopwatchForLab5_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="StopwatchForLab5_ngdbuild.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="StopwatchForLab5_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="StopwatchForLab5_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="StopwatchForLab5_par.xrpt"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="StopwatchForLab5_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="StopwatchForLab5_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="StopwatchForLab5_usage.xml"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="StopwatchForLab5_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -97,149 +66,118 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="clockmodule2019.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="clockmodule2019.bit" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="clockmodule2019.drc" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lab5toplevel.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lab5toplevel.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lab5toplevel.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="stopwatchforlab5.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="stopwatchforlab5.bit" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="stopwatchforlab5.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1570406842">
+    <transform xil_pn:end_ts="1570412247" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6322594804757977604" xil_pn:start_ts="1570412247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570406842" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570406842">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="BCDto7Segment.v"/>
-      <outfile xil_pn:name="ClockModule2019.v"/>
-      <outfile xil_pn:name="ClockTB.v"/>
-      <outfile xil_pn:name="DebouncedOneShot.v"/>
-      <outfile xil_pn:name="Debouncer2019fall.v"/>
-      <outfile xil_pn:name="DelayLoop.v"/>
-      <outfile xil_pn:name="DisplayMux.v"/>
-      <outfile xil_pn:name="DriverMux.v"/>
-      <outfile xil_pn:name="PositiveClockedOneShot.v"/>
-      <outfile xil_pn:name="Pulse10millisecond.v"/>
-      <outfile xil_pn:name="Refreshing7Seg.v"/>
-      <outfile xil_pn:name="SevenSegDriver.v"/>
-      <outfile xil_pn:name="SmartCounter.v"/>
-      <outfile xil_pn:name="Stopwatch2019fallUnit.v"/>
-      <outfile xil_pn:name="StopwatchController2019fall.v"/>
-      <outfile xil_pn:name="StopwatchForLab5.v"/>
-      <outfile xil_pn:name="UniversalCounterWithoutLatch.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="568145335019750969" xil_pn:start_ts="1570406842">
+    <transform xil_pn:end_ts="1570412247" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="500002530847518323" xil_pn:start_ts="1570412247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8549459464157081591" xil_pn:start_ts="1570406842">
+    <transform xil_pn:end_ts="1570412247" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1570412247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570406842" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4046199992382828514" xil_pn:start_ts="1570406842">
+    <transform xil_pn:end_ts="1570412247" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1676966646796620538" xil_pn:start_ts="1570412247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570406842" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1570406842">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="BCDto7Segment.v"/>
-      <outfile xil_pn:name="ClockModule2019.v"/>
-      <outfile xil_pn:name="ClockTB.v"/>
-      <outfile xil_pn:name="DebouncedOneShot.v"/>
-      <outfile xil_pn:name="Debouncer2019fall.v"/>
-      <outfile xil_pn:name="DelayLoop.v"/>
-      <outfile xil_pn:name="DisplayMux.v"/>
-      <outfile xil_pn:name="DriverMux.v"/>
-      <outfile xil_pn:name="PositiveClockedOneShot.v"/>
-      <outfile xil_pn:name="Pulse10millisecond.v"/>
-      <outfile xil_pn:name="Refreshing7Seg.v"/>
-      <outfile xil_pn:name="SevenSegDriver.v"/>
-      <outfile xil_pn:name="SmartCounter.v"/>
-      <outfile xil_pn:name="Stopwatch2019fallUnit.v"/>
-      <outfile xil_pn:name="StopwatchController2019fall.v"/>
-      <outfile xil_pn:name="StopwatchForLab5.v"/>
-      <outfile xil_pn:name="UniversalCounterWithoutLatch.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1570406846" xil_pn:in_ck="-30362678563814508" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4203310771235889679" xil_pn:start_ts="1570406842">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ClockTB_beh.prj"/>
-      <outfile xil_pn:name="ClockTB_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
-    </transform>
-    <transform xil_pn:end_ts="1570406846" xil_pn:in_ck="1892549367074921343" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8697115237033409364" xil_pn:start_ts="1570406846">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ClockTB_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
-    </transform>
-    <transform xil_pn:end_ts="1570391441" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1570391441">
+    <transform xil_pn:end_ts="1570412608" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1570412608">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7257117830635609683" xil_pn:start_ts="1570404251">
+    <transform xil_pn:end_ts="1570412608" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7273356240279044221" xil_pn:start_ts="1570412608">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4046199992382828514" xil_pn:start_ts="1570404251">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1570404251">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1076878002694564373" xil_pn:start_ts="1570404251">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1570404251">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404251" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5176340838114099796" xil_pn:start_ts="1570404251">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570404258" xil_pn:in_ck="-8344301961167528114" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5534781858918124943" xil_pn:start_ts="1570404251">
+    <transform xil_pn:end_ts="1570413470" xil_pn:in_ck="-3491661472457599253" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2636290964109900062" xil_pn:start_ts="1570413461">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="ClockModule2019.lso"/>
-      <outfile xil_pn:name="ClockModule2019.ngc"/>
-      <outfile xil_pn:name="ClockModule2019.ngr"/>
-      <outfile xil_pn:name="ClockModule2019.prj"/>
-      <outfile xil_pn:name="ClockModule2019.stx"/>
-      <outfile xil_pn:name="ClockModule2019.syr"/>
-      <outfile xil_pn:name="ClockModule2019.xst"/>
-      <outfile xil_pn:name="ClockModule2019_xst.xrpt"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Lab5TopLevel.lso"/>
+      <outfile xil_pn:name="Lab5TopLevel.ngc"/>
+      <outfile xil_pn:name="Lab5TopLevel.ngr"/>
+      <outfile xil_pn:name="Lab5TopLevel.prj"/>
+      <outfile xil_pn:name="Lab5TopLevel.stx"/>
+      <outfile xil_pn:name="Lab5TopLevel.syr"/>
+      <outfile xil_pn:name="Lab5TopLevel.xst"/>
+      <outfile xil_pn:name="Lab5TopLevel_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1570403017" xil_pn:in_ck="-9086254465566462646" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6363130625439426026" xil_pn:start_ts="1570403017">
+    <transform xil_pn:end_ts="1570412614" xil_pn:in_ck="7685406196654716741" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-9115876935047198543" xil_pn:start_ts="1570412614">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1570413474" xil_pn:in_ck="1576565022135119354" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7692250936983626668" xil_pn:start_ts="1570413470">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab5TopLevel.bld"/>
+      <outfile xil_pn:name="Lab5TopLevel.ngd"/>
+      <outfile xil_pn:name="Lab5TopLevel_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570413485" xil_pn:in_ck="-2248764073078075397" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1570413474">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab5TopLevel.pcf"/>
+      <outfile xil_pn:name="Lab5TopLevel_map.map"/>
+      <outfile xil_pn:name="Lab5TopLevel_map.mrp"/>
+      <outfile xil_pn:name="Lab5TopLevel_map.ncd"/>
+      <outfile xil_pn:name="Lab5TopLevel_map.ngm"/>
+      <outfile xil_pn:name="Lab5TopLevel_map.xrpt"/>
+      <outfile xil_pn:name="Lab5TopLevel_summary.xml"/>
+      <outfile xil_pn:name="Lab5TopLevel_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570413502" xil_pn:in_ck="-4990514031260299628" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1570413485">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab5TopLevel.ncd"/>
+      <outfile xil_pn:name="Lab5TopLevel.pad"/>
+      <outfile xil_pn:name="Lab5TopLevel.par"/>
+      <outfile xil_pn:name="Lab5TopLevel.ptwx"/>
+      <outfile xil_pn:name="Lab5TopLevel.unroutes"/>
+      <outfile xil_pn:name="Lab5TopLevel.xpi"/>
+      <outfile xil_pn:name="Lab5TopLevel_pad.csv"/>
+      <outfile xil_pn:name="Lab5TopLevel_pad.txt"/>
+      <outfile xil_pn:name="Lab5TopLevel_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1570413517" xil_pn:in_ck="-839674144460072910" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1570413502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab5TopLevel.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="lab5toplevel.bgn"/>
+      <outfile xil_pn:name="lab5toplevel.bit"/>
+      <outfile xil_pn:name="lab5toplevel.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1570413502" xil_pn:in_ck="4632586504905738103" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1570413497">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab5TopLevel.twr"/>
+      <outfile xil_pn:name="Lab5TopLevel.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 
