@@ -1,18 +1,18 @@
 `timescale 1ns / 100ps
 //Jianjian Song
-//Date: 4 April 2011
+//Date: Oct. 13 2019
 //ECE433 Fall 2019
-//BCD to 7 segment display
-//Common-Cathode decoding
-module BCDto7Segment (BCDnumber,SEGMENTS);
+//Hex to 7 Segment Decoding
+//Common-Cathode decoding for all hex values
+module HEXto7Segment (HEXnumber,SEGMENTS);
 //SevenSegments are ordered from G,F,E,D,C,B,A
 //Segment A = SevenSegments[0].
 //Active lower Enable
-input	[3:0] BCDnumber; 
+input	[3:0] HEXnumber; 
 output reg[7:0] SEGMENTS;
 
-	always @ (BCDnumber)
-			case (BCDnumber)
+	always @ (HEXnumber)
+			case (HEXnumber)
 				0:	SEGMENTS <= 8'B11000000;
 				1:	SEGMENTS <= 8'B11111001;
 				2:	SEGMENTS <= 8'B10100100;
@@ -33,3 +33,4 @@ output reg[7:0] SEGMENTS;
 			endcase
 			
 endmodule
+

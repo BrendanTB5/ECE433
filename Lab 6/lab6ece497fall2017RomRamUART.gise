@@ -85,6 +85,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Lab6ece433fall2019template.lso"/>
       <outfile xil_pn:name="Lab6ece433fall2019template.ngc"/>

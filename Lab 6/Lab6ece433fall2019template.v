@@ -71,9 +71,9 @@ ClockedOneShot NextOneShot(DebouncedNext, OneShotNext, reset, clk75MHz);
 //module RAMAddressUpdate(NextAddress, RAMaddress, reset, clock);
 RAMAddressUpdate UpdateAddress(OneShotNext, RAMaddressUpdate, reset, clk75MHz);
 
-//module RAM40x7bits(address, din, dout, writeOrread, reset, clock);
+//module RAM60x7bits(address, din, dout, writeOrread, reset, clock);
 
-RAM50x7bits RAMUnit(RAMaddress, DataIn, RAMDataout, WriteOrRead, reset, clk75MHz);
+RAM60x7bits RAMUnit(RAMaddress, DataIn, RAMDataout, WriteOrRead, reset, clk75MHz);
 
 //ROM
 /*
@@ -84,6 +84,7 @@ ROM50x7bits your_instance_name (
 );
 */
 
+//This is actually the ROM that is big enough to fit all my characters
 ROM50x7bits ROMunit (.clka(clk75MHz),
   .addra(SendAddress), // input [5 : 0] addra
   .douta(ROM_data) // output [6 : 0] douta
