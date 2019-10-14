@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/ECE433/ECE433/Lab5/ClockTB_isim_beh.exe" -prj "E:/ECE433/ECE433/Lab5/ClockTB_beh.prj" "work.ClockTB" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab5/ClockTB_isim_beh.exe" -prj "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab5/ClockTB_beh.prj" "work.ClockTB" "work.glbl" 

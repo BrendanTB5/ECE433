@@ -1,26 +1,9 @@
 `timescale 1ns / 1ps
-
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   18:43:11 10/06/2019
-// Design Name:   ClockModule2019
-// Module Name:   E:/ECE433/ECE433/Lab5/ClockTB.v
-// Project Name:  Lab5
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: ClockModule2019
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
+// File name	: ClockTB.v
+// Written by	: Brendan Mulholland
+// ECE433-01 Fall 2019
+// Date: October 6,2019
+// Purpose:	The Test Bench for the Clock Module
 
 module ClockTB;
 

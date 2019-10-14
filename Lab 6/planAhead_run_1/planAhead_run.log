@@ -1,0 +1,142 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/pa.fromHdl.tcl
+# create_project -name lab6ece497fall2017RomRamUART -dir "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/planAhead_run_1" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Lab6ece433fall2019template.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/Clock75MHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files [list {ipcore_dir/ROM50x7bits.ngc}]
+# set hdlfile [add_files [list {Refreshing7Seg.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {kcuart_tx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DisplayMux.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bbfifo_16x8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_tx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SevenSegDriver.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PositiveClockedOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DelayLoop.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BCDto7Segment.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BaudRateGenerator.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {UARTmodule433template.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SendChars.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RAMAddressUpdate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RAM50x7bits.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/ROM50x7bits.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DisplayUnit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DebouncerWithoutLatch.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Lab6ece433fall2019template.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Lab6ece433fall2019template $srcset
+# add_files [list {Lab6ece433fall2019template.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ROM50x7bits.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Refreshing7Seg.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/kcuart_tx.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/DisplayMux.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/bbfifo_16x8.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/uart_tx.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/SevenSegDriver.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/PositiveClockedOneShot.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/DelayLoop.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/ClockedOneShot.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/BCDto7Segment.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/BaudRateGenerator.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/UARTmodule433template.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/SendChars.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/RAMAddressUpdate.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/RAM50x7bits.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/ipcore_dir/ROM50x7bits.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/ipcore_dir/Clock75MHz.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/DisplayUnit.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/DebouncerWithoutLatch.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'RAMAddressUpdate' instantiated as 'UpdateAddress' [C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.v:70]
+Resolution: File names need to match cell names: an EDIF definition will be found in RAMAddressUpdate.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ROM50x7bits.ngc ...
+WARNING:NetListWriters:298 - No output is written to ROM50x7bits.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ROM50x7bits.edif ...
+ngc2edif: Total memory usage is 4310792 kilobytes
+
+Reading core file 'C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/ipcore_dir/ROM50x7bits.ngc' for (cell view 'ROM50x7bits', library 'work', file 'ROM50x7bits.v')
+Parsing EDIF File [./.Xil/PlanAhead-9440-song-5510/ngc2edif/ROM50x7bits.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-9440-song-5510/ngc2edif/ROM50x7bits.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.ucf]
+Finished Parsing UCF File [C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDRS => FDRS (LUT2, FDRE, VCC): 1 instances
+
+Phase 0 | Netlist Checksum: dc49919b
+open_rtl_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 632.867 ; gain = 185.867
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 03 12:01:24 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead
