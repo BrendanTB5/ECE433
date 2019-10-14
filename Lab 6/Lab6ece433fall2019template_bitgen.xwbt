@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Lab6ece433fall2019template.ncd
+OUTFILE=C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Lab6ece433fall2019template.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6
+LICENSE=ISE
+USER_INFO=174114502_1777496879_210571720_868

@@ -49,20 +49,30 @@ Clock75MHz SystemClock(clock,clk75MHz,Locked);
 
 always@(Mode,RAMaddressUpdate,WriteOrRead,SendAddress)
 	case(Mode)
-	1'b1: begin RAMaddress<=RAMaddressUpdate; //write to RAM
+	1'b0: begin RAMaddress<=RAMaddressUpdate; //write to RAM
 			end
-	1'b0: begin RAMaddress<=SendAddress; //read RAM
+	1'b1: begin RAMaddress<=SendAddress; //read RAM
 			end
 	endcase
+	
+
 
 // Signals for UART connections
 wire  	write_to_uart;
 wire  	tx_full;
 
 wire DebouncedNext, OneShotNext;
-wire [7:0] tx_data;
+reg [7:0] tx_data;
 wire [6:0] ROM_data;
 wire [6:0] RAMDataout;
+
+always@(*)
+	if(ROMorRAM == 0)
+		tx_data <= {1'b0,ROM_data};
+	else
+		tx_data <= {1'b0,RAMDataout};
+
+
 //module DebouncerWithoutLatch(InputPulse, DebouncedOuput, Reset, CLOCK);
 DebouncerWithoutLatch NextDebounceUnit(NextAddress, DebouncedNext, reset, clk75MHz) ;
 //module ClockedOneShot(InputPulse, OneShot, Reset, CLOCK);
@@ -85,7 +95,7 @@ ROM50x7bits your_instance_name (
 */
 
 //This is actually the ROM that is big enough to fit all my characters
-ROM50x7bits ROMunit (.clka(clk75MHz),
+ROM60x7bits ROMunit (.clka(clk75MHz),
   .addra(SendAddress), // input [5 : 0] addra
   .douta(ROM_data) // output [6 : 0] douta
 );
@@ -101,6 +111,6 @@ wire [7:0] transmitted_bits;
 UARTmodule433template UART(tx, tx_full, write_to_uart, tx_data, en_16_x_baud, clk75MHz, reset);
 
 //module DisplayUnit(D0,D1,D2,D3, Reset, Clock, Display, Transistors);	 
-DisplayUnit SevenSegUnit({1'b0,RAMDataout[6:4]},RAMDataout[3:0],{2'd0,RAMaddressUpdate[5:4]},RAMaddressUpdate[3:0], reset, clk75MHz, Display, Transistors);	 
+DisplayUnit SevenSegUnit({1'b0,RAMDataout[6:4]},RAMDataout[3:0],4'b0,4'b0, reset, clk75MHz, Display, Transistors);	 
 
 endmodule

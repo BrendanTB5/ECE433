@@ -5,7 +5,7 @@
 
 module RAM60x7bits(address, din, dout, writeOrread, reset, clock);
 parameter DataWidth=7;
-parameter MemorySize=43;
+parameter MemorySize=60;
 input [5:0] address;
 input [DataWidth-1:0] din;
 input reset, clock, writeOrread;

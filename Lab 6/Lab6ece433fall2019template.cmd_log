@@ -4,3 +4,40 @@ xst -intstyle ise -ifn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6
 xst -intstyle ise -ifn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.xst" -ofn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.syr" 
 xst -intstyle ise -ifn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.xst" -ofn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.syr" 
 xst -intstyle ise -ifn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.xst" -ofn "C:/Users/song/jjsong/ece433fall2019/labs433fall2019/lab6ece433fall2019ROMandRAMwithUART/Lab6ece433fall2019template/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab6ece433fall2019template.ucf -p xc6slx16-csg324-3 "Lab6ece433fall2019template.ngc" Lab6ece433fall2019template.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ngd Lab6ece433fall2019template.pcf 
+par -w -intstyle ise -ol high -mt off Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ncd Lab6ece433fall2019template.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6ece433fall2019template.twx Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf 
+bitgen -intstyle ise -f Lab6ece433fall2019template.ut Lab6ece433fall2019template.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab6ece433fall2019template.ucf -p xc6slx16-csg324-3 "Lab6ece433fall2019template.ngc" Lab6ece433fall2019template.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ngd Lab6ece433fall2019template.pcf 
+par -w -intstyle ise -ol high -mt off Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ncd Lab6ece433fall2019template.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6ece433fall2019template.twx Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf 
+bitgen -intstyle ise -f Lab6ece433fall2019template.ut Lab6ece433fall2019template.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab6ece433fall2019template.ucf -p xc6slx16-csg324-3 "Lab6ece433fall2019template.ngc" Lab6ece433fall2019template.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ngd Lab6ece433fall2019template.pcf 
+par -w -intstyle ise -ol high -mt off Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ncd Lab6ece433fall2019template.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6ece433fall2019template.twx Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf 
+bitgen -intstyle ise -f Lab6ece433fall2019template.ut Lab6ece433fall2019template.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab6ece433fall2019template.ucf -p xc6slx16-csg324-3 "Lab6ece433fall2019template.ngc" Lab6ece433fall2019template.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ngd Lab6ece433fall2019template.pcf 
+par -w -intstyle ise -ol high -mt off Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ncd Lab6ece433fall2019template.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6ece433fall2019template.twx Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf 
+bitgen -intstyle ise -f Lab6ece433fall2019template.ut Lab6ece433fall2019template.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/Lab6ece433fall2019template.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab6ece433fall2019template.ucf -p xc6slx16-csg324-3 "Lab6ece433fall2019template.ngc" Lab6ece433fall2019template.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ngd Lab6ece433fall2019template.pcf 
+par -w -intstyle ise -ol high -mt off Lab6ece433fall2019template_map.ncd Lab6ece433fall2019template.ncd Lab6ece433fall2019template.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab6ece433fall2019template.twx Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf 
+bitgen -intstyle ise -f Lab6ece433fall2019template.ut Lab6ece433fall2019template.ncd 

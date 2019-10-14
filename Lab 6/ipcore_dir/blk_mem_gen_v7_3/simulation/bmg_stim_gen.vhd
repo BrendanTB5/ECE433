@@ -177,14 +177,14 @@ SIGNAL CHECK_DATA : STD_LOGIC := '0';
 SIGNAL CHECK_DATA_R : STD_LOGIC := '0';
 SIGNAL CHECK_DATA_2R : STD_LOGIC := '0';
 SIGNAL DO_READ_REG: STD_LOGIC_VECTOR(4 DOWNTO 0) :=(OTHERS => '0');
-CONSTANT DEFAULT_DATA  : STD_LOGIC_VECTOR(6 DOWNTO 0):= hex_to_std_logic_vector("0",7);
+CONSTANT DEFAULT_DATA  : STD_LOGIC_VECTOR(6 DOWNTO 0):= hex_to_std_logic_vector("00",7);
 
 BEGIN
 
 
 SYNTH_COE:  IF(C_ROM_SYNTH =0 ) GENERATE
 
-type mem_type is array (49 downto 0) of std_logic_vector(6 downto 0);
+type mem_type is array (59 downto 0) of std_logic_vector(6 downto 0);
 
   FUNCTION bit_to_sl(input: BIT) RETURN STD_LOGIC IS
     VARIABLE temp_return : STD_LOGIC;
@@ -290,7 +290,7 @@ constant c_init : mem_type := init_memory(1,
 										  "blk_mem_gen_v7_3.mif",
                                            DEFAULT_DATA,
                                           7,
-                                          50);
+                                          60);
 
 
 constant rom : mem_type := c_init;
@@ -299,7 +299,7 @@ BEGIN
  EXPECTED_DATA <= rom(conv_integer(unsigned(check_read_addr)));
 
   CHECKER_RD_ADDR_GEN_INST:ENTITY work.ADDR_GEN
-    GENERIC MAP( C_MAX_DEPTH =>50 )
+    GENERIC MAP( C_MAX_DEPTH =>60 )
 
      PORT MAP(
         CLK => CLK,
@@ -353,7 +353,7 @@ END GENERATE;
 
 
   RD_ADDR_GEN_INST:ENTITY work.ADDR_GEN
-    GENERIC MAP( C_MAX_DEPTH => 50 )
+    GENERIC MAP( C_MAX_DEPTH => 60 )
 
      PORT MAP(
         CLK => CLK,

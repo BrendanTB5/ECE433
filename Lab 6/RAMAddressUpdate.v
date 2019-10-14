@@ -11,6 +11,19 @@ parameter RAMaddressBits=6;
 input NextAddress, reset, clock;
 output [RAMaddressBits-1:0] RAMaddress; 
 
-reg [RAMaddressBits-1:0] RAMaddress; 
+reg [RAMaddressBits-1:0] RAMaddress;
+reg overflow;
+
+always @(posedge clock) begin
+	if(reset == 1)
+		{overflow,RAMaddress} <= 0;
+	else begin
+		if(NextAddress == 0)
+			{overflow,RAMaddress} <= RAMaddress;
+		else
+			{overflow,RAMaddress} <= RAMaddress + 1'b1;
+	end
+end
+	
 
 endmodule

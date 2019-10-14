@@ -10,7 +10,7 @@ input write_to_uart;
 input  clock, reset;
 input [7:0] tx_data;
 
-parameter TRANSMITTED_BITS=8, BAUDRATE=20'd19200, FREQUENCY=30'd75000000;
+parameter TRANSMITTED_BITS=8, BAUDRATE=20'd115200, FREQUENCY=30'd80000000;
 wire  en_16_x_baud;
 
 	BaudRateGenerator BaudRateUnit(en_16_x_baud, reset, clock, BAUDRATE, FREQUENCY);

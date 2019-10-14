@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: Lab6ece433fall2019template.prj
 
@@ -108,45 +108,45 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ipcore_dir\Clock75MHz.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ipcore_dir\Clock75MHz.v" into library work
 Parsing module <Clock75MHz>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Refreshing7Seg.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Refreshing7Seg.v" into library work
 Parsing module <Refreshing7Seg>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\kcuart_tx.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\kcuart_tx.v" into library work
 Parsing module <kcuart_tx>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DisplayMux.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DisplayMux.v" into library work
 Parsing module <DisplayMux>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\bbfifo_16x8.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\bbfifo_16x8.v" into library work
 Parsing module <bbfifo_16x8>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\uart_tx.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\uart_tx.v" into library work
 Parsing module <uart_tx>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\SevenSegDriver.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\SevenSegDriver.v" into library work
 Parsing module <SevenSegDriver>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\PositiveClockedOneShot.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\PositiveClockedOneShot.v" into library work
 Parsing module <PositiveClockedOneShot>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DelayLoop.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\HEXto7segment.v" into library work
+Parsing module <HEXto7Segment>.
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DelayLoop.v" into library work
 Parsing module <DelayLoop>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ClockedOneShot.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ClockedOneShot.v" into library work
 Parsing module <ClockedOneShot>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\BCDto7Segment.v" into library work
-Parsing module <BCDto7Segment>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\BaudRateGenerator.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\BaudRateGenerator.v" into library work
 Parsing module <BaudRateGenerator>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\UARTmodule433template.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\UARTmodule433template.v" into library work
 Parsing module <UARTmodule433template>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\SendChars.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\SendChars.v" into library work
 Parsing module <SendChars>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\RAMAddressUpdate.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\RAMAddressUpdate.v" into library work
 Parsing module <RAMAddressUpdate>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\RAM50x7bits.v" into library work
-Parsing module <RAM50x7bits>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ipcore_dir\ROM50x7bits.v" into library work
-Parsing module <ROM50x7bits>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DisplayUnit.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\RAM50x7bits.v" into library work
+Parsing module <RAM60x7bits>.
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ipcore_dir\ROM60x7bits.v" into library work
+Parsing module <ROM60x7bits>.
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DisplayUnit.v" into library work
 Parsing module <DisplayUnit>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DebouncerWithoutLatch.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DebouncerWithoutLatch.v" into library work
 Parsing module <DebouncerWithoutLatch>.
-Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Lab6ece433fall2019template.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Lab6ece433fall2019template.v" into library work
 Parsing module <Lab6ece433fall2019template>.
 
 =========================================================================
@@ -159,8 +159,8 @@ Elaborating module <Clock75MHz>.
 
 Elaborating module <IBUFG>.
 
-Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=4,CLKFX_MULTIPLY=3,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
-WARNING:HDLCompiler:1127 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ipcore_dir\Clock75MHz.v" Line 129: Assignment to status_int ignored, since the identifier is never used
+Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=5,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
+WARNING:HDLCompiler:1127 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ipcore_dir\Clock75MHz.v" Line 129: Assignment to status_int ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
 
@@ -171,13 +171,12 @@ Elaborating module <DelayLoop>.
 Elaborating module <ClockedOneShot>.
 
 Elaborating module <RAMAddressUpdate>.
-WARNING:HDLCompiler:1499 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\RAMAddressUpdate.v" Line 9: Empty module <RAMAddressUpdate> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\RAMAddressUpdate.v" Line 17: Assignment to overflow ignored, since the identifier is never used
 
-Elaborating module <RAM50x7bits>.
+Elaborating module <RAM60x7bits>.
 
-Elaborating module <ROM50x7bits>.
-WARNING:HDLCompiler:1499 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ipcore_dir\ROM50x7bits.v" Line 39: Empty module <ROM50x7bits> remains a black box.
-WARNING:HDLCompiler:1127 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Lab6ece433fall2019template.v" Line 87: Assignment to ROM_data ignored, since the identifier is never used
+Elaborating module <ROM60x7bits>.
+WARNING:HDLCompiler:1499 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ipcore_dir\ROM60x7bits.v" Line 39: Empty module <ROM60x7bits> remains a black box.
 
 Elaborating module <SendChars>.
 
@@ -241,36 +240,33 @@ Elaborating module <LUT3(INIT=8'b11000100)>.
 
 Elaborating module <DisplayUnit>.
 
-Elaborating module <BCDto7Segment>.
+Elaborating module <HEXto7Segment>.
 
 Elaborating module <SevenSegDriver>.
 
 Elaborating module <DisplayMux>.
 
 Elaborating module <Refreshing7Seg>.
-WARNING:HDLCompiler:634 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Lab6ece433fall2019template.v" Line 61: Net <tx_data[7]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Lab6ece433fall2019template>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Lab6ece433fall2019template.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Lab6ece433fall2019template.v".
         RAMAddressSize = 6
-INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Lab6ece433fall2019template.v" line 85: Output port <douta> of the instance <ROMunit> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <tx_data> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
-	inferred   1 Multiplexer(s).
+	inferred   2 Multiplexer(s).
 Unit <Lab6ece433fall2019template> synthesized.
 
 Synthesizing Unit <Clock75MHz>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ipcore_dir\Clock75MHz.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ipcore_dir\Clock75MHz.v".
     Summary:
 	no macro.
 Unit <Clock75MHz> synthesized.
 
 Synthesizing Unit <DebouncerWithoutLatch>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DebouncerWithoutLatch.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DebouncerWithoutLatch.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -297,7 +293,7 @@ Synthesizing Unit <DebouncerWithoutLatch>.
 Unit <DebouncerWithoutLatch> synthesized.
 
 Synthesizing Unit <DelayLoop>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DelayLoop.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DelayLoop.v".
         Divider = 250000
         NumberOfBits = 18
     Found 18-bit register for signal <count>.
@@ -311,7 +307,7 @@ Synthesizing Unit <DelayLoop>.
 Unit <DelayLoop> synthesized.
 
 Synthesizing Unit <ClockedOneShot>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\ClockedOneShot.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\ClockedOneShot.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -334,35 +330,46 @@ Synthesizing Unit <ClockedOneShot>.
 	inferred   1 Finite State Machine(s).
 Unit <ClockedOneShot> synthesized.
 
-Synthesizing Unit <RAM50x7bits>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\RAM50x7bits.v".
+Synthesizing Unit <RAMAddressUpdate>.
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\RAMAddressUpdate.v".
+        RAMaddressBits = 6
+    Found 6-bit register for signal <RAMaddress>.
+    Found 6-bit adder for signal <RAMaddress[5]_GND_9_o_add_3_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <RAMAddressUpdate> synthesized.
+
+Synthesizing Unit <RAM60x7bits>.
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\RAM50x7bits.v".
         DataWidth = 7
-        MemorySize = 43
+        MemorySize = 60
         LineFeed = 8'b00001010
         CarriageReturn = 8'b00001101
         NUL = 8'b00000000
-    Found 301-bit register for signal <n0096>.
-    Found 7-bit 43-to-1 multiplexer for signal <dout> created at line 32.
+    Found 420-bit register for signal <n0130>.
+    Found 7-bit 60-to-1 multiplexer for signal <dout> created at line 40.
     Summary:
-	inferred 301 D-type flip-flop(s).
-	inferred  87 Multiplexer(s).
-Unit <RAM50x7bits> synthesized.
-WARNING:Xst:2972 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\SendChars.v" line 26. All outputs of instance <baudOneShotUnit> of block <PositiveClockedOneShot> are unconnected in block <SendChars>. Underlying logic will be removed.
+	inferred 420 D-type flip-flop(s).
+	inferred 121 Multiplexer(s).
+Unit <RAM60x7bits> synthesized.
 
 Synthesizing Unit <SendChars>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\SendChars.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\SendChars.v".
         RAMaddressBits = 6
         NUL = 8'b00000000
         Startingaddress = 6'b000000
+    Found 1-bit register for signal <write_to_uart>.
+    Found 6-bit register for signal <RAMaddress>.
     Found 1-bit register for signal <Transmitting>.
-    WARNING:Xst:2404 -  FFs/Latches <write_to_uart<0:0>> (without init value) have a constant value of 0 in block <SendChars>.
-    WARNING:Xst:2404 -  FFs/Latches <RAMaddress<5:0>> (without init value) have a constant value of 0 in block <SendChars>.
+    Found 6-bit adder for signal <RAMaddress[5]_GND_12_o_add_9_OUT> created at line 45.
     Summary:
-	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
 Unit <SendChars> synthesized.
 
 Synthesizing Unit <PositiveClockedOneShot>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\PositiveClockedOneShot.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\PositiveClockedOneShot.v".
         InitialState = 0
         OneShotState = 1
         UnusedState = 2
@@ -386,17 +393,17 @@ Synthesizing Unit <PositiveClockedOneShot>.
 Unit <PositiveClockedOneShot> synthesized.
 
 Synthesizing Unit <UARTmodule433template>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\UARTmodule433template.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\UARTmodule433template.v".
         TRANSMITTED_BITS = 8
-        BAUDRATE = 20'b00000100101100000000
-        FREQUENCY = 30'b000100011110000110100011000000
-INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\UARTmodule433template.v" line 27: Output port <buffer_half_full> of the instance <TransmitUnit> is unconnected or connected to loadless signal.
+        BAUDRATE = 20'b00011100001000000000
+        FREQUENCY = 30'b000100110001001011010000000000
+INFO:Xst:3210 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\UARTmodule433template.v" line 27: Output port <buffer_half_full> of the instance <TransmitUnit> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <UARTmodule433template> synthesized.
 
 Synthesizing Unit <BaudRateGenerator>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\BaudRateGenerator.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\BaudRateGenerator.v".
     Found 1-bit register for signal <uartClock>.
     Found 16-bit register for signal <baud_count>.
     Found 16-bit adder for signal <baud_count[15]_GND_16_o_add_4_OUT> created at line 29.
@@ -405,7 +412,6 @@ Synthesizing Unit <BaudRateGenerator>.
 	inferred   1 Adder/Subtractor(s).
 	inferred  17 D-type flip-flop(s).
 	inferred   1 Comparator(s).
-	inferred   1 Multiplexer(s).
 Unit <BaudRateGenerator> synthesized.
 
 Synthesizing Unit <div_30u_24u>.
@@ -507,44 +513,44 @@ Synthesizing Unit <div_30u_24u>.
 Unit <div_30u_24u> synthesized.
 
 Synthesizing Unit <uart_tx>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\uart_tx.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\uart_tx.v".
     Summary:
 	no macro.
 Unit <uart_tx> synthesized.
 
 Synthesizing Unit <kcuart_tx>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\kcuart_tx.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\kcuart_tx.v".
     Summary:
 	no macro.
 Unit <kcuart_tx> synthesized.
 
 Synthesizing Unit <bbfifo_16x8>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\bbfifo_16x8.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\bbfifo_16x8.v".
     Summary:
 	no macro.
 Unit <bbfifo_16x8> synthesized.
 
 Synthesizing Unit <DisplayUnit>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DisplayUnit.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DisplayUnit.v".
     Summary:
 	no macro.
 Unit <DisplayUnit> synthesized.
 
-Synthesizing Unit <BCDto7Segment>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\BCDto7Segment.v".
+Synthesizing Unit <HEXto7Segment>.
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\HEXto7segment.v".
     Found 16x8-bit Read Only RAM for signal <SEGMENTS>
     Summary:
 	inferred   1 RAM(s).
-Unit <BCDto7Segment> synthesized.
+Unit <HEXto7Segment> synthesized.
 
 Synthesizing Unit <SevenSegDriver>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\SevenSegDriver.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\SevenSegDriver.v".
     Summary:
 	no macro.
 Unit <SevenSegDriver> synthesized.
 
 Synthesizing Unit <DisplayMux>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\DisplayMux.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\DisplayMux.v".
     Found 8-bit register for signal <Digit2>.
     Found 8-bit register for signal <Digit1>.
     Found 8-bit register for signal <Digit0>.
@@ -554,7 +560,7 @@ Synthesizing Unit <DisplayMux>.
 Unit <DisplayMux> synthesized.
 
 Synthesizing Unit <Refreshing7Seg>.
-    Related source file is "C:\Users\song\jjsong\ece433fall2019\labs433fall2019\lab6ece433fall2019ROMandRAMwithUART\Lab6ece433fall2019template\Refreshing7Seg.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab 6\Refreshing7Seg.v".
         Bits = 4
         Divider = 10000
         NumberOfBits = 14
@@ -567,7 +573,6 @@ Synthesizing Unit <Refreshing7Seg>.
 	inferred   1 RAM(s).
 	inferred   2 Adder/Subtractor(s).
 	inferred  16 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
 Unit <Refreshing7Seg> synthesized.
 
 =========================================================================
@@ -577,7 +582,7 @@ Macro Statistics
 # RAMs                                                 : 5
  16x8-bit single-port Read Only RAM                    : 4
  4x4-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 63
+# Adders/Subtractors                                   : 65
  14-bit adder                                          : 1
  16-bit adder                                          : 1
  18-bit adder                                          : 1
@@ -607,13 +612,15 @@ Macro Statistics
  52-bit adder                                          : 2
  53-bit adder                                          : 2
  54-bit adder                                          : 1
-# Registers                                            : 13
- 1-bit register                                        : 4
+ 6-bit adder                                           : 2
+# Registers                                            : 16
+ 1-bit register                                        : 5
  14-bit register                                       : 1
  16-bit register                                       : 1
  18-bit register                                       : 1
  2-bit register                                        : 1
- 301-bit register                                      : 1
+ 420-bit register                                      : 1
+ 6-bit register                                        : 2
  8-bit register                                        : 4
 # Comparators                                          : 33
  18-bit comparator lessequal                           : 1
@@ -643,16 +650,15 @@ Macro Statistics
  52-bit comparator lessequal                           : 1
  53-bit comparator lessequal                           : 1
  54-bit comparator lessequal                           : 1
-# Multiplexers                                         : 904
+# Multiplexers                                         : 937
  1-bit 2-to-1 multiplexer                              : 810
- 14-bit 2-to-1 multiplexer                             : 1
- 16-bit 2-to-1 multiplexer                             : 1
  18-bit 2-to-1 multiplexer                             : 1
  30-bit 2-to-1 multiplexer                             : 3
  6-bit 2-to-1 multiplexer                              : 1
- 7-bit 2-to-1 multiplexer                              : 86
- 7-bit 43-to-1 multiplexer                             : 1
-# FSMs                                                 : 4
+ 7-bit 2-to-1 multiplexer                              : 120
+ 7-bit 60-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 5
 
 =========================================================================
 
@@ -660,22 +666,8 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Reading core <ipcore_dir/ROM50x7bits.ngc>.
-Loading core <ROM50x7bits> for timing and area information for instance <ROMunit>.
-
-Synthesizing (advanced) Unit <BCDto7Segment>.
-INFO:Xst:3231 - The small RAM <Mram_SEGMENTS> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 16-word x 8-bit                     |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <BCDnumber>     |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to signal <SEGMENTS>      |          |
-    -----------------------------------------------------------------------
-Unit <BCDto7Segment> synthesized (advanced).
+Reading core <ipcore_dir/ROM60x7bits.ngc>.
+Loading core <ROM60x7bits> for timing and area information for instance <ROMunit>.
 
 Synthesizing (advanced) Unit <BaudRateGenerator>.
 The following registers are absorbed into counter <baud_count>: 1 register on signal <baud_count>.
@@ -684,6 +676,24 @@ Unit <BaudRateGenerator> synthesized (advanced).
 Synthesizing (advanced) Unit <DelayLoop>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
 Unit <DelayLoop> synthesized (advanced).
+
+Synthesizing (advanced) Unit <HEXto7Segment>.
+INFO:Xst:3231 - The small RAM <Mram_SEGMENTS> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <HEXnumber>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <SEGMENTS>      |          |
+    -----------------------------------------------------------------------
+Unit <HEXto7Segment> synthesized (advanced).
+
+Synthesizing (advanced) Unit <RAMAddressUpdate>.
+The following registers are absorbed into counter <RAMaddress>: 1 register on signal <RAMaddress>.
+Unit <RAMAddressUpdate> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Refreshing7Seg>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
@@ -701,6 +711,10 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Transistors> will be implemented on 
     -----------------------------------------------------------------------
 Unit <Refreshing7Seg> synthesized (advanced).
 
+Synthesizing (advanced) Unit <SendChars>.
+The following registers are absorbed into counter <RAMaddress>: 1 register on signal <RAMaddress>.
+Unit <SendChars> synthesized (advanced).
+
 =========================================================================
 Advanced HDL Synthesis Report
 
@@ -711,13 +725,14 @@ Macro Statistics
 # Adders/Subtractors                                   : 30
  30-bit adder                                          : 1
  30-bit adder carry in                                 : 29
-# Counters                                             : 4
+# Counters                                             : 6
  14-bit up counter                                     : 1
  16-bit up counter                                     : 1
  18-bit up counter                                     : 1
  2-bit up counter                                      : 1
-# Registers                                            : 352
- Flip-Flops                                            : 352
+ 6-bit up counter                                      : 2
+# Registers                                            : 472
+ Flip-Flops                                            : 472
 # Comparators                                          : 33
  18-bit comparator lessequal                           : 1
  30-bit comparator equal                               : 1
@@ -746,28 +761,29 @@ Macro Statistics
  52-bit comparator lessequal                           : 1
  53-bit comparator lessequal                           : 1
  54-bit comparator lessequal                           : 1
-# Multiplexers                                         : 901
+# Multiplexers                                         : 936
  1-bit 2-to-1 multiplexer                              : 810
  30-bit 2-to-1 multiplexer                             : 3
  6-bit 2-to-1 multiplexer                              : 1
- 7-bit 2-to-1 multiplexer                              : 86
- 7-bit 43-to-1 multiplexer                             : 1
-# FSMs                                                 : 4
+ 7-bit 2-to-1 multiplexer                              : 120
+ 7-bit 60-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 5
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <FSM_2> on signal <State[1:2]> with sequential encoding.
--------------------
- State | Encoding
--------------------
- 11    | 00
- 01    | 01
- 00    | 10
--------------------
+WARNING:Xst:1989 - Unit <DisplayUnit>: instances <Digit2>, <Digit3> of unit <HEXto7Segment> are equivalent, second instance is removed
+INFO:Xst:2261 - The FF/Latch <Digit1_5> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_5> 
+INFO:Xst:2261 - The FF/Latch <Digit1_0> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_0> 
+INFO:Xst:2261 - The FF/Latch <Digit1_4> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_4> 
+INFO:Xst:2261 - The FF/Latch <Digit1_3> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_3> 
+INFO:Xst:2261 - The FF/Latch <Digit1_7> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_7> 
+INFO:Xst:2261 - The FF/Latch <Digit1_2> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_2> 
+INFO:Xst:2261 - The FF/Latch <Digit1_6> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_6> 
+INFO:Xst:2261 - The FF/Latch <Digit1_1> in Unit <DisplayMux> is equivalent to the following FF/Latch, which will be removed : <Digit0_1> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <FSM_0> on signal <State[1:2]> with gray encoding.
 -------------------
@@ -788,7 +804,16 @@ Optimizing FSM <FSM_1> on signal <State[1:3]> with one-hot encoding.
  01    | 010
  11    | 100
 -------------------
-WARNING:Xst:1710 - FF/Latch <UART/WriteOneShotUnit/State_FSM_FFd2> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <SendCharsUnit/FSM_2> on signal <State[1:2]> with sequential encoding.
+Optimizing FSM <SendCharsUnit/FSM_2> on signal <State[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 11    | 00
+ 01    | 01
+ 00    | 10
+-------------------
 
 Optimizing unit <bbfifo_16x8> ...
 
@@ -796,115 +821,23 @@ Optimizing unit <kcuart_tx> ...
 
 Optimizing unit <Lab6ece433fall2019template> ...
 
-Optimizing unit <RAM50x7bits> ...
+Optimizing unit <RAM60x7bits> ...
+
+Optimizing unit <SendChars> ...
 
 Optimizing unit <DisplayMux> ...
-WARNING:Xst:1710 - FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_1> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_3> in Unit <Lab6ece433fall2019template> is equivalent to the following FF/Latch, which will be removed : <SevenSegUnit/DriverUnit/DisplayInput/Digit1_0> 
-INFO:Xst:2261 - The FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_7> in Unit <Lab6ece433fall2019template> is equivalent to the following FF/Latch, which will be removed : <SevenSegUnit/DriverUnit/DisplayInput/Digit3_7> 
+WARNING:Xst:1710 - FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_5> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_4> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_3> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_2> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_1> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_0> (without init value) has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <SevenSegUnit/DriverUnit/DisplayInput/Digit1_7> in Unit <Lab6ece433fall2019template> is equivalent to the following 3 FFs/Latches, which will be removed : <SevenSegUnit/DriverUnit/DisplayInput/Digit1_6> <SevenSegUnit/DriverUnit/DisplayInput/Digit2_7> <SevenSegUnit/DriverUnit/DisplayInput/Digit3_7> 
 
 Mapping all equations...
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Lab6ece433fall2019template, actual ratio is 9.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
+Found area constraint ratio of 100 (+ 5) on block Lab6ece433fall2019template, actual ratio is 11.
+FlipFlop SevenSegUnit/DriverUnit/DisplayInput/Digit1_7 has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -912,32 +845,10 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 405
- Flip-Flops                                            : 405
+# Registers                                            : 528
+ Flip-Flops                                            : 528
 
 =========================================================================
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/dp_flop> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[3].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/buf_0/count_width_loop[0].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_complete_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_stop_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_run_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/Tx_start_reg> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[2].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <UART/TransmitUnit/kcuart/count_width_loop[1].register_bit> has a constant value of 0 in block <Lab6ece433fall2019template>. This FF/Latch will be trimmed during the optimization process.
 
 =========================================================================
 *                           Partition Report                            *
@@ -958,29 +869,29 @@ Top Level Output File Name         : Lab6ece433fall2019template.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 745
+# BELS                             : 926
 #      GND                         : 2
-#      INV                         : 7
-#      LUT1                        : 13
-#      LUT2                        : 38
-#      LUT3                        : 32
-#      LUT4                        : 33
-#      LUT5                        : 3
-#      LUT6                        : 480
+#      INV                         : 9
+#      LUT1                        : 28
+#      LUT2                        : 18
+#      LUT3                        : 61
+#      LUT4                        : 31
+#      LUT5                        : 17
+#      LUT6                        : 636
 #      MULT_AND                    : 3
-#      MUXCY                       : 60
+#      MUXCY                       : 59
 #      MUXF5                       : 2
 #      MUXF6                       : 1
-#      MUXF7                       : 14
+#      MUXF7                       : 2
 #      VCC                         : 2
 #      XORCY                       : 55
-# FlipFlops/Latches                : 405
-#      FD                          : 306
-#      FDC                         : 2
+# FlipFlops/Latches                : 528
+#      FD                          : 433
+#      FDC                         : 4
 #      FDE                         : 5
-#      FDR                         : 81
-#      FDRE                        : 9
-#      FDS                         : 2
+#      FDR                         : 68
+#      FDRE                        : 15
+#      FDS                         : 3
 # RAMS                             : 1
 #      RAMB8BWER                   : 1
 # Shift Registers                  : 9
@@ -993,8 +904,6 @@ Primitive and Black Box Usage:
 #      OBUF                        : 21
 # DCMs                             : 1
 #      DCM_SP                      : 1
-# Others                           : 1
-#      RAMAddressUpdate            : 1
 
 Device utilization summary:
 ---------------------------
@@ -1003,22 +912,23 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             405  out of  18224     2%  
- Number of Slice LUTs:                  615  out of   9112     6%  
-    Number used as Logic:               606  out of   9112     6%  
+ Number of Slice Registers:             527  out of  18224     2%  
+ Number of Slice LUTs:                  809  out of   9112     8%  
+    Number used as Logic:               800  out of   9112     8%  
     Number used as Memory:                9  out of   2176     0%  
        Number used as SRL:                9
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    616
-   Number with an unused Flip Flop:     211  out of    616    34%  
-   Number with an unused LUT:             1  out of    616     0%  
-   Number of fully used LUT-FF pairs:   404  out of    616    65%  
-   Number of unique control sets:        11
+ Number of LUT Flip Flop pairs used:    810
+   Number with an unused Flip Flop:     283  out of    810    34%  
+   Number with an unused LUT:             1  out of    810     0%  
+   Number of fully used LUT-FF pairs:   526  out of    810    64%  
+   Number of unique control sets:        13
 
 IO Utilization: 
  Number of IOs:                          34
  Number of bonded IOBs:                  34  out of    232    14%  
+    IOB Flip Flops/Latches:               1
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                1  out of     32     3%  
@@ -1046,7 +956,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clock                              | DCM_SP:CLKFX           | 415   |
+clock                              | DCM_SP:CLKFX           | 538   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1057,10 +967,10 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 3.844ns (Maximum Frequency: 260.150MHz)
-   Minimum input arrival time before clock: 8.942ns
-   Maximum output required time after clock: 6.991ns
-   Maximum combinational path delay: 7.334ns
+   Minimum period: 6.514ns (Maximum Frequency: 153.521MHz)
+   Minimum input arrival time before clock: 9.210ns
+   Maximum output required time after clock: 5.853ns
+   Maximum combinational path delay: 7.001ns
 
 Timing Details:
 ---------------
@@ -1068,95 +978,96 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
-  Clock period: 3.844ns (frequency: 260.150MHz)
-  Total number of paths / destination ports: 21367 / 482
+  Clock period: 6.514ns (frequency: 153.521MHz)
+  Total number of paths / destination ports: 84110 / 658
 -------------------------------------------------------------------------
-Delay:               5.125ns (Levels of Logic = 5)
-  Source:            RAMUnit/memory_0_185 (FF)
-  Destination:       SevenSegUnit/DriverUnit/DisplayInput/Digit2_7 (FF)
+Delay:               8.142ns (Levels of Logic = 7)
+  Source:            UpdateAddress/RAMaddress_1 (FF)
+  Destination:       SendCharsUnit/Transmitting (FF)
   Source Clock:      clock rising 0.8X
   Destination Clock: clock rising 0.8X
 
-  Data Path: RAMUnit/memory_0_185 to SevenSegUnit/DriverUnit/DisplayInput/Digit2_7
+  Data Path: UpdateAddress/RAMaddress_1 to SendCharsUnit/Transmitting
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               2   0.447   0.864  RAMUnit/memory_0_185 (RAMUnit/memory_0_185)
-     LUT6:I2->O            1   0.203   0.827  RAMUnit/Mmux_dout_1113 (RAMUnit/Mmux_dout_1113)
-     LUT6:I2->O            1   0.203   0.000  RAMUnit/Mmux_dout_63 (RAMUnit/Mmux_dout_63)
-     MUXF7:I1->O           3   0.140   0.651  RAMUnit/Mmux_dout_5_f7_2 (RAMUnit/Mmux_dout_5_f73)
-     LUT6:I5->O           18   0.205   1.278  RAMUnit/address<5>3_1 (RAMUnit/address<5>3)
-     LUT3:I0->O            1   0.205   0.000  SevenSegUnit/Digit1/Mram_SEGMENTS71 (SevenSegUnit/D1Seg<7>)
-     FDR:D                     0.102          SevenSegUnit/DriverUnit/DisplayInput/Digit2_7
+     FDRE:C->Q            11   0.447   0.987  UpdateAddress/RAMaddress_1 (UpdateAddress/RAMaddress_1)
+     LUT3:I1->O           24   0.203   1.277  Mmux_RAMaddress21_2 (Mmux_RAMaddress211)
+     LUT6:I4->O            1   0.203   0.808  RAMUnit/Mmux_dout_125 (RAMUnit/Mmux_dout_125)
+     LUT5:I2->O            2   0.205   0.845  RAMUnit/Mmux_dout_8 (RAMUnit/Mmux_dout_8)
+     LUT6:I3->O            1   0.205   0.580  RAMUnit/address<5>1_1 (RAMUnit/address<5>1)
+     LUT3:I2->O            2   0.205   0.864  Mmux_tx_data11 (tx_data<0>)
+     LUT6:I2->O            8   0.203   0.803  SendCharsUnit/Mcount_RAMaddress_val1 (SendCharsUnit/Mcount_RAMaddress_val1)
+     LUT3:I2->O            1   0.205   0.000  SendCharsUnit/Transmitting_glue_set (SendCharsUnit/Transmitting_glue_set)
+     FDR:D                     0.102          SendCharsUnit/Transmitting
     ----------------------------------------
-    Total                      5.125ns (1.505ns logic, 3.620ns route)
-                                       (29.4% logic, 70.6% route)
+    Total                      8.142ns (1.978ns logic, 6.164ns route)
+                                       (24.3% logic, 75.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
-  Total number of paths / destination ports: 25101 / 401
+  Total number of paths / destination ports: 25228 / 518
 -------------------------------------------------------------------------
-Offset:              8.942ns (Levels of Logic = 7)
+Offset:              9.210ns (Levels of Logic = 8)
   Source:            Mode (PAD)
-  Destination:       SevenSegUnit/DriverUnit/DisplayInput/Digit2_7 (FF)
+  Destination:       SendCharsUnit/Transmitting (FF)
   Destination Clock: clock rising 0.8X
 
-  Data Path: Mode to SevenSegUnit/DriverUnit/DisplayInput/Digit2_7
+  Data Path: Mode to SendCharsUnit/Transmitting
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            34   1.222   1.425  Mode_IBUF (Mode_IBUF)
-     LUT2:I0->O          114   0.203   2.278  Mmux_RAMaddress21 (RAMaddress_1_OBUF)
-     LUT6:I0->O            1   0.203   0.827  RAMUnit/Mmux_dout_115 (RAMUnit/Mmux_dout_115)
-     LUT6:I2->O            1   0.203   0.000  RAMUnit/Mmux_dout_61 (RAMUnit/Mmux_dout_61)
-     MUXF7:I1->O           3   0.140   0.651  RAMUnit/Mmux_dout_5_f7_0 (RAMUnit/Mmux_dout_5_f71)
-     LUT6:I5->O           18   0.205   1.278  RAMUnit/address<5>1_1 (RAMUnit/address<5>1)
-     LUT4:I1->O            1   0.205   0.000  SevenSegUnit/Digit1/Mram_SEGMENTS21 (SevenSegUnit/D1Seg<2>)
-     FDR:D                     0.102          SevenSegUnit/DriverUnit/DisplayInput/Digit2_2
+     IBUF:I->O            18   1.222   1.278  Mode_IBUF (Mode_IBUF)
+     LUT3:I0->O           24   0.205   1.277  Mmux_RAMaddress21_2 (Mmux_RAMaddress211)
+     LUT6:I4->O            1   0.203   0.808  RAMUnit/Mmux_dout_125 (RAMUnit/Mmux_dout_125)
+     LUT5:I2->O            2   0.205   0.845  RAMUnit/Mmux_dout_8 (RAMUnit/Mmux_dout_8)
+     LUT6:I3->O            1   0.205   0.580  RAMUnit/address<5>1_1 (RAMUnit/address<5>1)
+     LUT3:I2->O            2   0.205   0.864  Mmux_tx_data11 (tx_data<0>)
+     LUT6:I2->O            8   0.203   0.803  SendCharsUnit/Mcount_RAMaddress_val1 (SendCharsUnit/Mcount_RAMaddress_val1)
+     LUT3:I2->O            1   0.205   0.000  SendCharsUnit/Transmitting_glue_set (SendCharsUnit/Transmitting_glue_set)
+     FDR:D                     0.102          SendCharsUnit/Transmitting
     ----------------------------------------
-    Total                      8.942ns (2.483ns logic, 6.459ns route)
-                                       (27.8% logic, 72.2% route)
+    Total                      9.210ns (2.755ns logic, 6.455ns route)
+                                       (29.9% logic, 70.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
-  Total number of paths / destination ports: 143 / 15
+  Total number of paths / destination ports: 52 / 20
 -------------------------------------------------------------------------
-Offset:              6.991ns (Levels of Logic = 4)
-  Source:            SevenSegUnit/DriverUnit/Update/Q_0 (FF)
-  Destination:       Display<6> (PAD)
+Offset:              5.853ns (Levels of Logic = 2)
+  Source:            UpdateAddress/RAMaddress_0 (FF)
+  Destination:       RAMaddress<0> (PAD)
   Source Clock:      clock rising 0.8X
 
-  Data Path: SevenSegUnit/DriverUnit/Update/Q_0 to Display<6>
+  Data Path: UpdateAddress/RAMaddress_0 to RAMaddress<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             7   0.447   0.878  SevenSegUnit/DriverUnit/Update/Q_0 (SevenSegUnit/DriverUnit/Update/Q_0)
-     LUT2:I0->O           15   0.203   1.326  SevenSegUnit/DriverUnit/Update/Mram_Transistors111 (SevenSegUnit/DriverUnit/Update/Mram_Transistors1)
-     LUT6:I1->O            1   0.203   0.580  SevenSegUnit/DriverUnit/DisplayInput/Display<1>1 (SevenSegUnit/DriverUnit/DisplayInput/Display<1>)
-     LUT6:I5->O            1   0.205   0.579  SevenSegUnit/DriverUnit/DisplayInput/Display<1>2 (Display_1_OBUF)
-     OBUF:I->O                 2.571          Display_1_OBUF (Display<1>)
+     FDRE:C->Q            12   0.447   1.013  UpdateAddress/RAMaddress_0 (UpdateAddress/RAMaddress_0)
+     LUT3:I1->O           61   0.203   1.620  Mmux_RAMaddress11 (RAMaddress_0_OBUF)
+     OBUF:I->O                 2.571          RAMaddress_0_OBUF (RAMaddress<0>)
     ----------------------------------------
-    Total                      6.991ns (3.629ns logic, 3.362ns route)
-                                       (51.9% logic, 48.1% route)
+    Total                      5.853ns (3.221ns logic, 2.632ns route)
+                                       (55.0% logic, 45.0% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 13 / 7
+  Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
-Delay:               7.334ns (Levels of Logic = 3)
+Delay:               7.001ns (Levels of Logic = 3)
   Source:            Mode (PAD)
-  Destination:       RAMaddress<1> (PAD)
+  Destination:       RAMaddress<5> (PAD)
 
-  Data Path: Mode to RAMaddress<1>
+  Data Path: Mode to RAMaddress<5>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            34   1.222   1.425  Mode_IBUF (Mode_IBUF)
-     LUT2:I0->O          114   0.203   1.913  Mmux_RAMaddress21 (RAMaddress_1_OBUF)
-     OBUF:I->O                 2.571          RAMaddress_1_OBUF (RAMaddress<1>)
+     IBUF:I->O            18   1.222   1.278  Mode_IBUF (Mode_IBUF)
+     LUT3:I0->O           77   0.205   1.725  Mmux_RAMaddress61 (RAMaddress_5_OBUF)
+     OBUF:I->O                 2.571          RAMaddress_5_OBUF (RAMaddress<5>)
     ----------------------------------------
-    Total                      7.334ns (3.996ns logic, 3.338ns route)
-                                       (54.5% logic, 45.5% route)
+    Total                      7.001ns (3.998ns logic, 3.003ns route)
+                                       (57.1% logic, 42.9% route)
 
 =========================================================================
 
@@ -1168,20 +1079,20 @@ Clock to Setup on destination clock clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clock          |    5.125|         |         |         |
+clock          |    8.142|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.83 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.10 secs
  
 --> 
 
-Total memory usage is 4527840 kilobytes
+Total memory usage is 4520768 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  132 (   0 filtered)
-Number of infos    :    6 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :   12 (   0 filtered)
 

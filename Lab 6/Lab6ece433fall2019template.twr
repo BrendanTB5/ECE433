@@ -1,0 +1,113 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab6ece433fall2019template.twx
+Lab6ece433fall2019template.ncd -o Lab6ece433fall2019template.twr
+Lab6ece433fall2019template.pcf -ucf Lab6ece433fall2019template.ucf
+
+Design file:              Lab6ece433fall2019template.ncd
+Physical constraint file: Lab6ece433fall2019template.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+DataIn<0>   |    6.693(R)|      SLOW  |   -1.333(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<1>   |    5.043(R)|      SLOW  |   -1.548(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<2>   |    4.570(R)|      SLOW  |   -1.366(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<3>   |    5.111(R)|      SLOW  |   -1.556(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<4>   |    5.061(R)|      SLOW  |   -1.491(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<5>   |    5.601(R)|      SLOW  |   -1.581(R)|      FAST  |clk75MHz          |   0.000|
+DataIn<6>   |    5.551(R)|      SLOW  |   -1.246(R)|      FAST  |clk75MHz          |   0.000|
+Mode        |   10.471(R)|      SLOW  |   -3.022(R)|      FAST  |clk75MHz          |   0.000|
+NextAddress |    3.755(R)|      SLOW  |   -1.748(R)|      FAST  |clk75MHz          |   0.000|
+Send        |    3.299(R)|      SLOW  |   -1.553(R)|      FAST  |clk75MHz          |   0.000|
+WriteOrRead |    7.216(R)|      SLOW  |   -2.252(R)|      FAST  |clk75MHz          |   0.000|
+reset       |   10.076(R)|      SLOW  |   -1.549(R)|      FAST  |clk75MHz          |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+Display<0>    |         8.190(R)|      SLOW  |         4.584(R)|      FAST  |clk75MHz          |   0.000|
+Display<1>    |         8.771(R)|      SLOW  |         4.426(R)|      FAST  |clk75MHz          |   0.000|
+Display<2>    |         7.927(R)|      SLOW  |         4.594(R)|      FAST  |clk75MHz          |   0.000|
+Display<3>    |         7.445(R)|      SLOW  |         4.358(R)|      FAST  |clk75MHz          |   0.000|
+Display<4>    |         7.650(R)|      SLOW  |         4.257(R)|      FAST  |clk75MHz          |   0.000|
+Display<5>    |         7.125(R)|      SLOW  |         4.048(R)|      FAST  |clk75MHz          |   0.000|
+Display<6>    |         7.539(R)|      SLOW  |         4.209(R)|      FAST  |clk75MHz          |   0.000|
+Display<7>    |         5.234(R)|      SLOW  |         3.131(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<0> |         8.805(R)|      SLOW  |         5.577(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<1> |         8.476(R)|      SLOW  |         5.469(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<2> |         9.259(R)|      SLOW  |         5.710(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<3> |         8.097(R)|      SLOW  |         5.179(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<4> |         8.707(R)|      SLOW  |         5.399(R)|      FAST  |clk75MHz          |   0.000|
+RAMaddress<5> |         8.360(R)|      SLOW  |         5.308(R)|      FAST  |clk75MHz          |   0.000|
+Transistors<0>|         6.882(R)|      SLOW  |         4.128(R)|      FAST  |clk75MHz          |   0.000|
+Transistors<1>|         6.895(R)|      SLOW  |         4.142(R)|      FAST  |clk75MHz          |   0.000|
+Transistors<2>|         6.687(R)|      SLOW  |         4.194(R)|      FAST  |clk75MHz          |   0.000|
+Transistors<3>|         6.901(R)|      SLOW  |         4.339(R)|      FAST  |clk75MHz          |   0.000|
+Transmitting  |         7.500(R)|      SLOW  |         4.904(R)|      FAST  |clk75MHz          |   0.000|
+tx            |         6.478(R)|      SLOW  |         4.179(R)|      FAST  |clk75MHz          |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    7.717|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Mode           |RAMaddress<0>  |   11.251|
+Mode           |RAMaddress<1>  |   11.079|
+Mode           |RAMaddress<2>  |   11.747|
+Mode           |RAMaddress<3>  |   10.861|
+Mode           |RAMaddress<4>  |   10.594|
+Mode           |RAMaddress<5>  |   10.949|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 14 11:39:08 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4594 MB
+
+
+

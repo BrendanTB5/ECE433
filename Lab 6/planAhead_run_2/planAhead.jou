@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 14 11:04:43 2019
+# Process ID: 6040
+# Log file: C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab 6/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+refresh_design
