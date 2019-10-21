@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/ECE433/ECE433/Lab7/I2C_DataUnit_tb_isim_beh.exe" -prj "E:/ECE433/ECE433/Lab7/I2C_DataUnit_tb_beh.prj" "work.I2C_DataUnit_tb" "work.glbl" 
