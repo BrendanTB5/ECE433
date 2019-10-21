@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module I2C_DataUnit(
+ module I2C_DataUnit(
     input WriteLoad,
     input ReadorWrite,
     input ShiftorHold,

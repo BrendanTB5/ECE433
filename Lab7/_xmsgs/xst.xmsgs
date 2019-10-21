@@ -5,5 +5,41 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\ipcore_dir\SystemClock75MHz.v" Line 129: Assignment to <arg fmt="%s" index="1">status_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\Lab7I2Cphase1Fall2019JJS_JJS.v" Line 38: Assignment to <arg fmt="%s" index="1">ReceivedData</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\Lab7I2Cphase1Fall2019JJS_JJS.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ReceivedData</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DataUnit</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ControlUnit/Timer/count_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ControlUnit/Timer/count_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ControlUnit/Timer/count_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BaudUnit/baud_count_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BaudUnit/baud_count_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BaudUnit/baud_count_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BaudUnit/baud_count_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">BaudUnit/baud_count_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ControlUnit/PosShot/State_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab7I2Cphase1Fall2019BNM_IML</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ControlUnit/NegShot/State_FSM_FFd2&gt; </arg>
+</msg>
+
 </messages>
 

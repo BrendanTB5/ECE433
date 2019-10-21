@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: I2C_DataUnit.prj
 
@@ -108,11 +108,11 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7\I2C_ShiftRegister.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_ShiftRegister.v" into library work
 Parsing module <I2C_ShiftRegister>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7\I2C_SDAmodule.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_SDAmodule.v" into library work
 Parsing module <I2C_SDAmodule>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7\I2C_DataUnit.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_DataUnit.v" into library work
 Parsing module <I2C_DataUnit>.
 
 =========================================================================
@@ -130,14 +130,14 @@ Elaborating module <I2C_SDAmodule>.
 =========================================================================
 
 Synthesizing Unit <I2C_DataUnit>.
-    Related source file is "E:\ECE433\ECE433\Lab7\I2C_DataUnit.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_DataUnit.v".
         LENGTH = 8
     Summary:
 	no macro.
 Unit <I2C_DataUnit> synthesized.
 
 Synthesizing Unit <I2C_ShiftRegister>.
-    Related source file is "E:\ECE433\ECE433\Lab7\I2C_ShiftRegister.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_ShiftRegister.v".
         LENGTH = 8
     Found 8-bit register for signal <ShiftRegister>.
     Summary:
@@ -146,7 +146,7 @@ Synthesizing Unit <I2C_ShiftRegister>.
 Unit <I2C_ShiftRegister> synthesized.
 
 Synthesizing Unit <I2C_SDAmodule>.
-    Related source file is "E:\ECE433\ECE433\Lab7\I2C_SDAmodule.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\I2C_SDAmodule.v".
     Found 1-bit tristate buffer for signal <SDA> created at line 37
     Summary:
 	inferred   1 Multiplexer(s).
@@ -401,12 +401,12 @@ clock          |    1.405|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.30 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.56 secs
  
 --> 
 
-Total memory usage is 4486628 kilobytes
+Total memory usage is 4487300 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

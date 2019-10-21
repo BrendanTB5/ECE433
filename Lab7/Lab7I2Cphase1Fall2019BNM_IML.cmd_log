@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7I2Cphase1Fall2019BNM_IML.ucf -p xc6slx16-csg324-3 Lab7I2Cphase1Fall2019BNM_IML.ngc Lab7I2Cphase1Fall2019BNM_IML.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ngd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+par -w -intstyle ise -ol high -mt off Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ncd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7I2Cphase1Fall2019BNM_IML.twx Lab7I2Cphase1Fall2019BNM_IML.ncd -o Lab7I2Cphase1Fall2019BNM_IML.twr Lab7I2Cphase1Fall2019BNM_IML.pcf -ucf Lab7I2Cphase1Fall2019BNM_IML.ucf 
+bitgen -intstyle ise -f Lab7I2Cphase1Fall2019BNM_IML.ut Lab7I2Cphase1Fall2019BNM_IML.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7I2Cphase1Fall2019BNM_IML.ucf -p xc6slx16-csg324-3 Lab7I2Cphase1Fall2019BNM_IML.ngc Lab7I2Cphase1Fall2019BNM_IML.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ngd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+par -w -intstyle ise -ol high -mt off Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ncd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7I2Cphase1Fall2019BNM_IML.twx Lab7I2Cphase1Fall2019BNM_IML.ncd -o Lab7I2Cphase1Fall2019BNM_IML.twr Lab7I2Cphase1Fall2019BNM_IML.pcf -ucf Lab7I2Cphase1Fall2019BNM_IML.ucf 
+bitgen -intstyle ise -f Lab7I2Cphase1Fall2019BNM_IML.ut Lab7I2Cphase1Fall2019BNM_IML.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7I2Cphase1Fall2019BNM_IML.ucf -p xc6slx16-csg324-3 Lab7I2Cphase1Fall2019BNM_IML.ngc Lab7I2Cphase1Fall2019BNM_IML.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ngd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+par -w -intstyle ise -ol high -mt off Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ncd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7I2Cphase1Fall2019BNM_IML.twx Lab7I2Cphase1Fall2019BNM_IML.ncd -o Lab7I2Cphase1Fall2019BNM_IML.twr Lab7I2Cphase1Fall2019BNM_IML.pcf -ucf Lab7I2Cphase1Fall2019BNM_IML.ucf 
+bitgen -intstyle ise -f Lab7I2Cphase1Fall2019BNM_IML.ut Lab7I2Cphase1Fall2019BNM_IML.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7I2Cphase1Fall2019BNM_IML.ucf -p xc6slx16-csg324-3 Lab7I2Cphase1Fall2019BNM_IML.ngc Lab7I2Cphase1Fall2019BNM_IML.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ngd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+par -w -intstyle ise -ol high -mt off Lab7I2Cphase1Fall2019BNM_IML_map.ncd Lab7I2Cphase1Fall2019BNM_IML.ncd Lab7I2Cphase1Fall2019BNM_IML.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7I2Cphase1Fall2019BNM_IML.twx Lab7I2Cphase1Fall2019BNM_IML.ncd -o Lab7I2Cphase1Fall2019BNM_IML.twr Lab7I2Cphase1Fall2019BNM_IML.pcf -ucf Lab7I2Cphase1Fall2019BNM_IML.ucf 
+bitgen -intstyle ise -f Lab7I2Cphase1Fall2019BNM_IML.ut Lab7I2Cphase1Fall2019BNM_IML.ncd 

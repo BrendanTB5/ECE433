@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\ECE433\ECE433\Lab7\I2C_DataUnit_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ECE433/ECE433/Lab7/I2C_DataUnit_tb_isim_beh.wdb 
+Running: C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7\Lab7I2Cphase1Fall2019JJS_JJS_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019JJS_JJS_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@ise.csse.rose-hulman.edu'.
@@ -14,10 +14,12 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 
 ----------------------------------------------------------------------
 This is a Full version of ISim.
+WARNING:  For instance uut/BaudUnit/, width 20 of formal port WaveFrequency is not equal to width 32 of actual constant.
+WARNING:  For instance uut/BaudUnit/, width 30 of formal port ClockFrequency is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 120 ns :  in File "E:/ECE433/ECE433/Lab7/I2C_DataUnit_tb.v" Line 27 
+Stopped at time : 600 ns :  in File "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019JJS_JJS_tb.v" Line 24 
