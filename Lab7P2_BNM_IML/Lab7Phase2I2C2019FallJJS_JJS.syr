@@ -1,0 +1,1214 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Lab7Phase2I2C2019FallJJS_JJS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Lab7Phase2I2C2019FallJJS_JJS.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Lab7Phase2I2C2019FallJJS_JJS"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Lab7Phase2I2C2019FallJJS_JJS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" into library work
+Parsing module <SystemClk75MHz>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v" into library work
+Parsing module <I2C_ShiftRegister>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v" into library work
+Parsing module <I2C_SDAmodule>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v" into library work
+Parsing module <DelayLoop>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v" into library work
+Parsing module <ClockedPositiveOneShot>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v" into library work
+Parsing module <ClockedNegativeOneShot>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v" into library work
+Parsing module <Refreshing7Seg>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v" into library work
+Parsing module <I2C_DataUnit>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v" into library work
+Parsing module <I2C_Controller>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v" into library work
+Parsing module <I2C_BaudRateGenerator>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v" into library work
+Parsing module <DisplayMux>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v" into library work
+Parsing module <SevenSegDriver>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v" into library work
+Parsing module <ReadTempI2C2019fall>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" into library work
+Parsing module <OneTemperatureConverter>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v" into library work
+Parsing module <BCDto7Segment>.
+Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" into library work
+Parsing module <Lab7Phase2I2C2019FallJJS_JJS>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" Line 28: Port LOCKED is not connected to this instance
+
+Elaborating module <Lab7Phase2I2C2019FallJJS_JJS>.
+
+Elaborating module <SystemClk75MHz>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=4,CLKFX_MULTIPLY=3,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
+WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" Line 130: Assignment to status_int ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <ClockedPositiveOneShot>.
+
+Elaborating module <ReadTempI2C2019fall>.
+
+Elaborating module <I2C_BaudRateGenerator>.
+
+Elaborating module <I2C_Controller>.
+
+Elaborating module <ClockedNegativeOneShot>.
+
+Elaborating module <DelayLoop>.
+
+Elaborating module <I2C_DataUnit>.
+
+Elaborating module <I2C_ShiftRegister>.
+
+Elaborating module <I2C_SDAmodule>.
+
+Elaborating module <OneTemperatureConverter>.
+WARNING:HDLCompiler:413 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 24: Result of 14-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 26: Result of 8-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <BCDto7Segment>.
+
+Elaborating module <SevenSegDriver>.
+
+Elaborating module <DisplayMux>.
+
+Elaborating module <Refreshing7Seg>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Lab7Phase2I2C2019FallJJS_JJS>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v".
+        BaudRate = 20'b00000100111000100000
+        ClockFrequency = 30'b000100011110000110100011000000
+INFO:Xst:3210 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" line 28: Output port <LOCKED> of the instance <SystemClockUnit> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <ClockLocked> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <Temperature>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <Lab7Phase2I2C2019FallJJS_JJS> synthesized.
+
+Synthesizing Unit <SystemClk75MHz>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v".
+    Summary:
+	no macro.
+Unit <SystemClk75MHz> synthesized.
+
+Synthesizing Unit <ClockedPositiveOneShot>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v".
+        State0 = 0
+        State1 = 1
+        State2 = 2
+        State3 = 3
+    Found 2-bit register for signal <State>.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | CLOCK (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ClockedPositiveOneShot> synthesized.
+
+Synthesizing Unit <ReadTempI2C2019fall>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v".
+    Summary:
+	no macro.
+Unit <ReadTempI2C2019fall> synthesized.
+
+Synthesizing Unit <I2C_BaudRateGenerator>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v".
+    Found 1-bit register for signal <SignalOut>.
+    Found 16-bit register for signal <baud_count>.
+    Found 31-bit subtractor for signal <GND_8_o_GND_8_o_sub_4_OUT> created at line 37.
+    Found 16-bit adder for signal <baud_count[15]_GND_8_o_add_5_OUT> created at line 39.
+    Found 32-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_5_o> created at line 37
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <I2C_BaudRateGenerator> synthesized.
+
+Synthesizing Unit <div_30u_21u>.
+    Related source file is "".
+    Found 50-bit adder for signal <n2579> created at line 0.
+    Found 50-bit adder for signal <GND_9_o_b[20]_add_3_OUT> created at line 0.
+    Found 49-bit adder for signal <n2583> created at line 0.
+    Found 49-bit adder for signal <GND_9_o_b[20]_add_5_OUT> created at line 0.
+    Found 48-bit adder for signal <n2587> created at line 0.
+    Found 48-bit adder for signal <GND_9_o_b[20]_add_7_OUT> created at line 0.
+    Found 47-bit adder for signal <n2591> created at line 0.
+    Found 47-bit adder for signal <GND_9_o_b[20]_add_9_OUT> created at line 0.
+    Found 46-bit adder for signal <n2595> created at line 0.
+    Found 46-bit adder for signal <GND_9_o_b[20]_add_11_OUT> created at line 0.
+    Found 45-bit adder for signal <n2599> created at line 0.
+    Found 45-bit adder for signal <GND_9_o_b[20]_add_13_OUT> created at line 0.
+    Found 44-bit adder for signal <n2603> created at line 0.
+    Found 44-bit adder for signal <GND_9_o_b[20]_add_15_OUT> created at line 0.
+    Found 43-bit adder for signal <n2607> created at line 0.
+    Found 43-bit adder for signal <GND_9_o_b[20]_add_17_OUT> created at line 0.
+    Found 42-bit adder for signal <n2611> created at line 0.
+    Found 42-bit adder for signal <GND_9_o_b[20]_add_19_OUT> created at line 0.
+    Found 41-bit adder for signal <n2615> created at line 0.
+    Found 41-bit adder for signal <GND_9_o_b[20]_add_21_OUT> created at line 0.
+    Found 40-bit adder for signal <n2619> created at line 0.
+    Found 40-bit adder for signal <GND_9_o_b[20]_add_23_OUT> created at line 0.
+    Found 39-bit adder for signal <n2623> created at line 0.
+    Found 39-bit adder for signal <GND_9_o_b[20]_add_25_OUT> created at line 0.
+    Found 38-bit adder for signal <n2627> created at line 0.
+    Found 38-bit adder for signal <GND_9_o_b[20]_add_27_OUT> created at line 0.
+    Found 37-bit adder for signal <n2631> created at line 0.
+    Found 37-bit adder for signal <GND_9_o_b[20]_add_29_OUT> created at line 0.
+    Found 36-bit adder for signal <n2635> created at line 0.
+    Found 36-bit adder for signal <GND_9_o_b[20]_add_31_OUT> created at line 0.
+    Found 35-bit adder for signal <n2639> created at line 0.
+    Found 35-bit adder for signal <GND_9_o_b[20]_add_33_OUT> created at line 0.
+    Found 34-bit adder for signal <n2643> created at line 0.
+    Found 34-bit adder for signal <GND_9_o_b[20]_add_35_OUT> created at line 0.
+    Found 33-bit adder for signal <n2647> created at line 0.
+    Found 33-bit adder for signal <GND_9_o_b[20]_add_37_OUT> created at line 0.
+    Found 32-bit adder for signal <n2651> created at line 0.
+    Found 32-bit adder for signal <GND_9_o_b[20]_add_39_OUT> created at line 0.
+    Found 31-bit adder for signal <n2655> created at line 0.
+    Found 31-bit adder for signal <GND_9_o_b[20]_add_41_OUT> created at line 0.
+    Found 30-bit adder for signal <n2659> created at line 0.
+    Found 30-bit adder for signal <a[29]_b[20]_add_43_OUT> created at line 0.
+    Found 30-bit adder for signal <n2663> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_45_OUT> created at line 0.
+    Found 30-bit adder for signal <n2667> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_47_OUT> created at line 0.
+    Found 30-bit adder for signal <n2671> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_49_OUT> created at line 0.
+    Found 30-bit adder for signal <n2675> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_51_OUT> created at line 0.
+    Found 30-bit adder for signal <n2679> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_53_OUT> created at line 0.
+    Found 30-bit adder for signal <n2683> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_55_OUT[29:0]> created at line 0.
+    Found 30-bit adder for signal <n2687> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_57_OUT[29:0]> created at line 0.
+    Found 30-bit adder for signal <n2691> created at line 0.
+    Found 30-bit adder for signal <a[29]_GND_9_o_add_59_OUT[29:0]> created at line 0.
+    Found 51-bit adder for signal <GND_9_o_b[20]_add_1_OUT> created at line 0.
+    Found 51-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 50-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 49-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 48-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 47-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 46-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 45-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 44-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 43-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 42-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 41-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 40-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 39-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 38-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 37-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 36-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 35-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Found 34-bit comparator lessequal for signal <BUS_0018> created at line 0
+    Found 33-bit comparator lessequal for signal <BUS_0019> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0020> created at line 0
+    Found 31-bit comparator lessequal for signal <BUS_0021> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0022> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0023> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0024> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0025> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0026> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0027> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0028> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0029> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0030> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0031> created at line 0
+    Summary:
+	inferred  59 Adder/Subtractor(s).
+	inferred  31 Comparator(s).
+	inferred 813 Multiplexer(s).
+Unit <div_30u_21u> synthesized.
+
+Synthesizing Unit <I2C_Controller>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v".
+        InitState = 3'b000
+        Start = 3'b001
+        LoadShiftReg = 3'b010
+        Write = 3'b011
+        Receive = 3'b100
+        Transit = 3'b101
+        Stop = 3'b110
+WARNING:Xst:653 - Signal <DONE> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 4-bit register for signal <Count>.
+    Found 3-bit register for signal <State>.
+    Found finite state machine <FSM_1> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clock (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <Count[3]_GND_10_o_sub_12_OUT> created at line 65.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <I2C_Controller> synthesized.
+
+Synthesizing Unit <ClockedNegativeOneShot>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v".
+        State0 = 0
+        State1 = 1
+        State2 = 2
+        State3 = 3
+    Found 2-bit register for signal <State>.
+    Found finite state machine <FSM_2> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 1                                              |
+    | Clock              | CLOCK (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 01                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ClockedNegativeOneShot> synthesized.
+
+Synthesizing Unit <DelayLoop>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v".
+        Divider = 20000
+        NumberOfBits = 18
+    Found 18-bit register for signal <count>.
+    Found 18-bit adder for signal <count[17]_GND_12_o_add_4_OUT> created at line 26.
+    Found 18-bit comparator lessequal for signal <n0002> created at line 25
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <DelayLoop> synthesized.
+
+Synthesizing Unit <I2C_DataUnit>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v".
+        LENGTH = 8
+    Summary:
+	no macro.
+Unit <I2C_DataUnit> synthesized.
+
+Synthesizing Unit <I2C_ShiftRegister>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v".
+        LENGTH = 8
+    Found 8-bit register for signal <ShiftRegister>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <I2C_ShiftRegister> synthesized.
+
+Synthesizing Unit <I2C_SDAmodule>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v".
+    Found 1-bit tristate buffer for signal <SDA> created at line 37
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <I2C_SDAmodule> synthesized.
+
+Synthesizing Unit <OneTemperatureConverter>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v".
+    Found 14-bit adder for signal <n0010> created at line 24.
+    Found 8x5-bit multiplier for signal <Temp[7]_PWR_18_o_MuLt_0_OUT> created at line 24.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <OneTemperatureConverter> synthesized.
+
+Synthesizing Unit <div_13u_4u>.
+    Related source file is "".
+    Found 17-bit adder for signal <GND_19_o_b[3]_add_1_OUT> created at line 0.
+    Found 16-bit adder for signal <GND_19_o_b[3]_add_3_OUT> created at line 0.
+    Found 15-bit adder for signal <GND_19_o_b[3]_add_5_OUT> created at line 0.
+    Found 14-bit adder for signal <GND_19_o_b[3]_add_7_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_b[3]_add_9_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_11_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_13_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_15_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_17_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_19_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_21_OUT[12:0]> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_23_OUT[12:0]> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_19_o_add_25_OUT[12:0]> created at line 0.
+    Found 17-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 15-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Summary:
+	inferred  13 Adder/Subtractor(s).
+	inferred  14 Comparator(s).
+	inferred 133 Multiplexer(s).
+Unit <div_13u_4u> synthesized.
+
+Synthesizing Unit <div_14u_4u>.
+    Related source file is "".
+    Found 18-bit adder for signal <GND_20_o_b[3]_add_1_OUT> created at line 0.
+    Found 17-bit adder for signal <GND_20_o_b[3]_add_3_OUT> created at line 0.
+    Found 16-bit adder for signal <GND_20_o_b[3]_add_5_OUT> created at line 0.
+    Found 15-bit adder for signal <GND_20_o_b[3]_add_7_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_b[3]_add_9_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_11_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_13_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_15_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_17_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_19_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_21_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_23_OUT[13:0]> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_25_OUT[13:0]> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_20_o_add_27_OUT[13:0]> created at line 0.
+    Found 18-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 15-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred  15 Comparator(s).
+	inferred 157 Multiplexer(s).
+Unit <div_14u_4u> synthesized.
+
+Synthesizing Unit <mod_14u_4u>.
+    Related source file is "".
+    Found 18-bit adder for signal <GND_21_o_b[3]_add_1_OUT> created at line 0.
+    Found 17-bit adder for signal <GND_21_o_b[3]_add_3_OUT> created at line 0.
+    Found 16-bit adder for signal <GND_21_o_b[3]_add_5_OUT> created at line 0.
+    Found 15-bit adder for signal <GND_21_o_b[3]_add_7_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_b[3]_add_9_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_11_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_13_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_15_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_17_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_19_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_21_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_23_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_25_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_27_OUT> created at line 0.
+    Found 14-bit adder for signal <a[13]_GND_21_o_add_29_OUT> created at line 0.
+    Found 18-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 15-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred  15 Comparator(s).
+	inferred 197 Multiplexer(s).
+Unit <mod_14u_4u> synthesized.
+
+Synthesizing Unit <div_8u_4u>.
+    Related source file is "".
+    Found 12-bit adder for signal <GND_22_o_b[3]_add_1_OUT> created at line 0.
+    Found 11-bit adder for signal <GND_22_o_b[3]_add_3_OUT> created at line 0.
+    Found 10-bit adder for signal <GND_22_o_b[3]_add_5_OUT> created at line 0.
+    Found 9-bit adder for signal <GND_22_o_b[3]_add_7_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_b[3]_add_9_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_22_o_add_11_OUT[7:0]> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_22_o_add_13_OUT[7:0]> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_22_o_add_15_OUT[7:0]> created at line 0.
+    Found 12-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+	inferred  43 Multiplexer(s).
+Unit <div_8u_4u> synthesized.
+
+Synthesizing Unit <mod_8u_4u>.
+    Related source file is "".
+    Found 12-bit adder for signal <GND_23_o_b[3]_add_1_OUT> created at line 0.
+    Found 11-bit adder for signal <GND_23_o_b[3]_add_3_OUT> created at line 0.
+    Found 10-bit adder for signal <GND_23_o_b[3]_add_5_OUT> created at line 0.
+    Found 9-bit adder for signal <GND_23_o_b[3]_add_7_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_b[3]_add_9_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_23_o_add_11_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_23_o_add_13_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_23_o_add_15_OUT> created at line 0.
+    Found 8-bit adder for signal <a[7]_GND_23_o_add_17_OUT> created at line 0.
+    Found 12-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Summary:
+	inferred   9 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+	inferred  65 Multiplexer(s).
+Unit <mod_8u_4u> synthesized.
+
+Synthesizing Unit <BCDto7Segment>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v".
+    Found 16x8-bit Read Only RAM for signal <SEGMENTS>
+    Summary:
+	inferred   1 RAM(s).
+Unit <BCDto7Segment> synthesized.
+
+Synthesizing Unit <SevenSegDriver>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v".
+    Summary:
+	no macro.
+Unit <SevenSegDriver> synthesized.
+
+Synthesizing Unit <DisplayMux>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v".
+    Found 8-bit register for signal <Digit2>.
+    Found 8-bit register for signal <Digit1>.
+    Found 8-bit register for signal <Digit0>.
+    Found 8-bit register for signal <Digit3>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <DisplayMux> synthesized.
+
+Synthesizing Unit <Refreshing7Seg>.
+    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v".
+        Bits = 4
+        Divider = 10000
+        NumberOfBits = 22
+    Found 23-bit register for signal <count>.
+    Found 2-bit register for signal <Q>.
+    Found 2-bit adder for signal <Q[1]_GND_27_o_add_3_OUT> created at line 21.
+    Found 23-bit adder for signal <count[22]_GND_27_o_add_11_OUT> created at line 35.
+    Found 4x4-bit Read Only RAM for signal <Transistors>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Refreshing7Seg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port Read Only RAM                    : 4
+ 4x4-bit single-port Read Only RAM                     : 1
+# Multipliers                                          : 1
+ 8x5-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 125
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 2
+ 12-bit adder                                          : 2
+ 13-bit adder                                          : 9
+ 14-bit adder                                          : 23
+ 15-bit adder                                          : 3
+ 16-bit adder                                          : 4
+ 17-bit adder                                          : 3
+ 18-bit adder                                          : 3
+ 2-bit adder                                           : 1
+ 23-bit adder                                          : 1
+ 30-bit adder                                          : 18
+ 31-bit adder                                          : 2
+ 31-bit subtractor                                     : 1
+ 32-bit adder                                          : 2
+ 33-bit adder                                          : 2
+ 34-bit adder                                          : 2
+ 35-bit adder                                          : 2
+ 36-bit adder                                          : 2
+ 37-bit adder                                          : 2
+ 38-bit adder                                          : 2
+ 39-bit adder                                          : 2
+ 4-bit subtractor                                      : 1
+ 40-bit adder                                          : 2
+ 41-bit adder                                          : 2
+ 42-bit adder                                          : 2
+ 43-bit adder                                          : 2
+ 44-bit adder                                          : 2
+ 45-bit adder                                          : 2
+ 46-bit adder                                          : 2
+ 47-bit adder                                          : 2
+ 48-bit adder                                          : 2
+ 49-bit adder                                          : 2
+ 50-bit adder                                          : 2
+ 51-bit adder                                          : 1
+ 8-bit adder                                           : 9
+ 9-bit adder                                           : 2
+# Registers                                            : 12
+ 1-bit register                                        : 1
+ 16-bit register                                       : 1
+ 18-bit register                                       : 1
+ 2-bit register                                        : 1
+ 23-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 6
+# Comparators                                          : 95
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 2
+ 13-bit comparator lessequal                           : 10
+ 14-bit comparator lessequal                           : 23
+ 15-bit comparator lessequal                           : 3
+ 16-bit comparator lessequal                           : 3
+ 17-bit comparator lessequal                           : 3
+ 18-bit comparator lessequal                           : 3
+ 30-bit comparator lessequal                           : 10
+ 31-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 8-bit comparator lessequal                            : 10
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 1417
+ 1-bit 2-to-1 multiplexer                              : 1397
+ 13-bit 2-to-1 multiplexer                             : 3
+ 14-bit 2-to-1 multiplexer                             : 3
+ 16-bit 2-to-1 multiplexer                             : 2
+ 18-bit 2-to-1 multiplexer                             : 1
+ 23-bit 2-to-1 multiplexer                             : 1
+ 30-bit 2-to-1 multiplexer                             : 3
+ 4-bit 2-to-1 multiplexer                              : 3
+ 8-bit 2-to-1 multiplexer                              : 4
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <Temperature_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_7> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <BCDto7Segment>.
+INFO:Xst:3231 - The small RAM <Mram_SEGMENTS> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <BCDnumber>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <SEGMENTS>      |          |
+    -----------------------------------------------------------------------
+Unit <BCDto7Segment> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DelayLoop>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <DelayLoop> synthesized (advanced).
+
+Synthesizing (advanced) Unit <I2C_Controller>.
+The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
+Unit <I2C_Controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Refreshing7Seg>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+The following registers are absorbed into counter <Q>: 1 register on signal <Q>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Transistors> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Q>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Transistors>   |          |
+    -----------------------------------------------------------------------
+Unit <Refreshing7Seg> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port distributed Read Only RAM        : 4
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Multipliers                                          : 1
+ 8x5-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 92
+ 13-bit adder                                          : 13
+ 14-bit adder                                          : 29
+ 16-bit adder                                          : 1
+ 30-bit adder                                          : 1
+ 30-bit adder carry in                                 : 29
+ 31-bit subtractor                                     : 1
+ 4-bit adder                                           : 2
+ 8-bit adder                                           : 16
+# Counters                                             : 4
+ 18-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 23-bit up counter                                     : 1
+ 4-bit down counter                                    : 1
+# Registers                                            : 65
+ Flip-Flops                                            : 65
+# Comparators                                          : 95
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 2
+ 13-bit comparator lessequal                           : 10
+ 14-bit comparator lessequal                           : 23
+ 15-bit comparator lessequal                           : 3
+ 16-bit comparator lessequal                           : 3
+ 17-bit comparator lessequal                           : 3
+ 18-bit comparator lessequal                           : 3
+ 30-bit comparator lessequal                           : 10
+ 31-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 8-bit comparator lessequal                            : 10
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 1421
+ 1-bit 2-to-1 multiplexer                              : 1405
+ 13-bit 2-to-1 multiplexer                             : 3
+ 14-bit 2-to-1 multiplexer                             : 3
+ 16-bit 2-to-1 multiplexer                             : 2
+ 30-bit 2-to-1 multiplexer                             : 3
+ 4-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 11    | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <ReadUnit/ControlUnit/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 11    | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <ReadUnit/ControlUnit/FSM_2> on signal <State[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 01    | 01
+ 00    | 00
+ 11    | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <ReadUnit/ControlUnit/FSM_1> on signal <State[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 011
+ 011   | 010
+ 100   | 110
+ 101   | 111
+ 110   | 101
+-------------------
+
+Optimizing unit <Lab7Phase2I2C2019FallJJS_JJS> ...
+
+Optimizing unit <I2C_ShiftRegister> ...
+
+Optimizing unit <I2C_Controller> ...
+
+Optimizing unit <I2C_BaudRateGenerator> ...
+
+Optimizing unit <DisplayMux> ...
+
+Optimizing unit <OneTemperatureConverter> ...
+
+Optimizing unit <div_13u_4u> ...
+WARNING:Xst:1710 - FF/Latch <Temperature_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Temperature_7> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_15> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_16> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_17> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_22> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_21> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_20> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_19> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_18> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_17> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_16> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_15> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DisplayUnit/Update/count_14> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_15> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_14> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_13> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_12> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_11> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <ReadUnit/ControlUnit/PosShot/State_FSM_FFd3> in Unit <Lab7Phase2I2C2019FallJJS_JJS> is equivalent to the following FF/Latch, which will be removed : <ReadUnit/ControlUnit/NegShot/State_FSM_FFd2> 
+INFO:Xst:2261 - The FF/Latch <DisplayUnit/DisplayInput/Digit0_7> in Unit <Lab7Phase2I2C2019FallJJS_JJS> is equivalent to the following 9 FFs/Latches, which will be removed : <DisplayUnit/DisplayInput/Digit0_6> <DisplayUnit/DisplayInput/Digit1_7> <DisplayUnit/DisplayInput/Digit1_6> <DisplayUnit/DisplayInput/Digit2_7> <DisplayUnit/DisplayInput/Digit2_5> <DisplayUnit/DisplayInput/Digit2_2> <DisplayUnit/DisplayInput/Digit3_7> <DisplayUnit/DisplayInput/Digit3_5> <DisplayUnit/DisplayInput/Digit3_4> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Lab7Phase2I2C2019FallJJS_JJS, actual ratio is 1.
+FlipFlop DisplayUnit/DisplayInput/Digit0_7 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 65
+ Flip-Flops                                            : 65
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Lab7Phase2I2C2019FallJJS_JJS.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 208
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 24
+#      LUT2                        : 15
+#      LUT3                        : 14
+#      LUT4                        : 16
+#      LUT5                        : 25
+#      LUT6                        : 19
+#      MUXCY                       : 48
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 65
+#      FD                          : 4
+#      FDE                         : 2
+#      FDR                         : 46
+#      FDRE                        : 10
+#      FDS                         : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 31
+#      IBUF                        : 6
+#      IBUFG                       : 1
+#      OBUF                        : 23
+#      OBUFT                       : 1
+# DCMs                             : 1
+#      DCM_SP                      : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              64  out of  18224     0%  
+ Number of Slice LUTs:                  118  out of   9112     1%  
+    Number used as Logic:               118  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    119
+   Number with an unused Flip Flop:      55  out of    119    46%  
+   Number with an unused LUT:             1  out of    119     0%  
+   Number of fully used LUT-FF pairs:    63  out of    119    52%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          31
+ Number of bonded IOBs:                  31  out of    232    13%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | DCM_SP:CLKFX           | 65    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.418ns (Maximum Frequency: 292.600MHz)
+   Minimum input arrival time before clock: 4.519ns
+   Maximum output required time after clock: 5.382ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 3.418ns (frequency: 292.600MHz)
+  Total number of paths / destination ports: 2304 / 103
+-------------------------------------------------------------------------
+Delay:               4.557ns (Levels of Logic = 3)
+  Source:            ReadUnit/ControlUnit/Timer/count_10 (FF)
+  Destination:       ReadUnit/ControlUnit/Count_3 (FF)
+  Source Clock:      Clock rising 0.8X
+  Destination Clock: Clock rising 0.8X
+
+  Data Path: ReadUnit/ControlUnit/Timer/count_10 to ReadUnit/ControlUnit/Count_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  ReadUnit/ControlUnit/Timer/count_10 (ReadUnit/ControlUnit/Timer/count_10)
+     LUT3:I0->O           12   0.205   0.909  ReadUnit/ControlUnit/Timer/Timeout<17>11 (ReadUnit/ControlUnit/Timer/Timeout<17>1)
+     LUT5:I4->O            8   0.205   0.803  ReadUnit/ControlUnit/Timer/Timeout<17>3 (ReadUnit/ControlUnit/TimeOut)
+     LUT6:I5->O            2   0.205   0.616  ReadUnit/ControlUnit/_n0070_inv1 (ReadUnit/ControlUnit/_n0070_inv)
+     FDE:CE                    0.322          ReadUnit/ControlUnit/Count_1
+    ----------------------------------------
+    Total                      4.557ns (1.384ns logic, 3.173ns route)
+                                       (30.4% logic, 69.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 57 / 56
+-------------------------------------------------------------------------
+Offset:              4.519ns (Levels of Logic = 2)
+  Source:            Reset (PAD)
+  Destination:       DisplayUnit/Update/count_0 (FF)
+  Destination Clock: Clock rising 0.8X
+
+  Data Path: Reset to DisplayUnit/Update/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            37   1.222   1.707  Reset_IBUF (Reset_IBUF)
+     LUT5:I0->O           14   0.203   0.957  DisplayUnit/Update/GND_27_o_GND_27_o_equal_11_o_01 (DisplayUnit/Update/GND_27_o_GND_27_o_equal_11_o_0)
+     FDR:R                     0.430          DisplayUnit/Update/count_0
+    ----------------------------------------
+    Total                      4.519ns (1.855ns logic, 2.664ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 34 / 19
+-------------------------------------------------------------------------
+Offset:              5.382ns (Levels of Logic = 2)
+  Source:            ReadUnit/ControlUnit/State_FSM_FFd3 (FF)
+  Destination:       SDA (PAD)
+  Source Clock:      Clock rising 0.8X
+
+  Data Path: ReadUnit/ControlUnit/State_FSM_FFd3 to SDA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             35   0.447   1.582  ReadUnit/ControlUnit/State_FSM_FFd3 (ReadUnit/ControlUnit/State_FSM_FFd3)
+     LUT4:I0->O            1   0.203   0.579  ReadUnit/DataUnit/SDAUnit/Mmux_ShiftIn11 (ReadUnit/DataUnit/ShiftDataIn)
+     OBUFT:I->O                2.571          SDA_OBUFT (SDA)
+    ----------------------------------------
+    Total                      5.382ns (3.221ns logic, 2.161ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock          |    4.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.16 secs
+ 
+--> 
+
+Total memory usage is 4520068 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   61 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

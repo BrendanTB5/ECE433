@@ -1,0 +1,91 @@
+//Lab7Phase2I2C2019FallJJS_JJS.v
+//ECE433-01 Fall 2019
+//Lab #7 Part II
+//Read TMP101
+
+NET "Clock" LOC = V10;
+//LD0
+//NET "ClockLocked" LOC = U16;
+//LD7
+//NET	"DONE" LOC = T11;
+//JD3
+NET "ClockLocked" LOC = E11;
+//JD4 on Coonector D
+NET	"DONE" LOC = F11;
+
+NET "Reset" LOC = C9;
+//BTNR
+NET "Start" LOC = D9;
+//SW0
+NET "Mode" LOC = T10;
+//SW7-5
+NET "ChipSelect[2]" LOC = T5;
+NET "ChipSelect[1]" LOC = V8;
+NET "ChipSelect[0]" LOC = U8;
+
+//JB3
+//NET "SCL" LOC = L4;
+//JB4 on Coonector B
+//NET "SDA" LOC = L3;
+
+//JC3
+NET "SCL" LOC = K6;
+//JC4 on Coonector C
+NET "SDA" LOC = G3;
+//LD0-7
+NET "ReceivedData[0]" LOC = U16;
+NET "ReceivedData[1]" LOC = V16;
+NET "ReceivedData[2]" LOC = U15;
+NET "ReceivedData[3]" LOC = V15;
+NET "ReceivedData[4]" LOC = M11;
+NET "ReceivedData[5]" LOC = N11;
+NET "ReceivedData[6]" LOC = R11;
+NET "ReceivedData[7]" LOC = T11;
+
+NET "Display[0]" LOC = T17;
+NET "Display[1]" LOC = T18;
+NET "Display[2]" LOC = U17;
+NET "Display[3]" LOC = U18;
+NET "Display[4]" LOC = M14;
+NET "Display[5]" LOC = N14;
+NET "Display[6]" LOC = L14;
+NET "Display[7]" LOC = M13;
+
+NET "Transistors[0]" LOC = N16;
+NET "Transistors[1]" LOC = N15;
+NET "Transistors[2]" LOC = P18;
+NET "Transistors[3]" LOC = P17;
+
+# PlanAhead Generated IO constraints 
+
+NET "Display[7]" IOSTANDARD = LVCMOS33;
+NET "Display[6]" IOSTANDARD = LVCMOS33;
+NET "Display[5]" IOSTANDARD = LVCMOS33;
+NET "Display[4]" IOSTANDARD = LVCMOS33;
+NET "Display[3]" IOSTANDARD = LVCMOS33;
+NET "Display[2]" IOSTANDARD = LVCMOS33;
+NET "Display[1]" IOSTANDARD = LVCMOS33;
+NET "Display[0]" IOSTANDARD = LVCMOS33;
+NET "ChipSelect[2]" IOSTANDARD = LVCMOS33;
+NET "ChipSelect[1]" IOSTANDARD = LVCMOS33;
+NET "ChipSelect[0]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[7]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[6]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[5]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[4]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[3]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[2]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[1]" IOSTANDARD = LVCMOS33;
+NET "ReceivedData[0]" IOSTANDARD = LVCMOS33;
+NET "Transistors[3]" IOSTANDARD = LVCMOS33;
+NET "Transistors[2]" IOSTANDARD = LVCMOS33;
+NET "Transistors[1]" IOSTANDARD = LVCMOS33;
+NET "Transistors[0]" IOSTANDARD = LVCMOS33;
+NET "ClockLocked" IOSTANDARD = LVCMOS33;
+NET "DONE" IOSTANDARD = LVCMOS33;
+NET "Mode" IOSTANDARD = LVCMOS33;
+NET "Reset" IOSTANDARD = LVCMOS33;
+NET "SCL" IOSTANDARD = LVCMOS33;
+NET "SDA" IOSTANDARD = LVCMOS33;
+NET "Start" IOSTANDARD = LVCMOS33;
+NET "Clock" IOSTANDARD = LVCMOS33;

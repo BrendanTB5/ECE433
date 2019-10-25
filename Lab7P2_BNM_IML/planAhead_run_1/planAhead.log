@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Oct 25 13:18:12 2019
+# Process ID: 10628
+# Log file: E:/ECE433/ECE433/Lab7P2_BNM_IML/planAhead_run_1/planAhead.log
+# Journal file: E:/ECE433/ECE433/Lab7P2_BNM_IML/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1759 day(s)
+INFO: [Device 21-36] Loading parts and site information from E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/ECE433/ECE433/Lab7P2_BNM_IML/pa.fromHdl.tcl
+# create_project -name Lab7P2_BNM_IML -dir "E:/ECE433/ECE433/Lab7P2_BNM_IML/planAhead_run_1" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Lab7Phase2I2C2019FallJJS_JJS.ucf" [current_fileset -constrset]
+Adding file 'E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/SystemClk75MHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {I2C_ShiftRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {I2C_SDAmodule.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DelayLoop.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedPositiveOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedNegativeOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Refreshing7Seg.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {I2C_DataUnit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {I2C_Controller.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {I2C_BaudRateGenerator.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DisplayMux.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SevenSegDriver.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ReadTempI2C2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {OneTemperatureConverter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BCDto7Segment.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Lab7Phase2I2C2019FallJJS_JJS.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Lab7Phase2I2C2019FallJJS_JJS $srcset
+# add_files [list {Lab7Phase2I2C2019FallJJS_JJS.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "E:/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_ShiftRegister.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_SDAmodule.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/DelayLoop.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/ClockedPositiveOneShot.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/Refreshing7Seg.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_DataUnit.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_Controller.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_BaudRateGenerator.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/DisplayMux.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/SevenSegDriver.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/ReadTempI2C2019fall.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/OneTemperatureConverter.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/ipcore_dir/SystemClk75MHz.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/BCDto7Segment.v" into library work
+Analyzing Verilog file "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.v" into library work
+Loading clock regions from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from E:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.ucf]
+Finished Parsing UCF File [E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4eee2484
+open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 530.645 ; gain = 99.672
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See E:/ECE433/ECE433/Lab7P2_BNM_IML\planAhead_pid10628.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Oct 25 13:19:59 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead
