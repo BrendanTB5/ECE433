@@ -1,0 +1,40 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+Lab7Phase2I2C2019FallJJS_JJS.ucf -p xc6slx16-csg324-3
+Lab7Phase2I2C2019FallJJS_JJS.ngc Lab7Phase2I2C2019FallJJS_JJS.ngd
+
+Reading NGO file
+"C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJ
+JS_JJS.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"Lab7Phase2I2C2019FallJJS_JJS.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4398512 kilobytes
+
+Writing NGD file "Lab7Phase2I2C2019FallJJS_JJS.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "Lab7Phase2I2C2019FallJJS_JJS.bld"...

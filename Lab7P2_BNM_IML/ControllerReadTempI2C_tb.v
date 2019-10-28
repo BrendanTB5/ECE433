@@ -6,12 +6,11 @@ module ControllerReadTempI2C_tb;
 
 	wire WriteLoad, ReadorWrite, ShiftorHold, Select, BaudEnable, StartStopAck,DONE;
 	wire [3:0] State=uut.State;
-	wire [3:0] DataCounter=uut.DataCounter;
+	wire [3:0] DataCounter=uut.Count;
 	wire TimeOut=uut.TimeOut, ACKbit=uut.ACKbit;
-	wire OneShotPositive=uut.OneShotPositive, OneShotNegative=uut.OneShotNegative;
+	wire OneShotPositive=uut.PosSCLEdge, OneShotNegative=uut.NegSCLEdge;
 
-ControllerReadTempI2C uut (Go, SDA, WriteLoad, ReadorWrite, ShiftorHold, Select, 
-	BaudEnable, StartStopAck, DONE, Reset, ClockI2C, clock);
+I2C_Controller uut (clock, ClockI2C, Go,Reset,SDA,BaudEnable, ReadorWrite,Select,ShiftorHold,StartStopAck,WriteLoad,DONE);
 	
 	initial begin  Go = 0;  Reset = 0;  ClockI2C = 0;  clock = 0; end
 	always #4 clock=~clock;

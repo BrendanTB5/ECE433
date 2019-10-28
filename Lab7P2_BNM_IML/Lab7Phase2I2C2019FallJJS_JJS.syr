@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: Lab7Phase2I2C2019FallJJS_JJS.prj
 
@@ -108,43 +108,42 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" into library work
 Parsing module <SystemClk75MHz>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v" into library work
 Parsing module <I2C_ShiftRegister>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v" into library work
 Parsing module <I2C_SDAmodule>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v" into library work
 Parsing module <DelayLoop>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v" into library work
 Parsing module <ClockedPositiveOneShot>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v" into library work
 Parsing module <ClockedNegativeOneShot>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v" into library work
 Parsing module <Refreshing7Seg>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v" into library work
 Parsing module <I2C_DataUnit>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v" into library work
 Parsing module <I2C_Controller>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v" into library work
 Parsing module <I2C_BaudRateGenerator>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v" into library work
 Parsing module <DisplayMux>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v" into library work
 Parsing module <SevenSegDriver>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v" into library work
 Parsing module <ReadTempI2C2019fall>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" into library work
 Parsing module <OneTemperatureConverter>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v" into library work
 Parsing module <BCDto7Segment>.
-Analyzing Verilog file "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" into library work
+Analyzing Verilog file "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" into library work
 Parsing module <Lab7Phase2I2C2019FallJJS_JJS>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" Line 28: Port LOCKED is not connected to this instance
 
 Elaborating module <Lab7Phase2I2C2019FallJJS_JJS>.
 
@@ -153,7 +152,7 @@ Elaborating module <SystemClk75MHz>.
 Elaborating module <IBUFG>.
 
 Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=4,CLKFX_MULTIPLY=3,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
-WARNING:HDLCompiler:1127 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" Line 130: Assignment to status_int ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v" Line 130: Assignment to status_int ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
 
@@ -176,8 +175,8 @@ Elaborating module <I2C_ShiftRegister>.
 Elaborating module <I2C_SDAmodule>.
 
 Elaborating module <OneTemperatureConverter>.
-WARNING:HDLCompiler:413 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 24: Result of 14-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 26: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 24: Result of 14-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v" Line 26: Result of 8-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <BCDto7Segment>.
 
@@ -192,24 +191,22 @@ Elaborating module <Refreshing7Seg>.
 =========================================================================
 
 Synthesizing Unit <Lab7Phase2I2C2019FallJJS_JJS>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v".
         BaudRate = 20'b00000100111000100000
         ClockFrequency = 30'b000100011110000110100011000000
-INFO:Xst:3210 - "E:\ECE433\ECE433\Lab7P2_BNM_IML\Lab7Phase2I2C2019FallJJS_JJS.v" line 28: Output port <LOCKED> of the instance <SystemClockUnit> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <ClockLocked> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 8-bit register for signal <Temperature>.
     Summary:
 	inferred   8 D-type flip-flop(s).
 Unit <Lab7Phase2I2C2019FallJJS_JJS> synthesized.
 
 Synthesizing Unit <SystemClk75MHz>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ipcore_dir\SystemClk75MHz.v".
     Summary:
 	no macro.
 Unit <SystemClk75MHz> synthesized.
 
 Synthesizing Unit <ClockedPositiveOneShot>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ClockedPositiveOneShot.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -233,13 +230,13 @@ Synthesizing Unit <ClockedPositiveOneShot>.
 Unit <ClockedPositiveOneShot> synthesized.
 
 Synthesizing Unit <ReadTempI2C2019fall>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ReadTempI2C2019fall.v".
     Summary:
 	no macro.
 Unit <ReadTempI2C2019fall> synthesized.
 
 Synthesizing Unit <I2C_BaudRateGenerator>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_BaudRateGenerator.v".
     Found 1-bit register for signal <SignalOut>.
     Found 16-bit register for signal <baud_count>.
     Found 31-bit subtractor for signal <GND_8_o_GND_8_o_sub_4_OUT> created at line 37.
@@ -351,40 +348,43 @@ Synthesizing Unit <div_30u_21u>.
 Unit <div_30u_21u> synthesized.
 
 Synthesizing Unit <I2C_Controller>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v".
-        InitState = 3'b000
-        Start = 3'b001
-        LoadShiftReg = 3'b010
-        Write = 3'b011
-        Receive = 3'b100
-        Transit = 3'b101
-        Stop = 3'b110
-WARNING:Xst:653 - Signal <DONE> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_Controller.v".
+        InitState = 4'b0000
+        Start = 4'b0001
+        LoadShiftReg = 4'b0010
+        Write = 4'b0011
+        Ack1 = 4'b0100
+        Connected = 4'b0101
+        Read = 4'b0110
+        Ack2 = 4'b0111
+        Transit = 4'b1000
+        Stop = 4'b1001
+        Wait = 4'b1010
     Found 4-bit register for signal <Count>.
-    Found 3-bit register for signal <State>.
+    Found 4-bit register for signal <State>.
     Found finite state machine <FSM_1> for signal <State>.
     -----------------------------------------------------------------------
-    | States             | 7                                              |
-    | Transitions        | 15                                             |
-    | Inputs             | 6                                              |
-    | Outputs            | 9                                              |
+    | States             | 11                                             |
+    | Transitions        | 23                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 12                                             |
     | Clock              | clock (rising_edge)                            |
     | Reset              | Reset (positive)                               |
     | Reset type         | synchronous                                    |
-    | Reset State        | 000                                            |
+    | Reset State        | 0000                                           |
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 4-bit subtractor for signal <Count[3]_GND_10_o_sub_12_OUT> created at line 65.
+    Found 4-bit subtractor for signal <Count[3]_GND_10_o_sub_17_OUT> created at line 76.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   4 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
+	inferred   4 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <I2C_Controller> synthesized.
 
 Synthesizing Unit <ClockedNegativeOneShot>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\ClockedNegativeOneShot.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -408,7 +408,7 @@ Synthesizing Unit <ClockedNegativeOneShot>.
 Unit <ClockedNegativeOneShot> synthesized.
 
 Synthesizing Unit <DelayLoop>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\DelayLoop.v".
         Divider = 20000
         NumberOfBits = 18
     Found 18-bit register for signal <count>.
@@ -422,14 +422,14 @@ Synthesizing Unit <DelayLoop>.
 Unit <DelayLoop> synthesized.
 
 Synthesizing Unit <I2C_DataUnit>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_DataUnit.v".
         LENGTH = 8
     Summary:
 	no macro.
 Unit <I2C_DataUnit> synthesized.
 
 Synthesizing Unit <I2C_ShiftRegister>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_ShiftRegister.v".
         LENGTH = 8
     Found 8-bit register for signal <ShiftRegister>.
     Summary:
@@ -438,15 +438,15 @@ Synthesizing Unit <I2C_ShiftRegister>.
 Unit <I2C_ShiftRegister> synthesized.
 
 Synthesizing Unit <I2C_SDAmodule>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v".
-    Found 1-bit tristate buffer for signal <SDA> created at line 37
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\I2C_SDAmodule.v".
+    Found 1-bit tristate buffer for signal <SDA> created at line 39
     Summary:
 	inferred   1 Multiplexer(s).
 	inferred   1 Tristate(s).
 Unit <I2C_SDAmodule> synthesized.
 
 Synthesizing Unit <OneTemperatureConverter>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\OneTemperatureConverter.v".
     Found 14-bit adder for signal <n0010> created at line 24.
     Found 8x5-bit multiplier for signal <Temp[7]_PWR_18_o_MuLt_0_OUT> created at line 24.
     Summary:
@@ -616,20 +616,20 @@ Synthesizing Unit <mod_8u_4u>.
 Unit <mod_8u_4u> synthesized.
 
 Synthesizing Unit <BCDto7Segment>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\BCDto7Segment.v".
     Found 16x8-bit Read Only RAM for signal <SEGMENTS>
     Summary:
 	inferred   1 RAM(s).
 Unit <BCDto7Segment> synthesized.
 
 Synthesizing Unit <SevenSegDriver>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\SevenSegDriver.v".
     Summary:
 	no macro.
 Unit <SevenSegDriver> synthesized.
 
 Synthesizing Unit <DisplayMux>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\DisplayMux.v".
     Found 8-bit register for signal <Digit2>.
     Found 8-bit register for signal <Digit1>.
     Found 8-bit register for signal <Digit0>.
@@ -639,7 +639,7 @@ Synthesizing Unit <DisplayMux>.
 Unit <DisplayMux> synthesized.
 
 Synthesizing Unit <Refreshing7Seg>.
-    Related source file is "E:\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v".
+    Related source file is "C:\Users\mulholbn\Downloads\ECE433\ECE433\Lab7P2_BNM_IML\Refreshing7Seg.v".
         Bits = 4
         Divider = 10000
         NumberOfBits = 22
@@ -745,15 +745,15 @@ Macro Statistics
  51-bit comparator lessequal                           : 1
  8-bit comparator lessequal                            : 10
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1417
- 1-bit 2-to-1 multiplexer                              : 1397
+# Multiplexers                                         : 1419
+ 1-bit 2-to-1 multiplexer                              : 1398
  13-bit 2-to-1 multiplexer                             : 3
  14-bit 2-to-1 multiplexer                             : 3
  16-bit 2-to-1 multiplexer                             : 2
  18-bit 2-to-1 multiplexer                             : 1
  23-bit 2-to-1 multiplexer                             : 1
  30-bit 2-to-1 multiplexer                             : 3
- 4-bit 2-to-1 multiplexer                              : 3
+ 4-bit 2-to-1 multiplexer                              : 4
  8-bit 2-to-1 multiplexer                              : 4
 # Tristates                                            : 1
  1-bit tristate buffer                                 : 1
@@ -765,14 +765,6 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1710 - FF/Latch <Temperature_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_7> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 
 Synthesizing (advanced) Unit <BCDto7Segment>.
 INFO:Xst:3231 - The small RAM <Mram_SEGMENTS> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -791,10 +783,6 @@ Unit <BCDto7Segment> synthesized (advanced).
 Synthesizing (advanced) Unit <DelayLoop>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
 Unit <DelayLoop> synthesized (advanced).
-
-Synthesizing (advanced) Unit <I2C_Controller>.
-The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
-Unit <I2C_Controller> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Refreshing7Seg>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
@@ -821,7 +809,7 @@ Macro Statistics
  4x4-bit single-port distributed Read Only RAM         : 1
 # Multipliers                                          : 1
  8x5-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 92
+# Adders/Subtractors                                   : 93
  13-bit adder                                          : 13
  14-bit adder                                          : 29
  16-bit adder                                          : 1
@@ -829,14 +817,14 @@ Macro Statistics
  30-bit adder carry in                                 : 29
  31-bit subtractor                                     : 1
  4-bit adder                                           : 2
+ 4-bit subtractor                                      : 1
  8-bit adder                                           : 16
-# Counters                                             : 4
+# Counters                                             : 3
  18-bit up counter                                     : 1
  2-bit up counter                                      : 1
  23-bit up counter                                     : 1
- 4-bit down counter                                    : 1
-# Registers                                            : 65
- Flip-Flops                                            : 65
+# Registers                                            : 69
+ Flip-Flops                                            : 69
 # Comparators                                          : 95
  10-bit comparator lessequal                           : 2
  11-bit comparator lessequal                           : 2
@@ -872,13 +860,13 @@ Macro Statistics
  51-bit comparator lessequal                           : 1
  8-bit comparator lessequal                            : 10
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1421
+# Multiplexers                                         : 1423
  1-bit 2-to-1 multiplexer                              : 1405
  13-bit 2-to-1 multiplexer                             : 3
  14-bit 2-to-1 multiplexer                             : 3
  16-bit 2-to-1 multiplexer                             : 2
  30-bit 2-to-1 multiplexer                             : 3
- 4-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 4
  8-bit 2-to-1 multiplexer                              : 3
 # FSMs                                                 : 4
 
@@ -897,15 +885,6 @@ Optimizing FSM <FSM_0> on signal <State[1:3]> with one-hot encoding.
  11    | 100
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <ReadUnit/ControlUnit/FSM_0> on signal <State[1:3]> with one-hot encoding.
--------------------
- State | Encoding
--------------------
- 00    | 001
- 01    | 010
- 11    | 100
--------------------
-Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <ReadUnit/ControlUnit/FSM_2> on signal <State[1:2]> with user encoding.
 -------------------
  State | Encoding
@@ -915,18 +894,31 @@ Optimizing FSM <ReadUnit/ControlUnit/FSM_2> on signal <State[1:2]> with user enc
  11    | 11
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <ReadUnit/ControlUnit/FSM_1> on signal <State[1:3]> with gray encoding.
+Optimizing FSM <ReadUnit/ControlUnit/FSM_0> on signal <State[1:3]> with one-hot encoding.
 -------------------
  State | Encoding
 -------------------
- 000   | 000
- 001   | 001
- 010   | 011
- 011   | 010
- 100   | 110
- 101   | 111
- 110   | 101
+ 00    | 001
+ 01    | 010
+ 11    | 100
 -------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <ReadUnit/ControlUnit/FSM_1> on signal <State[1:11]> with one-hot encoding.
+----------------------
+ State | Encoding
+----------------------
+ 0000  | 00000000001
+ 0001  | 00000000010
+ 0010  | 00000000100
+ 0011  | 00000001000
+ 0100  | 00000010000
+ 0101  | 00000100000
+ 0110  | 00001000000
+ 1010  | 00010000000
+ 0111  | 00100000000
+ 1000  | 01000000000
+ 1001  | 10000000000
+----------------------
 
 Optimizing unit <Lab7Phase2I2C2019FallJJS_JJS> ...
 
@@ -941,36 +933,6 @@ Optimizing unit <DisplayMux> ...
 Optimizing unit <OneTemperatureConverter> ...
 
 Optimizing unit <div_13u_4u> ...
-WARNING:Xst:1710 - FF/Latch <Temperature_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Temperature_7> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit2_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_6> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit3_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit1_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_0> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_1> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_2> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_3> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_4> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DisplayUnit/DisplayInput/Digit0_5> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_15> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_16> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ReadUnit/ControlUnit/Timer/count_17> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
@@ -989,12 +951,19 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/b
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_12> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ReadUnit/BaudUnit/baud_count_11> (without init value) has a constant value of 0 in block <Lab7Phase2I2C2019FallJJS_JJS>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <ReadUnit/ControlUnit/PosShot/State_FSM_FFd3> in Unit <Lab7Phase2I2C2019FallJJS_JJS> is equivalent to the following FF/Latch, which will be removed : <ReadUnit/ControlUnit/NegShot/State_FSM_FFd2> 
-INFO:Xst:2261 - The FF/Latch <DisplayUnit/DisplayInput/Digit0_7> in Unit <Lab7Phase2I2C2019FallJJS_JJS> is equivalent to the following 9 FFs/Latches, which will be removed : <DisplayUnit/DisplayInput/Digit0_6> <DisplayUnit/DisplayInput/Digit1_7> <DisplayUnit/DisplayInput/Digit1_6> <DisplayUnit/DisplayInput/Digit2_7> <DisplayUnit/DisplayInput/Digit2_5> <DisplayUnit/DisplayInput/Digit2_2> <DisplayUnit/DisplayInput/Digit3_7> <DisplayUnit/DisplayInput/Digit3_5> <DisplayUnit/DisplayInput/Digit3_4> 
+INFO:Xst:2261 - The FF/Latch <DisplayUnit/DisplayInput/Digit0_7> in Unit <Lab7Phase2I2C2019FallJJS_JJS> is equivalent to the following FF/Latch, which will be removed : <DisplayUnit/DisplayInput/Digit2_7> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Lab7Phase2I2C2019FallJJS_JJS, actual ratio is 1.
-FlipFlop DisplayUnit/DisplayInput/Digit0_7 has been replicated 1 time(s) to handle iob=true attribute.
+Found area constraint ratio of 100 (+ 5) on block Lab7Phase2I2C2019FallJJS_JJS, actual ratio is 5.
+FlipFlop Temperature_0 has been replicated 3 time(s)
+FlipFlop Temperature_1 has been replicated 2 time(s)
+FlipFlop Temperature_2 has been replicated 2 time(s)
+FlipFlop Temperature_3 has been replicated 3 time(s)
+FlipFlop Temperature_4 has been replicated 3 time(s)
+FlipFlop Temperature_5 has been replicated 2 time(s)
+FlipFlop Temperature_6 has been replicated 3 time(s)
+FlipFlop Temperature_7 has been replicated 2 time(s)
 
 Final Macro Processing ...
 
@@ -1002,8 +971,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 65
- Flip-Flops                                            : 65
+# Registers                                            : 130
+ Flip-Flops                                            : 130
 
 =========================================================================
 
@@ -1026,31 +995,32 @@ Top Level Output File Name         : Lab7Phase2I2C2019FallJJS_JJS.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 208
+# BELS                             : 620
 #      GND                         : 1
 #      INV                         : 5
 #      LUT1                        : 24
-#      LUT2                        : 15
-#      LUT3                        : 14
-#      LUT4                        : 16
-#      LUT5                        : 25
-#      LUT6                        : 19
-#      MUXCY                       : 48
+#      LUT2                        : 26
+#      LUT3                        : 42
+#      LUT4                        : 44
+#      LUT5                        : 78
+#      LUT6                        : 259
+#      MUXCY                       : 70
+#      MUXF7                       : 6
 #      VCC                         : 1
-#      XORCY                       : 40
-# FlipFlops/Latches                : 65
-#      FD                          : 4
-#      FDE                         : 2
-#      FDR                         : 46
+#      XORCY                       : 64
+# FlipFlops/Latches                : 130
+#      FDE                         : 32
+#      FDR                         : 84
 #      FDRE                        : 10
 #      FDS                         : 3
+#      FDSE                        : 1
 # Clock Buffers                    : 2
 #      BUFG                        : 2
 # IO Buffers                       : 31
 #      IBUF                        : 6
 #      IBUFG                       : 1
+#      IOBUF                       : 1
 #      OBUF                        : 23
-#      OBUFT                       : 1
 # DCMs                             : 1
 #      DCM_SP                      : 1
 
@@ -1061,21 +1031,20 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              64  out of  18224     0%  
- Number of Slice LUTs:                  118  out of   9112     1%  
-    Number used as Logic:               118  out of   9112     1%  
+ Number of Slice Registers:             130  out of  18224     0%  
+ Number of Slice LUTs:                  478  out of   9112     5%  
+    Number used as Logic:               478  out of   9112     5%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    119
-   Number with an unused Flip Flop:      55  out of    119    46%  
-   Number with an unused LUT:             1  out of    119     0%  
-   Number of fully used LUT-FF pairs:    63  out of    119    52%  
-   Number of unique control sets:         7
+ Number of LUT Flip Flop pairs used:    502
+   Number with an unused Flip Flop:     372  out of    502    74%  
+   Number with an unused LUT:            24  out of    502     4%  
+   Number of fully used LUT-FF pairs:   106  out of    502    21%  
+   Number of unique control sets:        11
 
 IO Utilization: 
  Number of IOs:                          31
  Number of bonded IOBs:                  31  out of    232    13%  
-    IOB Flip Flops/Latches:               1
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
@@ -1101,7 +1070,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clock                              | DCM_SP:CLKFX           | 65    |
+Clock                              | DCM_SP:CLKFX           | 130   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1112,9 +1081,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 3.418ns (Maximum Frequency: 292.600MHz)
-   Minimum input arrival time before clock: 4.519ns
-   Maximum output required time after clock: 5.382ns
+   Minimum period: 10.306ns (Maximum Frequency: 97.027MHz)
+   Minimum input arrival time before clock: 4.849ns
+   Maximum output required time after clock: 7.014ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1123,33 +1092,46 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clock'
-  Clock period: 3.418ns (frequency: 292.600MHz)
-  Total number of paths / destination ports: 2304 / 103
+  Clock period: 10.306ns (frequency: 97.027MHz)
+  Total number of paths / destination ports: 28070552 / 203
 -------------------------------------------------------------------------
-Delay:               4.557ns (Levels of Logic = 3)
-  Source:            ReadUnit/ControlUnit/Timer/count_10 (FF)
-  Destination:       ReadUnit/ControlUnit/Count_3 (FF)
+Delay:               13.742ns (Levels of Logic = 16)
+  Source:            Temperature_4_1 (FF)
+  Destination:       DisplayUnit/DisplayInput/Digit3_3 (FF)
   Source Clock:      Clock rising 0.8X
   Destination Clock: Clock rising 0.8X
 
-  Data Path: ReadUnit/ControlUnit/Timer/count_10 to ReadUnit/ControlUnit/Count_3
+  Data Path: Temperature_4_1 to DisplayUnit/DisplayInput/Digit3_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              2   0.447   0.845  ReadUnit/ControlUnit/Timer/count_10 (ReadUnit/ControlUnit/Timer/count_10)
-     LUT3:I0->O           12   0.205   0.909  ReadUnit/ControlUnit/Timer/Timeout<17>11 (ReadUnit/ControlUnit/Timer/Timeout<17>1)
-     LUT5:I4->O            8   0.205   0.803  ReadUnit/ControlUnit/Timer/Timeout<17>3 (ReadUnit/ControlUnit/TimeOut)
-     LUT6:I5->O            2   0.205   0.616  ReadUnit/ControlUnit/_n0070_inv1 (ReadUnit/ControlUnit/_n0070_inv)
-     FDE:CE                    0.322          ReadUnit/ControlUnit/Count_1
+     FDE:C->Q              4   0.447   1.028  Temperature_4_1 (Temperature_4_1)
+     LUT6:I1->O           13   0.203   0.933  ConvertUnit/Mmult_Temp[7]_PWR_18_o_MuLt_0_OUT_Madd_cy<6>11 (ConvertUnit/Mmult_Temp[7]_PWR_18_o_MuLt_0_OUT_Madd_cy<6>)
+     LUT6:I5->O           19   0.205   1.176  ConvertUnit/Temp[7]_PWR_18_o_div_1/o<8>1 (ConvertUnit/Madd_n0010_lut<8>)
+     LUT5:I3->O           12   0.203   1.253  ConvertUnit/BUS_0001_PWR_18_o_div_3/Mmux_a[0]_a[13]_MUX_2577_o1141 (ConvertUnit/BUS_0001_PWR_18_o_div_3/Mmux_a[0]_a[13]_MUX_2577_o114)
+     LUT5:I0->O           14   0.203   0.958  ConvertUnit/BUS_0001_PWR_18_o_div_3/o<4>11 (ConvertUnit/BUS_0001_PWR_18_o_div_3/o<4>)
+     LUT6:I5->O           17   0.205   1.028  ConvertUnit/BUS_0001_PWR_18_o_div_3/Mmux_a[0]_a[13]_MUX_2577_o1111 (ConvertUnit/BUS_0001_PWR_18_o_div_3/a[7]_a[13]_MUX_2570_o)
+     LUT5:I4->O            2   0.205   0.721  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_23_OUT[13:0]_cy<10>11 (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_23_OUT[13:0]_cy<10>)
+     LUT6:I4->O           13   0.203   1.037  ConvertUnit/BUS_0001_PWR_18_o_div_3/Mmux_n0611521 (ConvertUnit/BUS_0001_PWR_18_o_div_3/n0611<13>)
+     LUT6:I4->O            7   0.203   0.774  ConvertUnit/n0003<2>1_1 (ConvertUnit/n0003<2>1)
+     LUT6:I5->O            1   0.205   0.000  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_lut<5> (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_lut<5>)
+     MUXCY:S->O            1   0.172   0.000  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<5> (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<6> (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<7> (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<8> (ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_cy<8>)
+     XORCY:CI->O           4   0.180   0.912  ConvertUnit/BUS_0001_PWR_18_o_div_3/Madd_a[13]_GND_20_o_add_27_OUT[13:0]_xor<9> (ConvertUnit/BUS_0001_PWR_18_o_div_3/a[13]_GND_20_o_add_27_OUT[13:0]<9>)
+     LUT4:I1->O            2   0.205   0.721  F1Unit/Mram_SEGMENTS111_SW2 (N587)
+     LUT6:I4->O            1   0.203   0.000  F1Unit/Mram_SEGMENTS31 (F1Unit/Mram_SEGMENTS3)
+     FDR:D                     0.102          DisplayUnit/DisplayInput/Digit3_3
     ----------------------------------------
-    Total                      4.557ns (1.384ns logic, 3.173ns route)
-                                       (30.4% logic, 69.6% route)
+    Total                     13.742ns (3.201ns logic, 10.541ns route)
+                                       (23.3% logic, 76.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 57 / 56
+  Total number of paths / destination ports: 106 / 100
 -------------------------------------------------------------------------
-Offset:              4.519ns (Levels of Logic = 2)
+Offset:              4.849ns (Levels of Logic = 2)
   Source:            Reset (PAD)
   Destination:       DisplayUnit/Update/count_0 (FF)
   Destination Clock: Clock rising 0.8X
@@ -1158,32 +1140,34 @@ Offset:              4.519ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            37   1.222   1.707  Reset_IBUF (Reset_IBUF)
+     IBUF:I->O            72   1.222   2.037  Reset_IBUF (Reset_IBUF)
      LUT5:I0->O           14   0.203   0.957  DisplayUnit/Update/GND_27_o_GND_27_o_equal_11_o_01 (DisplayUnit/Update/GND_27_o_GND_27_o_equal_11_o_0)
      FDR:R                     0.430          DisplayUnit/Update/count_0
     ----------------------------------------
-    Total                      4.519ns (1.855ns logic, 2.664ns route)
-                                       (41.0% logic, 59.0% route)
+    Total                      4.849ns (1.855ns logic, 2.994ns route)
+                                       (38.3% logic, 61.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
-  Total number of paths / destination ports: 34 / 19
+  Total number of paths / destination ports: 161 / 23
 -------------------------------------------------------------------------
-Offset:              5.382ns (Levels of Logic = 2)
-  Source:            ReadUnit/ControlUnit/State_FSM_FFd3 (FF)
-  Destination:       SDA (PAD)
+Offset:              7.014ns (Levels of Logic = 4)
+  Source:            DisplayUnit/Update/Q_0 (FF)
+  Destination:       Display<6> (PAD)
   Source Clock:      Clock rising 0.8X
 
-  Data Path: ReadUnit/ControlUnit/State_FSM_FFd3 to SDA
+  Data Path: DisplayUnit/Update/Q_0 to Display<6>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q             35   0.447   1.582  ReadUnit/ControlUnit/State_FSM_FFd3 (ReadUnit/ControlUnit/State_FSM_FFd3)
-     LUT4:I0->O            1   0.203   0.579  ReadUnit/DataUnit/SDAUnit/Mmux_ShiftIn11 (ReadUnit/DataUnit/ShiftDataIn)
-     OBUFT:I->O                2.571          SDA_OBUFT (SDA)
+     FDRE:C->Q             7   0.447   0.878  DisplayUnit/Update/Q_0 (DisplayUnit/Update/Q_0)
+     LUT2:I0->O           16   0.203   1.349  DisplayUnit/Update/Mram_Transistors31 (DisplayUnit/Update/Mram_Transistors3)
+     LUT6:I1->O            1   0.203   0.580  DisplayUnit/DisplayInput/Display<0>1 (DisplayUnit/DisplayInput/Display<0>)
+     LUT6:I5->O            1   0.205   0.579  DisplayUnit/DisplayInput/Display<0>2 (Display_0_OBUF)
+     OBUF:I->O                 2.571          Display_0_OBUF (Display<0>)
     ----------------------------------------
-    Total                      5.382ns (3.221ns logic, 2.161ns route)
-                                       (59.9% logic, 40.1% route)
+    Total                      7.014ns (3.629ns logic, 3.385ns route)
+                                       (51.7% logic, 48.3% route)
 
 =========================================================================
 
@@ -1195,20 +1179,20 @@ Clock to Setup on destination clock Clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clock          |    4.557|         |         |         |
+Clock          |   13.742|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 12.16 secs
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.12 secs
  
 --> 
 
-Total memory usage is 4520068 kilobytes
+Total memory usage is 4523128 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   61 (   0 filtered)
-Number of infos    :    5 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
 

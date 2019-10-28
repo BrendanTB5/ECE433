@@ -23,19 +23,21 @@ module I2C_SDAmodule(
     input ReadorWrite,
     input Select,
     input StartStopAck,
-    output reg ShiftIn,
+    output ShiftIn,
     input ShiftOut
     );
+	 
+	 reg DataOut;
 	 
 	
 	always @(*)
 		if(Select == 1)
-			ShiftIn <= ShiftOut;
+			DataOut <= ShiftOut;
 		else
-			ShiftIn <= StartStopAck;
+			DataOut <= StartStopAck;
 
-	assign SDA = (ReadorWrite) ? 1'bZ: ShiftIn;
-	
+	assign SDA = (ReadorWrite) ? 1'bZ: DataOut;
+	assign ShiftIn = SDA;
 
 
 endmodule

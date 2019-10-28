@@ -1,0 +1,6 @@
+verilog work "DelayLoop.v"
+verilog work "ClockedPositiveOneShot.v"
+verilog work "ClockedNegativeOneShot.v"
+verilog work "I2C_Controller.v"
+verilog work "ControllerReadTempI2C_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

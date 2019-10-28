@@ -3,3 +3,29 @@ xst -intstyle ise -ifn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS
 xst -intstyle ise -ifn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
 xst -intstyle ise -ifn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
 xst -intstyle ise -ifn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7Phase2I2C2019FallJJS_JJS.ucf -p xc6slx16-csg324-3 Lab7Phase2I2C2019FallJJS_JJS.ngc Lab7Phase2I2C2019FallJJS_JJS.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ngd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+par -w -intstyle ise -ol high -mt off Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ncd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7Phase2I2C2019FallJJS_JJS.twx Lab7Phase2I2C2019FallJJS_JJS.ncd -o Lab7Phase2I2C2019FallJJS_JJS.twr Lab7Phase2I2C2019FallJJS_JJS.pcf -ucf Lab7Phase2I2C2019FallJJS_JJS.ucf 
+bitgen -intstyle ise -f Lab7Phase2I2C2019FallJJS_JJS.ut Lab7Phase2I2C2019FallJJS_JJS.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7Phase2I2C2019FallJJS_JJS.ucf -p xc6slx16-csg324-3 Lab7Phase2I2C2019FallJJS_JJS.ngc Lab7Phase2I2C2019FallJJS_JJS.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ngd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+par -w -intstyle ise -ol high -mt off Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ncd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7Phase2I2C2019FallJJS_JJS.twx Lab7Phase2I2C2019FallJJS_JJS.ncd -o Lab7Phase2I2C2019FallJJS_JJS.twr Lab7Phase2I2C2019FallJJS_JJS.pcf -ucf Lab7Phase2I2C2019FallJJS_JJS.ucf 
+bitgen -intstyle ise -f Lab7Phase2I2C2019FallJJS_JJS.ut Lab7Phase2I2C2019FallJJS_JJS.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7Phase2I2C2019FallJJS_JJS.ucf -p xc6slx16-csg324-3 Lab7Phase2I2C2019FallJJS_JJS.ngc Lab7Phase2I2C2019FallJJS_JJS.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ngd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+par -w -intstyle ise -ol high -mt off Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ncd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7Phase2I2C2019FallJJS_JJS.twx Lab7Phase2I2C2019FallJJS_JJS.ncd -o Lab7Phase2I2C2019FallJJS_JJS.twr Lab7Phase2I2C2019FallJJS_JJS.pcf -ucf Lab7Phase2I2C2019FallJJS_JJS.ucf 
+bitgen -intstyle ise -f Lab7Phase2I2C2019FallJJS_JJS.ut Lab7Phase2I2C2019FallJJS_JJS.ncd 
+xst -intstyle ise -ifn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.xst" -ofn "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab7Phase2I2C2019FallJJS_JJS.ucf -p xc6slx16-csg324-3 Lab7Phase2I2C2019FallJJS_JJS.ngc Lab7Phase2I2C2019FallJJS_JJS.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ngd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+par -w -intstyle ise -ol high -mt off Lab7Phase2I2C2019FallJJS_JJS_map.ncd Lab7Phase2I2C2019FallJJS_JJS.ncd Lab7Phase2I2C2019FallJJS_JJS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7Phase2I2C2019FallJJS_JJS.twx Lab7Phase2I2C2019FallJJS_JJS.ncd -o Lab7Phase2I2C2019FallJJS_JJS.twr Lab7Phase2I2C2019FallJJS_JJS.pcf -ucf Lab7Phase2I2C2019FallJJS_JJS.ucf 
+bitgen -intstyle ise -f Lab7Phase2I2C2019FallJJS_JJS.ut Lab7Phase2I2C2019FallJJS_JJS.ncd 

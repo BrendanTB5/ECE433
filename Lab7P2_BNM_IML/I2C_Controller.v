@@ -34,11 +34,12 @@ module I2C_Controller(
     );
 	 
 	 reg[3:0] Count;
-	 reg[2:0] State, NextState;
+	 reg[3:0] State, NextState;
 	 wire TimeOut;
 	 wire PosSCLEdge;
 	 wire NegSCLEdge;
 	 reg ClearTimer;
+	 reg ACKbit;
 	 
 	 parameter InitState = 4'd0, Start = 4'd1, LoadShiftReg = 4'd2, Write = 4'd3, Ack1 = 4'd4, Connected = 4'd5, Read = 4'd6, Ack2 = 4'd7, Transit = 4'd8, Stop = 4'd9, Wait = 4'd10;
 	 
@@ -50,7 +51,7 @@ module I2C_Controller(
 		LoadShiftReg: begin BaudEnable <= 1; ReadorWrite <= 0; WriteLoad <= 1; Select <= 0; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
 		Write: begin BaudEnable <= 1; ReadorWrite <= 0; WriteLoad <= 0; Select <= 1; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
 		Ack1: begin BaudEnable <= 1; ReadorWrite <= 1; WriteLoad <= 0; Select <= 0; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
-		Connected: begin BaudEnable <= 1; ReadorWrite <= 1; WriteLoad <= 0; Select <= 0; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
+		Connected: begin BaudEnable <= 0; ReadorWrite <= 0; WriteLoad <= 0; Select <= 0; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
 		Read: begin BaudEnable <= 1; ReadorWrite <= 1; WriteLoad <= 0; Select <= 1; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
 		Wait: begin BaudEnable <= 1; ReadorWrite <= 1; WriteLoad <= 0; Select <= 0; StartStopAck <= 1; ClearTimer <= 1; DONE <= 0; end
 		Ack2: begin BaudEnable <= 1; ReadorWrite <= 0; WriteLoad <= 0; Select <= 0; StartStopAck <= 0; ClearTimer <= 1; DONE <= 0; end
@@ -77,6 +78,13 @@ module I2C_Controller(
 					Count <= Count;
 			else
 				Count <= 4'd10;
+				
+			if(PosSCLEdge == 1) 
+				ACKbit<=SDA; 
+			else 
+				ACKbit<=ACKbit;
+				
+				
 			State <= NextState;
 		end
 		
@@ -142,11 +150,21 @@ module I2C_Controller(
 					NextState <= Read;
 				else
 					NextState <= InitState;
-			Receive:
+			Read:
+				if(Count == 2)
+					NextState <= Wait;
+				else
+					NextState <= Read;
+			Wait:
+				if(NegSCLEdge == 1)
+					NextState <= Ack2;
+				else
+					NextState <= Wait;
+			Ack2:
 				if(PosSCLEdge == 1)
 					NextState <= Transit;
 				else
-					NextState <= Receive;
+					NextState <= Ack2;
 			Transit:
 				if(TimeOut == 1)
 					NextState <= Stop;
