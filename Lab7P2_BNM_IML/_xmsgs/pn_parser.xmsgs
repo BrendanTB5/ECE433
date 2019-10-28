@@ -8,7 +8,52 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/I2C_DataUnit.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/BCDto7Segment.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/ClockedNegativeOneShot.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/ClockedPositiveOneShot.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/DelayLoop.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/DisplayMux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_BaudRateGenerator.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_Controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_DataUnit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_SDAmodule.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/I2C_ShiftRegister.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7I2Cphase1Fall2019JJS_JJS.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/Lab7Phase2I2C2019FallJJS_JJS.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/OneTemperatureConverter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/ReadTempI2C2019fall.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/Refreshing7Seg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ECE433/ECE433/Lab7P2_BNM_IML/SevenSegDriver.v&quot; into library work</arg>
 </msg>
 
 </messages>

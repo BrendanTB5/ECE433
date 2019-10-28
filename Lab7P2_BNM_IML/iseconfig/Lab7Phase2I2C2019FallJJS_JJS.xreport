@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-28T10:23:49</DateModified>
+  <DateModified>2019-10-28T12:38:57</DateModified>
   <ModuleName>Lab7Phase2I2C2019FallJJS_JJS</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML/iseconfig/Lab7Phase2I2C2019FallJJS_JJS.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7P2_BNM_IML\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/ECE433/ECE433/Lab7P2_BNM_IML/iseconfig/Lab7Phase2I2C2019FallJJS_JJS.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/ECE433/ECE433/Lab7P2_BNM_IML\</ImplementationReportsDirectory>
   <DateInitialized>2019-10-25T12:54:36</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

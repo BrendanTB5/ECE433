@@ -9,8 +9,8 @@
 // equal to Divider, which will set Timeout to "1".
 
 module DelayLoop(MR,Timeout,Clock) ;
-parameter	Divider = 20000;	//delay time in number of clock cycles
-//parameter	Divider = 3;	//delay time in number of clock cycles
+//parameter	Divider = 20000;	//delay time in number of clock cycles
+parameter	Divider = 3;	//delay time in number of clock cycles
 parameter 	NumberOfBits = 18;
 input			MR, Clock;
 output reg	Timeout;

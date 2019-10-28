@@ -15,14 +15,14 @@ inout SDA;
 //send this byte as address
 parameter FirstByte=8'b10010101;
 //I2C speed frequency and system clock frequency
-parameter BaudRate=20'd20000, ClockFrequency=30'd75000000;
+//parameter BaudRate=20'd20000, ClockFrequency=30'd75000000;
 wire clk75MHz;
 //These are simulation parameters. 
 //Comment the following two lines before making bit stream file
-//parameter BaudRate=2, ClockFrequency=20;
-//assign clk75MHz=clock;
+parameter BaudRate=2, ClockFrequency=20;
+assign clk75MHz=clock;
 //disable SystemClock75MHz to simulate this circuit
-SystemClock75MHz SystemClock(clock,clk75MHz,ClockLocked);
+//SystemClock75MHz SystemClock(clock,clk75MHz,ClockLocked);
 
 wire WriteLoad, ReadorWrite, ShiftorHold, Select, BaudEnable, StartStopAck;
 //module SquareWaveGenerator (WaveFrequency, ClockFrequency, StartStop, SignalOut, Reset, clock);

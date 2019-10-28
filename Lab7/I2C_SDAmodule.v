@@ -1,41 +1,24 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    18:28:19 10/20/2019 
-// Design Name: 
+// Engineer: Brendan Mulholland Isaac Lau
 // Module Name:    I2C_SDAmodule 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Description: The SDA Control Module
 //////////////////////////////////////////////////////////////////////////////////
 module I2C_SDAmodule(
     inout SDA,
     input ReadorWrite,
     input Select,
     input StartStopAck,
-    output reg ShiftIn,
+    output ShiftIn,
     input ShiftOut
-    );
-	 
-	
+    ); 
+	 reg DataOut;
 	always @(*)
 		if(Select == 1)
-			ShiftIn <= ShiftOut;
+			DataOut <= ShiftOut;
 		else
-			ShiftIn <= StartStopAck;
-
-	assign SDA = (ReadorWrite) ? 1'bZ: ShiftIn;
-	
-
-
+			DataOut <= StartStopAck;
+	assign SDA = (ReadorWrite) ? 1'bZ: DataOut;
+	assign ShiftIn = SDA;
 endmodule
+

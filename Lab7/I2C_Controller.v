@@ -1,22 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
 // Engineer: Brendan Mulholland Issac Lau
-// 
-// Create Date:    19:36:07 10/20/2019 
-// Design Name: 
 // Module Name:    I2C_Controller 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: Alcohol
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Control Unit Logic;
 //////////////////////////////////////////////////////////////////////////////////
 module I2C_Controller(
     input clock,
@@ -72,16 +58,12 @@ module I2C_Controller(
 		
 			
 	end
-			
-	
+
 	always @(*)
 		if(State == Write)
 			ShiftorHold <= NegSCLEdge;
 		else
 			ShiftorHold <= 0;
-		
-			
-	
 	//module ClockedNegativeOneShot(InputPulse, OneShot, Reset, CLOCK) ;
 	ClockedNegativeOneShot NegShot(ClockI2C, NegSCLEdge, Reset, clock);
 	
@@ -138,6 +120,4 @@ module I2C_Controller(
 			default:
 				NextState <= InitState;
 		endcase
-
-
 endmodule

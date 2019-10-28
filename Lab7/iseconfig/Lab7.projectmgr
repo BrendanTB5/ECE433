@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ControlUnit - I2C_Controller (E:/ECE433/ECE433/Lab7/I2C_Controller.v)</SelectedItem>
+         <SelectedItem>Lab7I2Cphase1Fall2019BNM_IML.ucf (E:/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.ucf)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ControlUnit - I2C_Controller (E:/ECE433/ECE433/Lab7/I2C_Controller.v)</CurrentItem>
+      <CurrentItem>Lab7I2Cphase1Fall2019BNM_IML.ucf (E:/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019BNM_IML.ucf)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -76,17 +76,18 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/I2C_Controller_tb E:|ECE433|ECE433|Lab7|I2C_ControllerI2C_tb.v</ClosedNode>
          <ClosedNode>/I2C_DataUnit_tb E:|ECE433|ECE433|Lab7|I2C_DataUnit_tb.v/uut - I2C_DataUnit</ClosedNode>
-         <ClosedNode>/I2C_SDAmodule_tb E:|ECE433|ECE433|Lab7|I2C_SDAmodule_tb.v</ClosedNode>
+         <ClosedNode>/Lab7I2Cphase1Fall2019JJS_JJS_tb E:|ECE433|ECE433|Lab7|Lab7I2Cphase1Fall2019JJS_JJS_tb.v</ClosedNode>
+         <ClosedNode>/Lab7I2Cphase1Fall2019JJS_JJS_tb E:|ECE433|ECE433|Lab7|Lab7I2Cphase1Fall2019JJS_JJS_tb.v/uut - Lab7I2Cphase1Fall2019BNM_IML/DataUnit - I2C_DataUnit</ClosedNode>
          <ClosedNode>/Lab7I2Cphase1Fall2019JJS_JJS_tb E:|ECE433|ECE433|Lab7|Lab7I2Cphase1Fall2019JJS_JJS_tb.v/uut - Lab7I2Cphase1Fall2019JJS_JJS/DataUnit - I2C_DataUnit</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Lab7I2Cphase1Fall2019JJS_JJS_tb (C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019JJS_JJS_tb.v)</SelectedItem>
+         <SelectedItem>I2C_BaudRateGenerator_tb (E:/ECE433/ECE433/Lab7/I2C_BaudRateGenerator_tb.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >15</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001dd000000020000000000000000000000000200000064ffffffff000000810000000300000002000001dd0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ac000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ac0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Lab7I2Cphase1Fall2019JJS_JJS_tb (C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/Lab7I2Cphase1Fall2019JJS_JJS_tb.v)</CurrentItem>
+      <CurrentItem>I2C_BaudRateGenerator_tb (E:/ECE433/ECE433/Lab7/I2C_BaudRateGenerator_tb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -94,13 +95,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001dc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001dc0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -111,7 +112,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
@@ -137,12 +138,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

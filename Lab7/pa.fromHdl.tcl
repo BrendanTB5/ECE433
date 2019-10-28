@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name Lab7 -dir "C:/Users/mulholbn/Downloads/ECE433/ECE433/Lab7/planAhead_run_2" -part xc6slx16csg324-3
+create_project -name Lab7 -dir "E:/ECE433/ECE433/Lab7/planAhead_run_3" -part xc6slx16csg324-3
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "Lab7I2Cphase1Fall2019BNM_IML.ucf" [current_fileset -constrset]

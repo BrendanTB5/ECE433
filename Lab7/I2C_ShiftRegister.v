@@ -1,22 +1,10 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
 // Engineer: Brendan Mulholland Issac Lau
 // 
 // Create Date:    18:10:33 10/20/2019 
-// Design Name: 
 // Module Name:    I2C_ShiftRegister 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: A parameterized shift register
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Description: A parameterized shift register
 //////////////////////////////////////////////////////////////////////////////////
 module I2C_ShiftRegister(
     input Load,

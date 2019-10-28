@@ -1,3 +1,0 @@
-verilog work "I2C_ShiftRegister.v"
-verilog work "I2C_SDAmodule.v"
-verilog work "I2C_DataUnit.v"
