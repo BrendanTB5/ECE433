@@ -13,7 +13,7 @@ output reg TerminalCount);
 
 reg	[length-1:0]	NextQ;
 
-always @ (posedge CLOCK or posedge Reset)
+always @ (posedge CLOCK)
 	if(Reset==1)	Q <= BeginCount;
 	else	Q<=NextQ;
 

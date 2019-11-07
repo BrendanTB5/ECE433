@@ -27,8 +27,10 @@ parameter [9:0] NumberofPixels=10'd640, NumberofLines=10'd480;
 parameter [9:0] SystemClock=10'd100, CRTClock=10'd25; //MHz 
 
 //module CRTcontroller2019fall #(parameter ResolutionSize=10, SystemClockSize=10) (
-//input [SystemClockSize-1:0] SystemClockFreq, CRTClockFreq, input [ResolutionSize-1:0] Xresolution, Yresolution,
-//input reset, clock, output hsync, vsync, output [ResolutionSize-1:0] xpos, ypos);
+//input [SystemClockSize-1:0] SystemClockFreq, CRTClockFreq, 
+//input [ResolutionSize-1:0] Xresolution, Yresolution,
+//input reset, clock, output hsync, vsync, 
+//output [ResolutionSize-1:0] xpos, ypos);
 
 CRTcontroller2019fall VGAdisplay(SystemClock, CRTClock, 
      NumberofPixels, NumberofLines, Reset, Clock, hsync, vsync, xpos, ypos);

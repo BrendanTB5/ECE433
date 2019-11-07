@@ -21,13 +21,14 @@ reg [15:0] PixelCount;
 			PixelCount <= 1'b1;
 		end
 		else
-			if(PixelCount == (SystemClockFreq/(2*CRTClockFreq))) begin
-				PixelClock <= ~PixelClock;
-				PixelCount <= 1;
+			if(PixelCount == SystemClockFreq/(2*CRTClockFreq)) begin
+				PixelClock <= !PixelClock;
+				PixelCount <= 1'b1;
 			end
-			else
+			else begin
 				PixelCount <= PixelCount + 1'b1;
 				PixelClock <= PixelClock;
+			end
 	end
 
 endmodule

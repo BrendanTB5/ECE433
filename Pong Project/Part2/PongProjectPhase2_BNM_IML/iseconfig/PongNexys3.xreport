@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-11-05T13:12:11</DateModified>
+  <DateModified>2019-11-07T07:12:13</DateModified>
   <ModuleName>PongNexys3</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/PongProjectPhase2_BNM_IML/iseconfig/PongNexys3.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files</ImplementationReportsDirectory>
+  <SavedFilePath>E:/ECE433/ECE433/Pong Project/Part2/PongProjectPhase2_BNM_IML/iseconfig/PongNexys3.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/ECE433/ECE433/Pong Project/Part2/ISE Files\</ImplementationReportsDirectory>
   <DateInitialized>2019-11-05T13:12:11</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

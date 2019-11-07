@@ -2,9 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
--n 3 -fastpaths -xml PongNexys3.twx PongNexys3.ncd -o PongNexys3.twr
-PongNexys3.pcf
+E:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml PongNexys3.twx PongNexys3.ncd -o PongNexys3.twr PongNexys3.pcf
 
 Design file:              PongNexys3.ncd
 Physical constraint file: PongNexys3.pcf
@@ -64,7 +63,7 @@ Clock          |    5.555|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Tue Nov 05 13:52:06 2019 
+Analysis completed Thu Nov 07 07:13:37 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:

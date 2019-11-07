@@ -1,14 +1,14 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-MULHOLBN-5510::  Tue Nov 05 13:51:52 2019
+DESKTOP-LOHM60G::  Thu Nov 07 07:13:22 2019
 
 par -w -intstyle ise -ol high -mt off PongNexys3_map.ncd PongNexys3.ncd
 PongNexys3.pcf 
 
 
 Constraints file: PongNexys3.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '6slx16.nph' in environment E:\ISE\14.7\ISE_DS\ISE\.
    "PongNexys3" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@ise.csse.rose-hulman.edu'.
@@ -114,13 +114,13 @@ Finished initial Timing Analysis.  REAL time: 7 secs
 Starting Router
 
 
-Phase  1  : 1371 unrouted;      REAL time: 7 secs 
+Phase  1  : 1371 unrouted;      REAL time: 8 secs 
 
-Phase  2  : 1270 unrouted;      REAL time: 7 secs 
+Phase  2  : 1270 unrouted;      REAL time: 8 secs 
 
 Phase  3  : 510 unrouted;      REAL time: 8 secs 
 
-Phase  4  : 510 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  4  : 510 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
 Updating file: PongNexys3.ncd with current fully routed design.
 
@@ -173,10 +173,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 9 secs 
-Total CPU time to PAR completion: 4 secs 
+Total REAL time to PAR completion: 10 secs 
+Total CPU time to PAR completion: 5 secs 
 
-Peak Memory Usage:  4530 MB
+Peak Memory Usage:  4490 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

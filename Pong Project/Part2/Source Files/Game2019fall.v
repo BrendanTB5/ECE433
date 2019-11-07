@@ -21,29 +21,40 @@ reg [2:0] quadAr, quadBr;
 always @(posedge clk25) quadAr <= {quadAr[1:0], rota};
 always @(posedge clk25) quadBr <= {quadBr[1:0], rotb};
 
-always @(posedge clk25)
-if(quadAr[2] ^ quadAr[1] ^ quadBr[2] ^ quadBr[1])
-begin
-	if(quadAr[2] ^ quadBr[1]) begin
-		if(paddlePosition < 508)        // make sure the value doesn't overflow
-			paddlePosition <= paddlePosition + 3'd4;
+always @(posedge clk25)begin
+	if(quadAr[2] ^ quadAr[1] ^ quadBr[2] ^ quadBr[1]) begin
+		if(quadAr[2] ^ quadBr[1]) begin
+			if(paddlePosition < 508)     // make sure the value doesn't overflow
+				paddlePosition <= paddlePosition + 3'd4;
+			else
+				paddlePosition <= paddlePosition;
+		end
+		else begin
+			if(paddlePosition > 2'd3)        // make sure the value doesn't underflow
+				paddlePosition <= paddlePosition - 3'd4;
+			else
+				paddlePosition <= paddlePosition;
+		end
 	end
-	else begin
-		if(paddlePosition > 2'd3)        // make sure the value doesn't underflow
-			paddlePosition <= paddlePosition - 3'd4;
-	end
-end
-		
+	else
+		paddlePosition <= paddlePosition;
+end		
 // ball movement	
 reg [9:0] ballX;
 reg [8:0] ballY;
 reg ballXdir, ballYdir;
 reg bounceX, bounceY;
+
+
 	
 wire endOfFrame = (xpos == 0 && ypos == 480);
 	
 always @(posedge clk25) begin
-	if (endOfFrame) begin // update ball position at end of each frame
+	if(Reset == 1)begin
+		ballX <= 0;
+		ballY <= 0;
+	end 
+	else if (endOfFrame) begin // update ball position at end of each frame
 		if (ballX == 0 && ballY == 0) begin // cheesy reset handling, assumes initial value of 0
 			ballX <= 480;
 			ballY <= 300;
@@ -59,7 +70,11 @@ always @(posedge clk25) begin
 			else
 				ballY <= ballY - 2'd2;	
 		end
-	end	
+	end
+	else begin
+		ballY <= ballY;
+		ballX <= ballX;
+	end
 end		
 		
 // pixel color	
