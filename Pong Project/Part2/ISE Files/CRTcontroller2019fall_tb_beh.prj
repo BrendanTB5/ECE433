@@ -1,0 +1,8 @@
+verilog work "../Source Files/UniversalCounter2019fall.v"
+verilog work "../Source Files/ClockedNegativeOneShot.v"
+verilog work "../Source Files/vsyncModule2019fallTemplate.v"
+verilog work "../Source Files/hsyncModule2019fall.v"
+verilog work "../Source Files/CRTClock2019Template.v"
+verilog work "../Source Files/CRTcontroller2019fall.v"
+verilog work "../Source Files/CRTcontrollerr2019fall_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

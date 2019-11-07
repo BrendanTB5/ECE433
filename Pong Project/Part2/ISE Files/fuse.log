@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/CRTcontroller2019fall_tb_isim_beh.exe -prj C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/CRTcontroller2019fall_tb_beh.prj work.CRTcontroller2019fall_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/UniversalCounter2019fall.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/vsyncModule2019fallTemplate.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/hsyncModule2019fall.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/CRTClock2019Template.v" into library work
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/CRTcontroller2019fall.v" into library work
+WARNING:HDLCompiler:693 - "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/CRTcontroller2019fall.v" Line 26: Parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/CRTcontroller2019fall.v" Line 31: Parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+Analyzing Verilog file "C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/../Source Files/CRTcontrollerr2019fall_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ClockedNegativeOneShot
+Compiling module UniversalCounter2019fall
+Compiling module hsyncModule2019fall
+Compiling module vsyncModule2019fallTemplate
+Compiling module CRTClock2019Template
+Compiling module CRTcontroller2019fall
+Compiling module CRTcontroller2019fall_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/mulholbn/Downloads/ECE433/ECE433/Pong Project/Part2/ISE Files/CRTcontroller2019fall_tb_isim_beh.exe
+Fuse Memory Usage: 28108 KB
+Fuse CPU Usage: 452 ms

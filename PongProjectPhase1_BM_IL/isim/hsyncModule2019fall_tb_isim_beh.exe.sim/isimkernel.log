@@ -1,0 +1,29 @@
+Command line:
+   hsyncModule2019fall_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51676
+
+Tue Oct 29 15:33:04 2019
+
+
+ Elaboration Time: 0.34375 sec
+
+ Current Memory Usage: 5816.18 Meg
+
+ Total Signals          : 40
+ Total Nets             : 122
+ Total Signal Drivers   : 24
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 37
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 471
+Total Line Count : 50
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 5816.18 Meg
+
+Tue Oct 29 15:33:17 2019
+

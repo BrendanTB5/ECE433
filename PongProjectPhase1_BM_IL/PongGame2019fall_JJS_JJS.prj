@@ -1,0 +1,8 @@
+verilog work "UniversalCounter2019fall.v"
+verilog work "ClockedNegativeOneShot.v"
+verilog work "vsyncModule2019fallTemplate.v"
+verilog work "hsyncModule2019fall.v"
+verilog work "CRTClock2019Template.v"
+verilog work "Game2019fall.v"
+verilog work "CRTcontroller2019fall.v"
+verilog work "PongGame2019fall_JJS_JJS.v"

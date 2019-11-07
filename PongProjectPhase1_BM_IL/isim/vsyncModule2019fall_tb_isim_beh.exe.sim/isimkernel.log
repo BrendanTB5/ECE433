@@ -1,0 +1,29 @@
+Command line:
+   vsyncModule2019fall_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51833
+
+Tue Oct 29 16:00:18 2019
+
+
+ Elaboration Time: 0.34375 sec
+
+ Current Memory Usage: 5817.24 Meg
+
+ Total Signals          : 29
+ Total Nets             : 78
+ Total Signal Drivers   : 13
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 364
+Total Line Count : 32
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5817.24 Meg
+
+Tue Oct 29 16:00:27 2019
+

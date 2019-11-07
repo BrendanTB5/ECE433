@@ -1,0 +1,28 @@
+Command line:
+   CRTcontroller2019fall_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50989
+
+Tue Nov 05 13:46:41 2019
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 5967.5 Meg
+
+ Total Signals          : 73
+ Total Nets             : 226
+ Total Signal Drivers   : 32
+ Total Blocks           : 9
+ Total Primitive Blocks : 6
+ Total Processes        : 44
+ Total Traceable Variables  : 53
+ Total Scalar Nets and Variables : 931
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5967.5 Meg
+
+Tue Nov 05 13:46:45 2019
+

@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Nov 03 18:39:00 2019
+# Process ID: 9480
+# Log file: C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/pa.fromHdl.tcl}
+# create_project -name PongGameTemplate2019fall -dir "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/planAhead_run_2" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "PongNexys3.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/PongNexys3.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {UniversalCounter2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedNegativeOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vsyncModule2019fallTemplate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {hsyncModule2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTClock2019Template.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Game2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTcontroller2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PongGame2019fall_JJS_JJS.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top PongNexys3 $srcset
+# add_files [list {PongNexys3.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/UniversalCounter2019fall.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/vsyncModule2019fallTemplate.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/hsyncModule2019fall.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/CRTClock2019Template.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/Game2019fall.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/CRTcontroller2019fall.v" into library work
+Analyzing Verilog file "C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/PongGame2019fall_JJS_JJS.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'CRTClock2019Template' instantiated as 'CRTclockUnit' [C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/CRTcontroller2019fall.v:54]
+Resolution: File names need to match cell names: an EDIF definition will be found in CRTClock2019Template.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/PongNexys3.ucf]
+Finished Parsing UCF File [C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL/PongNexys3.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 88ffec55
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 646.840 ; gain = 200.797
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P11 [get_ports rota]
+endgroup
+startgroup
+set_property package_pin N10 [get_ports rotb]
+endgroup
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/isaac/OneDrive - Rose-Hulman Institute of Technology/ECE433/PongProjectPhase1_BM_IL\planAhead_pid9480.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Nov 03 18:42:54 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,686 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: PongGame2019fall_JJS_JJS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PongGame2019fall_JJS_JJS.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PongGame2019fall_JJS_JJS"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : PongGame2019fall_JJS_JJS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\UniversalCounter2019fall.v" into library work
+Parsing module <UniversalCounter2019fall>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\ClockedNegativeOneShot.v" into library work
+Parsing module <ClockedNegativeOneShot>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" into library work
+Parsing module <vsyncModule2019fallTemplate>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v" into library work
+Parsing module <hsyncModule2019fall>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTClock2019Template.v" into library work
+Parsing module <CRTClock2019Template>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\Game2019fall.v" into library work
+Parsing module <game2019fall>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" into library work
+Parsing module <CRTcontroller2019fall>.
+INFO:HDLCompiler:693 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" Line 24. parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" Line 29. parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\PongGame2019fall_JJS_JJS.v" into library work
+Parsing module <PongGame2019fall_JJS_JJS>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <PongGame2019fall_JJS_JJS>.
+
+Elaborating module <CRTcontroller2019fall>.
+
+Elaborating module <hsyncModule2019fall>.
+
+Elaborating module <ClockedNegativeOneShot>.
+
+Elaborating module <UniversalCounter2019fall>.
+
+Elaborating module <vsyncModule2019fallTemplate>.
+WARNING:HDLCompiler:1127 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" Line 19: Assignment to NextLineOneShot ignored, since the identifier is never used
+
+Elaborating module <CRTClock2019Template>.
+WARNING:HDLCompiler:1499 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTClock2019Template.v" Line 9: Empty module <CRTClock2019Template> remains a black box.
+
+Elaborating module <game2019fall>.
+WARNING:Xst:2972 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" line 19. All outputs of instance <RestartUnit> of block <ClockedNegativeOneShot> are unconnected in block <vsyncModule2019fallTemplate>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <PongGame2019fall_JJS_JJS>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\PongGame2019fall_JJS_JJS.v".
+        NumberofPixels = 10'b1010000000
+        NumberofLines = 10'b0111100000
+        SystemClock = 10'b0001100100
+        CRTClock = 10'b0000011001
+    Summary:
+	no macro.
+Unit <PongGame2019fall_JJS_JJS> synthesized.
+
+Synthesizing Unit <CRTcontroller2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v".
+        ResolutionSize = 10
+        SystemClockSize = 10
+    Summary:
+	no macro.
+Unit <CRTcontroller2019fall> synthesized.
+
+Synthesizing Unit <hsyncModule2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v".
+        xresolution = 10
+INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
+    Found 10-bit comparator lessequal for signal <n0005> created at line 27
+    Found 10-bit comparator lessequal for signal <n0008> created at line 27
+    Summary:
+	inferred   2 Comparator(s).
+Unit <hsyncModule2019fall> synthesized.
+
+Synthesizing Unit <ClockedNegativeOneShot>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\ClockedNegativeOneShot.v".
+        State0 = 0
+        State1 = 1
+        State2 = 2
+        State3 = 3
+    Found 2-bit register for signal <State>.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | CLOCK (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 01                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ClockedNegativeOneShot> synthesized.
+
+Synthesizing Unit <UniversalCounter2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\UniversalCounter2019fall.v".
+        length = 10
+    Found 10-bit register for signal <Q>.
+    Found 10-bit subtractor for signal <Q[9]_GND_5_o_sub_7_OUT> created at line 27.
+    Found 10-bit adder for signal <Q[9]_GND_5_o_add_3_OUT> created at line 24.
+    Found 1-bit 4-to-1 multiplexer for signal <TerminalCount> created at line 21.
+    Found 10-bit comparator lessequal for signal <n0001> created at line 23
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <UniversalCounter2019fall> synthesized.
+
+Synthesizing Unit <vsyncModule2019fallTemplate>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v".
+        yresolution = 10
+WARNING:Xst:647 - Input <SynchPulse> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FrontPorch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ActiveVideo> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BackPorch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" line 19: Output port <OneShot> of the instance <RestartUnit> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <yposition> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <vsyncModule2019fallTemplate> synthesized.
+
+Synthesizing Unit <game2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\Game2019fall.v".
+WARNING:Xst:647 - Input <Reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 3-bit register for signal <quadBr>.
+    Found 9-bit register for signal <paddlePosition>.
+    Found 10-bit register for signal <ballX>.
+    Found 9-bit register for signal <ballY>.
+    Found 1-bit register for signal <bounceX>.
+    Found 1-bit register for signal <bounceY>.
+    Found 6-bit register for signal <missTimer>.
+    Found 1-bit register for signal <ballXdir>.
+    Found 1-bit register for signal <ballYdir>.
+    Found 3-bit register for signal <quadAr>.
+    Found 9-bit subtractor for signal <paddlePosition[8]_GND_8_o_sub_10_OUT> created at line 33.
+    Found 10-bit subtractor for signal <ballX[9]_GND_8_o_sub_21_OUT> created at line 55.
+    Found 9-bit subtractor for signal <ballY[8]_GND_8_o_sub_24_OUT> created at line 60.
+    Found 6-bit subtractor for signal <missTimer[5]_GND_8_o_sub_56_OUT> created at line 108.
+    Found 10-bit adder for signal <ballX[9]_GND_8_o_add_19_OUT> created at line 53.
+    Found 9-bit adder for signal <ballY[8]_GND_8_o_add_22_OUT> created at line 58.
+    Found 10-bit adder for signal <n0160> created at line 73.
+    Found 10-bit adder for signal <n0161> created at line 73.
+    Found 11-bit adder for signal <n0163> created at line 74.
+    Found 10-bit adder for signal <n0165> created at line 74.
+    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_9_o_LessThan_6_o> created at line 28
+    Found 9-bit comparator lessequal for signal <GND_8_o_paddlePosition[8]_LessThan_9_o> created at line 32
+    Found 10-bit comparator greater for signal <xpos[9]_PWR_9_o_LessThan_32_o> created at line 67
+    Found 10-bit comparator greater for signal <ypos[9]_GND_8_o_LessThan_33_o> created at line 67
+    Found 10-bit comparator lessequal for signal <n0037> created at line 68
+    Found 10-bit comparator lessequal for signal <n0040> created at line 69
+    Found 10-bit comparator lessequal for signal <n0043> created at line 70
+    Found 10-bit comparator lessequal for signal <n0046> created at line 71
+    Found 10-bit comparator lessequal for signal <n0053> created at line 73
+    Found 10-bit comparator lessequal for signal <n0056> created at line 73
+    Found 10-bit comparator lessequal for signal <n0059> created at line 73
+    Found 10-bit comparator lessequal for signal <n0062> created at line 73
+    Found 10-bit comparator lessequal for signal <n0065> created at line 74
+    Found 11-bit comparator lessequal for signal <n0068> created at line 74
+    Found 10-bit comparator lessequal for signal <n0071> created at line 74
+    Found 10-bit comparator lessequal for signal <n0075> created at line 74
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred  44 D-type flip-flop(s).
+	inferred  16 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <game2019fall> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 10-bit adder                                          : 3
+ 10-bit addsub                                         : 2
+ 11-bit adder                                          : 1
+ 6-bit subtractor                                      : 1
+ 9-bit addsub                                          : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 11
+ 1-bit register                                        : 4
+ 10-bit register                                       : 2
+ 3-bit register                                        : 2
+ 6-bit register                                        : 1
+ 9-bit register                                        : 2
+# Comparators                                          : 19
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 14
+ 11-bit comparator lessequal                           : 1
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 10
+ 1-bit 4-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 8
+ 9-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <ballX_9> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_8> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_7> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_6> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_5> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_4> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_3> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_2> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_1> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballX_0> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_8> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_7> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_6> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_5> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_4> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_3> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_2> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_1> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballY_0> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_5> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_4> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_3> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_2> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_1> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <missTimer_0> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballYdir> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ballXdir> (without init value) has a constant value of 0 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bounceY> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bounceX> (without init value) has a constant value of 1 in block <gameUnit>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <game2019fall>.
+The following registers are absorbed into accumulator <ballX>: 1 register on signal <ballX>.
+The following registers are absorbed into accumulator <ballY>: 1 register on signal <ballY>.
+The following registers are absorbed into counter <missTimer>: 1 register on signal <missTimer>.
+Unit <game2019fall> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 10-bit adder                                          : 3
+ 10-bit addsub                                         : 1
+ 11-bit adder                                          : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 1
+ 6-bit down counter                                    : 1
+# Accumulators                                         : 2
+ 10-bit updown accumulator                             : 1
+ 9-bit updown accumulator                              : 1
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+# Comparators                                          : 19
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 14
+ 11-bit comparator lessequal                           : 1
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 10
+ 1-bit 4-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 8
+ 9-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <bounceX> (without init value) has a constant value of 1 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <bounceY> (without init value) has a constant value of 1 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballXdir> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballYdir> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGAdisplay/hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 01    | 001
+ 00    | 010
+ 11    | 100
+-------------------
+WARNING:Xst:1710 - FF/Latch <ballY_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_7> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_6> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_8> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_4> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_3> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_5> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_1> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_2> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_9> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_8> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_6> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_5> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_7> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_3> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_2> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_4> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballX_1> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_5> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_4> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_3> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_2> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_1> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <missTimer_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddlePosition_1> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddlePosition_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <quadBr_0> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <quadBr_1> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <quadBr_2> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <quadAr_0> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <quadAr_1> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <quadAr_2> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_2> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_3> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_4> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_5> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_6> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_7> of sequential type is unconnected in block <game2019fall>.
+WARNING:Xst:2677 - Node <paddlePosition_8> of sequential type is unconnected in block <game2019fall>.
+
+Optimizing unit <PongGame2019fall_JJS_JJS> ...
+
+Optimizing unit <game2019fall> ...
+
+Optimizing unit <hsyncModule2019fall> ...
+
+Optimizing unit <UniversalCounter2019fall> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PongGame2019fall_JJS_JJS, actual ratio is 0.
+FlipFlop VGAdisplay/hsyncModule/XPositionCounter/Q_7 has been replicated 1 time(s)
+FlipFlop VGAdisplay/hsyncModule/XPositionCounter/Q_8 has been replicated 2 time(s)
+FlipFlop VGAdisplay/hsyncModule/XPositionCounter/Q_9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : PongGame2019fall_JJS_JJS.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 69
+#      GND                         : 1
+#      LUT2                        : 12
+#      LUT3                        : 4
+#      LUT4                        : 4
+#      LUT5                        : 11
+#      LUT6                        : 29
+#      MUXCY                       : 5
+#      MUXF7                       : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 16
+#      FDCE                        : 14
+#      FDR                         : 1
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 11
+#      IBUF                        : 2
+#      OBUF                        : 9
+# Others                           : 1
+#      CRTClock2019Template        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              16  out of  18224     0%  
+ Number of Slice LUTs:                   60  out of   9112     0%  
+    Number used as Logic:                60  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     64
+   Number with an unused Flip Flop:      48  out of     64    75%  
+   Number with an unused LUT:             4  out of     64     6%  
+   Number of fully used LUT-FF pairs:    12  out of     64    18%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  11  out of    232     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | IBUF+BUFG              | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.270ns (Maximum Frequency: 189.750MHz)
+   Minimum input arrival time before clock: 2.656ns
+   Maximum output required time after clock: 6.589ns
+   Maximum combinational path delay: 2.226ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 5.270ns (frequency: 189.750MHz)
+  Total number of paths / destination ports: 1362 / 29
+-------------------------------------------------------------------------
+Delay:               5.270ns (Levels of Logic = 3)
+  Source:            VGAdisplay/hsyncModule/XPositionCounter/Q_2 (FF)
+  Destination:       VGAdisplay/hsyncModule/XPositionCounter/Q_9 (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
+
+  Data Path: VGAdisplay/hsyncModule/XPositionCounter/Q_2 to VGAdisplay/hsyncModule/XPositionCounter/Q_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.447   1.147  VGAdisplay/hsyncModule/XPositionCounter/Q_2 (VGAdisplay/hsyncModule/XPositionCounter/Q_2)
+     LUT5:I0->O           15   0.203   0.982  VGAdisplay/hsyncModule/LineEnd<9>_SW0 (N4)
+     LUT6:I5->O            8   0.205   0.803  VGAdisplay/hsyncModule/LineEnd<9> (VGAdisplay/hsyncModule/LineEnd)
+     LUT2:I1->O           14   0.205   0.957  VGAdisplay/hsyncModule/XPositionCounter/_n0062_inv1 (VGAdisplay/hsyncModule/XPositionCounter/_n0062_inv)
+     FDCE:CE                   0.322          VGAdisplay/hsyncModule/XPositionCounter/Q_0
+    ----------------------------------------
+    Total                      5.270ns (1.382ns logic, 3.888ns route)
+                                       (26.2% logic, 73.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              2.656ns (Levels of Logic = 1)
+  Source:            Reset (PAD)
+  Destination:       VGAdisplay/hsyncModule/PixelClockUnit/State_FSM_FFd2 (FF)
+  Destination Clock: Clock rising
+
+  Data Path: Reset to VGAdisplay/hsyncModule/PixelClockUnit/State_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.222   1.004  Reset_IBUF (Reset_IBUF)
+     FDS:S                     0.430          VGAdisplay/hsyncModule/PixelClockUnit/State_FSM_FFd3
+    ----------------------------------------
+    Total                      2.656ns (1.652ns logic, 1.004ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 47 / 4
+-------------------------------------------------------------------------
+Offset:              6.589ns (Levels of Logic = 5)
+  Source:            VGAdisplay/hsyncModule/XPositionCounter/Q_6 (FF)
+  Destination:       green<2> (PAD)
+  Source Clock:      Clock rising
+
+  Data Path: VGAdisplay/hsyncModule/XPositionCounter/Q_6 to green<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            29   0.447   1.354  VGAdisplay/hsyncModule/XPositionCounter/Q_6 (VGAdisplay/hsyncModule/XPositionCounter/Q_6)
+     LUT2:I0->O            1   0.203   0.000  gameUnit/Mcompar_GND_8_o_BUS_0006_LessThan_46_o_lut<3>1 (gameUnit/Mcompar_GND_8_o_BUS_0006_LessThan_46_o_lut<3>)
+     MUXCY:S->O            1   0.172   0.000  gameUnit/Mcompar_GND_8_o_BUS_0006_LessThan_46_o_cy<3> (gameUnit/Mcompar_GND_8_o_BUS_0006_LessThan_46_o_cy<3>)
+     MUXCY:CI->O           1   0.213   0.808  gameUnit/Mcompar_GND_8_o_BUS_0006_LessThan_46_o_cy<4> (gameUnit/GND_8_o_BUS_0006_LessThan_46_o)
+     LUT4:I1->O            2   0.205   0.616  gameUnit/blue<1>1 (blue_1_OBUF)
+     OBUF:I->O                 2.571          green_2_OBUF (green<2>)
+    ----------------------------------------
+    Total                      6.589ns (3.811ns logic, 2.778ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               2.226ns (Levels of Logic = 1)
+  Source:            Reset (PAD)
+  Destination:       VGAdisplay/CRTclockUnit:Reset (PAD)
+
+  Data Path: Reset to VGAdisplay/CRTclockUnit:Reset
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.222   1.004  Reset_IBUF (Reset_IBUF)
+    CRTClock2019Template:Reset        0.000          VGAdisplay/CRTclockUnit
+    ----------------------------------------
+    Total                      2.226ns (1.222ns logic, 1.004ns route)
+                                       (54.9% logic, 45.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock          |    5.270|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.72 secs
+ 
+--> 
+
+Total memory usage is 4494364 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   82 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

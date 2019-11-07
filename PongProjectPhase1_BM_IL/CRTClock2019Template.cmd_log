@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/CRTClock2019Template.xst" -ofn "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/CRTClock2019Template.syr" 

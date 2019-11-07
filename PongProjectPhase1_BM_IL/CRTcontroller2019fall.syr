@@ -1,0 +1,536 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: CRTcontroller2019fall.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CRTcontroller2019fall.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CRTcontroller2019fall"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : CRTcontroller2019fall
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\UniversalCounter2019fall.v" into library work
+Parsing module <UniversalCounter2019fall>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\ClockedNegativeOneShot.v" into library work
+Parsing module <ClockedNegativeOneShot>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" into library work
+Parsing module <vsyncModule2019fallTemplate>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v" into library work
+Parsing module <hsyncModule2019fall>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTClock2019Template.v" into library work
+Parsing module <CRTClock2019Template>.
+Analyzing Verilog file "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" into library work
+Parsing module <CRTcontroller2019fall>.
+INFO:HDLCompiler:693 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" Line 24. parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v" Line 29. parameter declaration becomes local in CRTcontroller2019fall with formal parameter declaration list
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <CRTcontroller2019fall>.
+
+Elaborating module <hsyncModule2019fall>.
+
+Elaborating module <ClockedNegativeOneShot>.
+
+Elaborating module <UniversalCounter2019fall>.
+
+Elaborating module <vsyncModule2019fallTemplate>.
+WARNING:HDLCompiler:1127 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" Line 19: Assignment to NextLineOneShot ignored, since the identifier is never used
+
+Elaborating module <CRTClock2019Template>.
+WARNING:HDLCompiler:1499 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTClock2019Template.v" Line 9: Empty module <CRTClock2019Template> remains a black box.
+WARNING:Xst:2972 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" line 19. All outputs of instance <RestartUnit> of block <ClockedNegativeOneShot> are unconnected in block <vsyncModule2019fallTemplate>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CRTcontroller2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\CRTcontroller2019fall.v".
+        ResolutionSize = 10
+        SystemClockSize = 10
+    Summary:
+	no macro.
+Unit <CRTcontroller2019fall> synthesized.
+
+Synthesizing Unit <hsyncModule2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v".
+        xresolution = 10
+INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\hsyncModule2019fall.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
+    Found 10-bit adder for signal <n0037> created at line 27.
+    Found 10-bit adder for signal <ActiveVideo[9]_SynchPulse[9]_add_7_OUT> created at line 27.
+    Found 10-bit adder for signal <EndCount> created at line 24.
+    Found 10-bit comparator equal for signal <LineEnd> created at line 23
+    Found 10-bit comparator lessequal for signal <n0005> created at line 27
+    Found 10-bit comparator lessequal for signal <n0008> created at line 27
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <hsyncModule2019fall> synthesized.
+
+Synthesizing Unit <ClockedNegativeOneShot>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\ClockedNegativeOneShot.v".
+        State0 = 0
+        State1 = 1
+        State2 = 2
+        State3 = 3
+    Found 2-bit register for signal <State>.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | CLOCK (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 01                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ClockedNegativeOneShot> synthesized.
+
+Synthesizing Unit <UniversalCounter2019fall>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\UniversalCounter2019fall.v".
+        length = 10
+    Found 10-bit register for signal <Q>.
+    Found 10-bit subtractor for signal <Q[9]_GND_4_o_sub_7_OUT> created at line 27.
+    Found 10-bit adder for signal <Q[9]_GND_4_o_add_3_OUT> created at line 24.
+    Found 1-bit 4-to-1 multiplexer for signal <TerminalCount> created at line 21.
+    Found 10-bit comparator lessequal for signal <n0001> created at line 23
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <UniversalCounter2019fall> synthesized.
+
+Synthesizing Unit <vsyncModule2019fallTemplate>.
+    Related source file is "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v".
+        yresolution = 10
+WARNING:Xst:647 - Input <SynchPulse> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FrontPorch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ActiveVideo> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BackPorch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\song\jjsong\ece433fall2019\TermProjectPong2019fall\PongGameTemplate2019fall\vsyncModule2019fallTemplate.v" line 19: Output port <OneShot> of the instance <RestartUnit> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <vsyncModule2019fallTemplate> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 3
+ 10-bit addsub                                         : 1
+# Registers                                            : 1
+ 10-bit register                                       : 1
+# Comparators                                          : 4
+ 10-bit comparator equal                               : 1
+ 10-bit comparator lessequal                           : 3
+# Multiplexers                                         : 9
+ 1-bit 4-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 8
+# FSMs                                                 : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <CRTClock2019Template.ngc>.
+WARNING:Xst:1814 - Core <CRTClock2019Template.ngc> does not contain any logic.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 3
+ 10-bit addsub                                         : 1
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+# Comparators                                          : 4
+ 10-bit comparator equal                               : 1
+ 10-bit comparator lessequal                           : 3
+# Multiplexers                                         : 9
+ 1-bit 4-to-1 multiplexer                              : 1
+ 10-bit 2-to-1 multiplexer                             : 8
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 01    | 001
+ 00    | 010
+ 11    | 100
+-------------------
+
+Optimizing unit <CRTcontroller2019fall> ...
+
+Optimizing unit <hsyncModule2019fall> ...
+
+Optimizing unit <UniversalCounter2019fall> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CRTcontroller2019fall, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CRTcontroller2019fall.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 125
+#      GND                         : 1
+#      INV                         : 3
+#      LUT2                        : 7
+#      LUT3                        : 4
+#      LUT4                        : 34
+#      LUT5                        : 17
+#      LUT6                        : 40
+#      MUXCY                       : 15
+#      MUXF7                       : 3
+#      VCC                         : 1
+# FlipFlops/Latches                : 12
+#      FDCE                        : 10
+#      FDR                         : 1
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 43
+#      IBUF                        : 32
+#      OBUF                        : 11
+# Others                           : 1
+#      CRTClock2019Template        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              12  out of  18224     0%  
+ Number of Slice LUTs:                  105  out of   9112     1%  
+    Number used as Logic:               105  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    106
+   Number with an unused Flip Flop:      94  out of    106    88%  
+   Number with an unused LUT:             1  out of    106     0%  
+   Number of fully used LUT-FF pairs:    11  out of    106    10%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          64
+ Number of bonded IOBs:                  43  out of    232    18%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | IBUF+BUFG              | 12    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.649ns (Maximum Frequency: 150.389MHz)
+   Minimum input arrival time before clock: 8.603ns
+   Maximum output required time after clock: 7.044ns
+   Maximum combinational path delay: 9.415ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 6.649ns (frequency: 150.389MHz)
+  Total number of paths / destination ports: 3469 / 21
+-------------------------------------------------------------------------
+Delay:               6.649ns (Levels of Logic = 6)
+  Source:            hsyncModule/XPositionCounter/Q_4 (FF)
+  Destination:       hsyncModule/XPositionCounter/Q_9 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: hsyncModule/XPositionCounter/Q_4 to hsyncModule/XPositionCounter/Q_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.447   1.109  hsyncModule/XPositionCounter/Q_4 (hsyncModule/XPositionCounter/Q_4)
+     LUT6:I4->O            4   0.203   0.912  hsyncModule/LineEnd102 (hsyncModule/LineEnd101)
+     LUT6:I3->O           32   0.205   1.292  hsyncModule/LineEnd_PixelClockOneShot_OR_41_o1 (hsyncModule/LineEnd_PixelClockOneShot_OR_41_o)
+     LUT6:I5->O            5   0.205   0.943  hsyncModule/XPositionCounter/Mmux_NextQ_rs_cy<5>11 (hsyncModule/XPositionCounter/Mmux_NextQ_rs_cy<5>1)
+     LUT5:I2->O            1   0.205   0.000  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11_SW0_SW0_SW1_G (N48)
+     MUXF7:I1->O           1   0.140   0.684  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11_SW0_SW0_SW1 (N43)
+     LUT6:I4->O            1   0.203   0.000  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11 (hsyncModule/XPositionCounter/NextQ<9>)
+     FDCE:D                    0.102          hsyncModule/XPositionCounter/Q_9
+    ----------------------------------------
+    Total                      6.649ns (1.710ns logic, 4.939ns route)
+                                       (25.7% logic, 74.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 5021 / 34
+-------------------------------------------------------------------------
+Offset:              8.603ns (Levels of Logic = 8)
+  Source:            Xresolution<5> (PAD)
+  Destination:       hsyncModule/XPositionCounter/Q_9 (FF)
+  Destination Clock: clock rising
+
+  Data Path: Xresolution<5> to hsyncModule/XPositionCounter/Q_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.222   1.154  Xresolution_5_IBUF (Xresolution_5_IBUF)
+     LUT4:I2->O            4   0.203   0.931  hsyncModule/Madd_EndCount_xor<8>11 (hsyncModule/EndCount<8>)
+     LUT6:I2->O            4   0.203   0.912  hsyncModule/LineEnd102 (hsyncModule/LineEnd101)
+     LUT6:I3->O           32   0.205   1.292  hsyncModule/LineEnd_PixelClockOneShot_OR_41_o1 (hsyncModule/LineEnd_PixelClockOneShot_OR_41_o)
+     LUT6:I5->O            5   0.205   0.943  hsyncModule/XPositionCounter/Mmux_NextQ_rs_cy<5>11 (hsyncModule/XPositionCounter/Mmux_NextQ_rs_cy<5>1)
+     LUT5:I2->O            1   0.205   0.000  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11_SW0_SW0_SW1_G (N48)
+     MUXF7:I1->O           1   0.140   0.684  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11_SW0_SW0_SW1 (N43)
+     LUT6:I4->O            1   0.203   0.000  hsyncModule/XPositionCounter/Mmux_NextQ_rs_xor<9>11 (hsyncModule/XPositionCounter/NextQ<9>)
+     FDCE:D                    0.102          hsyncModule/XPositionCounter/Q_9
+    ----------------------------------------
+    Total                      8.603ns (2.688ns logic, 5.915ns route)
+                                       (31.2% logic, 68.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 46 / 11
+-------------------------------------------------------------------------
+Offset:              7.044ns (Levels of Logic = 8)
+  Source:            hsyncModule/XPositionCounter/Q_0 (FF)
+  Destination:       hsync (PAD)
+  Source Clock:      clock rising
+
+  Data Path: hsyncModule/XPositionCounter/Q_0 to hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.447   1.252  hsyncModule/XPositionCounter/Q_0 (hsyncModule/XPositionCounter/Q_0)
+     LUT4:I0->O            1   0.203   0.000  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_lut<0> (hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<0> (hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<1> (hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<2> (hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<2>)
+     MUXCY:CI->O           1   0.213   0.580  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<3> (hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<3>)
+     LUT5:I4->O            1   0.205   0.580  hsyncModule/Mcompar_xcount[9]_ActiveVideo[9]_LessThan_9_o_cy<4> (hsyncModule/xcount[9]_ActiveVideo[9]_LessThan_9_o)
+     LUT6:I5->O            1   0.205   0.579  hsyncModule/hsync1 (hsync_OBUF)
+     OBUF:I->O                 2.571          hsync_OBUF (hsync)
+    ----------------------------------------
+    Total                      7.044ns (4.054ns logic, 2.990ns route)
+                                       (57.5% logic, 42.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 202 / 23
+-------------------------------------------------------------------------
+Delay:               9.415ns (Levels of Logic = 7)
+  Source:            Xresolution<3> (PAD)
+  Destination:       hsync (PAD)
+
+  Data Path: Xresolution<3> to hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.372  Xresolution_3_IBUF (Xresolution_3_IBUF)
+     LUT5:I0->O            5   0.203   0.943  hsyncModule/Madd_n0037_xor<9>131 (hsyncModule/Madd_n0037_xor<9>13)
+     LUT4:I1->O            2   0.205   0.864  hsyncModule/Madd_n0037_xor<6>11 (hsyncModule/n0037<6>)
+     LUT4:I0->O            1   0.203   0.000  hsyncModule/Mcompar_ActiveVideo[9]_xcount[9]_LessThan_6_o_lut<3> (hsyncModule/Mcompar_ActiveVideo[9]_xcount[9]_LessThan_6_o_lut<3>)
+     MUXCY:S->O            1   0.366   0.684  hsyncModule/Mcompar_ActiveVideo[9]_xcount[9]_LessThan_6_o_cy<3> (hsyncModule/Mcompar_ActiveVideo[9]_xcount[9]_LessThan_6_o_cy<3>)
+     LUT6:I4->O            1   0.203   0.579  hsyncModule/hsync1 (hsync_OBUF)
+     OBUF:I->O                 2.571          hsync_OBUF (hsync)
+    ----------------------------------------
+    Total                      9.415ns (4.973ns logic, 4.442ns route)
+                                       (52.8% logic, 47.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    6.649|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.13 secs
+ 
+--> 
+
+Total memory usage is 4494364 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

@@ -1,0 +1,75 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/pa.fromHdl.tcl
+# create_project -name PongGameTemplate2019fall -dir "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/planAhead_run_1" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "PongGame2019fall_JJS_JJS.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/PongGame2019fall_JJS_JJS.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {UniversalCounter2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedNegativeOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vsyncModule2019fallTemplate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {hsyncModule2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTClock2019Template.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Game2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTcontroller2019fall.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PongGame2019fall_JJS_JJS.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top PongGame2019fall_JJS_JJS $srcset
+# add_files [list {PongGame2019fall_JJS_JJS.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/UniversalCounter2019fall.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/vsyncModule2019fallTemplate.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/hsyncModule2019fall.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/CRTClock2019Template.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/Game2019fall.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/CRTcontroller2019fall.v" into library work
+Analyzing Verilog file "C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/PongGame2019fall_JJS_JJS.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'CRTClock2019Template' instantiated as 'CRTclockUnit' [C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/CRTcontroller2019fall.v:54]
+Resolution: File names need to match cell names: an EDIF definition will be found in CRTClock2019Template.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/PongGame2019fall_JJS_JJS.ucf]
+Finished Parsing UCF File [C:/Users/song/jjsong/ece433fall2019/TermProjectPong2019fall/PongGameTemplate2019fall/PongGame2019fall_JJS_JJS.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 46fefc08
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 624.902 ; gain = 179.227
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 29 15:47:24 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

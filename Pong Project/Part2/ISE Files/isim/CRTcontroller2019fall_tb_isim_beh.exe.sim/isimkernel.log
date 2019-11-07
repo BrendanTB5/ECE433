@@ -1,0 +1,10 @@
+Command line:
+   CRTcontroller2019fall_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50998
+
+Tue Nov 05 13:47:04 2019
+
+
+ Elaboration Time: 0.34375 sec
