@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: PongNexys3.prj
 
@@ -280,6 +280,7 @@ Unit <div_10u_11u> synthesized.
 
 Synthesizing Unit <game2019fall>.
     Related source file is "E:\ECE433\ECE433\Pong Project\Part2\Source Files\Game2019fall.v".
+WARNING:Xst:647 - Input <Reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 3-bit register for signal <quadBr>.
     Found 9-bit register for signal <paddlePosition>.
     Found 10-bit register for signal <ballX>.
@@ -290,32 +291,32 @@ Synthesizing Unit <game2019fall>.
     Found 1-bit register for signal <ballXdir>.
     Found 1-bit register for signal <ballYdir>.
     Found 3-bit register for signal <quadAr>.
-    Found 9-bit subtractor for signal <paddlePosition[8]_GND_9_o_sub_10_OUT> created at line 34.
-    Found 10-bit subtractor for signal <ballX[9]_GND_9_o_sub_22_OUT> created at line 66.
-    Found 9-bit subtractor for signal <ballY[8]_GND_9_o_sub_25_OUT> created at line 71.
-    Found 6-bit subtractor for signal <missTimer[5]_GND_9_o_sub_59_OUT> created at line 123.
-    Found 10-bit adder for signal <ballX[9]_GND_9_o_add_20_OUT> created at line 64.
-    Found 9-bit adder for signal <ballY[8]_GND_9_o_add_23_OUT> created at line 69.
-    Found 10-bit adder for signal <n0166> created at line 88.
-    Found 10-bit adder for signal <n0167> created at line 88.
-    Found 11-bit adder for signal <n0169> created at line 89.
-    Found 10-bit adder for signal <n0171> created at line 89.
-    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_10_o_LessThan_6_o> created at line 27
-    Found 9-bit comparator lessequal for signal <GND_9_o_paddlePosition[8]_LessThan_9_o> created at line 33
-    Found 10-bit comparator greater for signal <xpos[9]_PWR_10_o_LessThan_35_o> created at line 82
-    Found 10-bit comparator greater for signal <ypos[9]_GND_9_o_LessThan_36_o> created at line 82
-    Found 10-bit comparator lessequal for signal <n0040> created at line 83
-    Found 10-bit comparator lessequal for signal <n0043> created at line 84
-    Found 10-bit comparator lessequal for signal <n0046> created at line 85
-    Found 10-bit comparator lessequal for signal <n0049> created at line 86
-    Found 10-bit comparator lessequal for signal <n0056> created at line 88
-    Found 10-bit comparator lessequal for signal <n0059> created at line 88
-    Found 10-bit comparator lessequal for signal <n0062> created at line 88
-    Found 10-bit comparator lessequal for signal <n0065> created at line 88
-    Found 10-bit comparator lessequal for signal <n0068> created at line 89
-    Found 11-bit comparator lessequal for signal <n0071> created at line 89
-    Found 10-bit comparator lessequal for signal <n0074> created at line 89
-    Found 10-bit comparator lessequal for signal <n0078> created at line 89
+    Found 9-bit subtractor for signal <paddlePosition[8]_GND_9_o_sub_10_OUT> created at line 33.
+    Found 10-bit subtractor for signal <ballX[9]_GND_9_o_sub_21_OUT> created at line 55.
+    Found 9-bit subtractor for signal <ballY[8]_GND_9_o_sub_24_OUT> created at line 60.
+    Found 6-bit subtractor for signal <missTimer[5]_GND_9_o_sub_56_OUT> created at line 108.
+    Found 10-bit adder for signal <ballX[9]_GND_9_o_add_19_OUT> created at line 53.
+    Found 9-bit adder for signal <ballY[8]_GND_9_o_add_22_OUT> created at line 58.
+    Found 10-bit adder for signal <n0160> created at line 73.
+    Found 10-bit adder for signal <n0161> created at line 73.
+    Found 11-bit adder for signal <n0163> created at line 74.
+    Found 10-bit adder for signal <n0165> created at line 74.
+    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_10_o_LessThan_6_o> created at line 28
+    Found 9-bit comparator lessequal for signal <GND_9_o_paddlePosition[8]_LessThan_9_o> created at line 32
+    Found 10-bit comparator greater for signal <xpos[9]_PWR_10_o_LessThan_32_o> created at line 67
+    Found 10-bit comparator greater for signal <ypos[9]_GND_9_o_LessThan_33_o> created at line 67
+    Found 10-bit comparator lessequal for signal <n0037> created at line 68
+    Found 10-bit comparator lessequal for signal <n0040> created at line 69
+    Found 10-bit comparator lessequal for signal <n0043> created at line 70
+    Found 10-bit comparator lessequal for signal <n0046> created at line 71
+    Found 10-bit comparator lessequal for signal <n0053> created at line 73
+    Found 10-bit comparator lessequal for signal <n0056> created at line 73
+    Found 10-bit comparator lessequal for signal <n0059> created at line 73
+    Found 10-bit comparator lessequal for signal <n0062> created at line 73
+    Found 10-bit comparator lessequal for signal <n0065> created at line 74
+    Found 11-bit comparator lessequal for signal <n0068> created at line 74
+    Found 10-bit comparator lessequal for signal <n0071> created at line 74
+    Found 10-bit comparator lessequal for signal <n0075> created at line 74
     Summary:
 	inferred   8 Adder/Subtractor(s).
 	inferred  44 D-type flip-flop(s).
@@ -464,6 +465,8 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddlePosition_1> (
 Optimizing unit <PongNexys3> ...
 
 Optimizing unit <game2019fall> ...
+WARNING:Xst:1710 - FF/Latch <ballX_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ballY_0> (without init value) has a constant value of 0 in block <game2019fall>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <hsyncModule2019fall> ...
 
@@ -549,9 +552,9 @@ Primitive and Black Box Usage:
 #      XORCY                       : 2
 # FlipFlops/Latches                : 67
 #      FD                          : 10
-#      FDE                         : 32
+#      FDE                         : 48
 #      FDR                         : 4
-#      FDRE                        : 17
+#      FDRE                        : 1
 #      FDS                         : 2
 #      FDSE                        : 2
 # Shift Registers                  : 2
@@ -622,7 +625,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 6.865ns (Maximum Frequency: 145.664MHz)
-   Minimum input arrival time before clock: 4.415ns
+   Minimum input arrival time before clock: 4.187ns
    Maximum output required time after clock: 9.913ns
    Maximum combinational path delay: No path found
 
@@ -659,9 +662,9 @@ Delay:               6.865ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 73 / 71
+  Total number of paths / destination ports: 57 / 55
 -------------------------------------------------------------------------
-Offset:              4.415ns (Levels of Logic = 2)
+Offset:              4.187ns (Levels of Logic = 2)
   Source:            Reset (PAD)
   Destination:       VGAdisplay/vsyncUnit/YPositionCounter/Q_0 (FF)
   Destination Clock: Clock rising
@@ -670,12 +673,12 @@ Offset:              4.415ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            47   1.222   1.733  Reset_IBUF (Reset_IBUF)
+     IBUF:I->O            31   1.222   1.506  Reset_IBUF (Reset_IBUF)
      LUT3:I0->O           13   0.205   0.932  VGAdisplay/vsyncUnit/YPositionCounter/_n0036_inv1 (VGAdisplay/vsyncUnit/YPositionCounter/_n0036_inv)
      FDE:CE                    0.322          VGAdisplay/vsyncUnit/YPositionCounter/Q_0
     ----------------------------------------
-    Total                      4.415ns (1.749ns logic, 2.666ns route)
-                                       (39.6% logic, 60.4% route)
+    Total                      4.187ns (1.749ns logic, 2.438ns route)
+                                       (41.8% logic, 58.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
@@ -690,11 +693,11 @@ Offset:              9.913ns (Levels of Logic = 7)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            27   0.447   1.221  gameUnit/ballY_1 (gameUnit/ballY_1)
-     LUT5:I4->O            4   0.205   0.684  gameUnit/Madd_n0169_cy<5>11 (gameUnit/Madd_n0169_cy<5>)
-     LUT5:I4->O            2   0.205   0.961  gameUnit/Madd_n0169_xor<9>11 (gameUnit/n0169<9>)
-     LUT5:I0->O            0   0.203   0.000  gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_49_o_lutdi4 (gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_49_o_lutdi4)
-     MUXCY:DI->O           9   0.339   1.077  gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_49_o_cy<4> (gameUnit/GND_9_o_BUS_0006_LessThan_49_o)
+     FDE:C->Q             27   0.447   1.221  gameUnit/ballY_1 (gameUnit/ballY_1)
+     LUT5:I4->O            4   0.205   0.684  gameUnit/Madd_n0163_cy<5>11 (gameUnit/Madd_n0163_cy<5>)
+     LUT5:I4->O            2   0.205   0.961  gameUnit/Madd_n0163_xor<9>11 (gameUnit/n0163<9>)
+     LUT5:I0->O            0   0.203   0.000  gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_46_o_lutdi4 (gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_46_o_lutdi4)
+     MUXCY:DI->O           9   0.339   1.077  gameUnit/Mcompar_GND_9_o_BUS_0006_LessThan_46_o_cy<4> (gameUnit/GND_9_o_BUS_0006_LessThan_46_o)
      LUT4:I0->O            3   0.203   1.015  gameUnit/ball1 (gameUnit/ball)
      LUT6:I0->O            1   0.203   0.579  gameUnit/blue<0> (blue_0_OBUF)
      OBUF:I->O                 2.571          blue_0_OBUF (blue<0>)
@@ -719,13 +722,13 @@ Clock          |    6.865|         |         |         |
 
 
 Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.31 secs
+Total CPU time to Xst completion: 6.95 secs
  
 --> 
 
 Total memory usage is 4502976 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   18 (   0 filtered)
+Number of warnings :   21 (   0 filtered)
 Number of infos    :    4 (   0 filtered)
 
